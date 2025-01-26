@@ -26,7 +26,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Day 3.jpg'))),
+                          'http://192.168.1.83:8000/asset/Day 3.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -121,7 +121,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TurtleRock (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/TurtleRock (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -134,7 +134,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -176,7 +176,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhann.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhann.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -218,7 +218,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/turtle.jpg'),
+                                  'http://192.168.1.83:8000/asset/turtle.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -231,7 +231,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TurtleRock (1 of 1)-2.jpg'),
+                                  'http://192.168.1.83:8000/asset/TurtleRock (1 of 1)-2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -244,7 +244,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TurtleRock (1 of 1)1.jpg'),
+                                  'http://192.168.1.83:8000/asset/TurtleRock (1 of 1)1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -286,7 +286,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/AriyaPal (1 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/AriyaPal (1 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -299,7 +299,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/AriyaPal (2 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/AriyaPal (2 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -312,7 +312,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/AriyaPal (3 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/AriyaPal (3 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -325,7 +325,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/AriyaPal (4 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/AriyaPal (4 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -367,7 +367,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (3 of 3)a.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (3 of 3)a.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -380,7 +380,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (2 of 3)a.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (2 of 3)a.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -393,7 +393,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (1 of 3)a.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (1 of 3)a.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -427,7 +427,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/AriyaPal (1 of 2)a.jpg'),
+                                  'http://192.168.1.83:8000/asset/AriyaPal (1 of 2)a.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -440,7 +440,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/AriyaPal (2 of 2)a.jpg'),
+                                  'http://192.168.1.83:8000/asset/AriyaPal (2 of 2)a.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -482,7 +482,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (1 of 5)b.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (1 of 5)b.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -495,7 +495,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/AriyaPal (1 of 3)b.jpg'),
+                                  'http://192.168.1.83:8000/asset/AriyaPal (1 of 3)b.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -529,7 +529,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (2 of 5)b.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (2 of 5)b.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -542,7 +542,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (3 of 5)b.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (3 of 5)b.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -576,7 +576,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (5 of 5)b.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (5 of 5)b.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -589,7 +589,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/AriyaPal (2 of 2)a.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/AriyaPal (2 of 2)a.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -623,7 +623,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/GenghisKhan (4 of 5)b.jpg'),
+                                  'http://192.168.1.83:8000/asset/GenghisKhan (4 of 5)b.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -636,7 +636,7 @@ class _Day3ScreenState extends State<Day3Screen> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/AriyaPal (2 of 2)a.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/AriyaPal (2 of 2)a.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

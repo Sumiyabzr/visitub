@@ -25,7 +25,7 @@ class _UrtiinDuuState extends State<UrtiinDuu> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.urtiinduu))),
+                      image: NetworkImage(AppStyle.urtiinduu))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

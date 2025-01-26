@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart' as launcher;
+import 'package:visitub/style/app_style.dart';
 
 class SOSMedica extends StatefulWidget {
   const SOSMedica({super.key});
@@ -21,7 +22,7 @@ class _SOSMedicaState extends State<SOSMedica> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('assets/images/SOS.png'),
+                      image: NetworkImage(AppStyle.SOS),
                       fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),

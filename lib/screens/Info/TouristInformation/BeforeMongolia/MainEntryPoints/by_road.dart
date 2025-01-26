@@ -24,7 +24,7 @@ class _BYROADState extends State<BYROAD> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.mainentry), fit: BoxFit.cover),
+                      image: NetworkImage(AppStyle.mainentry), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 width: size.width,

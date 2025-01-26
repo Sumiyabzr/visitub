@@ -29,7 +29,7 @@ class _PostImperialState extends State<PostImperial> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
-                      image: AssetImage(AppStyle.decline4))),
+                      image: NetworkImage(AppStyle.decline4))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -105,7 +105,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.decline),
+                              image: NetworkImage(AppStyle.decline),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -117,7 +117,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.decline2),
+                              image: NetworkImage(AppStyle.decline2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -129,7 +129,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.decline3),
+                              image: NetworkImage(AppStyle.decline3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -141,7 +141,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.decline4),
+                              image: NetworkImage(AppStyle.decline4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -187,7 +187,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.qing),
+                              image: NetworkImage(AppStyle.qing),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -199,7 +199,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.qing2),
+                              image: NetworkImage(AppStyle.qing2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -211,7 +211,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.qing3),
+                              image: NetworkImage(AppStyle.qing3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -223,7 +223,7 @@ class _PostImperialState extends State<PostImperial> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.qing4),
+                              image: NetworkImage(AppStyle.qing4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -236,7 +236,7 @@ class _PostImperialState extends State<PostImperial> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -249,7 +249,7 @@ class _PostImperialState extends State<PostImperial> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

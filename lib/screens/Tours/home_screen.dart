@@ -53,7 +53,7 @@ class _Tours_screenState extends State<Tours_screen> {
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                           image: NetworkImage(
-                              'http://192.168.1.111:8000/asset/Juulchin.jpg'),
+                              'http://192.168.1.83:8000/asset/Juulchin.jpg'),
                           fit: BoxFit.cover),
                       color: Colors.pink),
                   width: size.width,
@@ -89,7 +89,7 @@ class _Tours_screenState extends State<Tours_screen> {
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                           image: NetworkImage(
-                              'http://192.168.1.111:8000/asset/BNM.jpg'),
+                              'http://192.168.1.83:8000/asset/BNM.jpg'),
                           fit: BoxFit.cover),
                       color: Colors.pink),
                   width: size.width,
@@ -125,7 +125,7 @@ class _Tours_screenState extends State<Tours_screen> {
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                           image: NetworkImage(
-                              'http://192.168.1.111:8000/asset/KhongorExpeditions.jpg'),
+                              'http://192.168.1.83:8000/asset/KhongorExpeditions.jpg'),
                           fit: BoxFit.cover),
                       color: Colors.pink),
                   width: size.width,
@@ -161,7 +161,7 @@ class _Tours_screenState extends State<Tours_screen> {
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                           image: NetworkImage(
-                              'http://192.168.1.111:8000/asset/SelenaTravel.jpg'),
+                              'http://192.168.1.83:8000/asset/SelenaTravel.jpg'),
                           fit: BoxFit.cover),
                       color: Colors.pink),
                   width: size.width,
@@ -197,7 +197,7 @@ class _Tours_screenState extends State<Tours_screen> {
           //             fit: BoxFit.cover,
           //             filterQuality: FilterQuality.high,
           //             image:
-          //                 NetworkImage('http://192.168.1.111:8000/asset/BNM.jpg'),
+          //                 NetworkImage('http://192.168.1.83:8000/asset/BNM.jpg'),
           //           ),
           //           color: Colors.grey,
           //           borderRadius: BorderRadius.circular(10),
@@ -226,7 +226,7 @@ class _Tours_screenState extends State<Tours_screen> {
           //             fit: BoxFit.cover,
           //             filterQuality: FilterQuality.high,
           //             image: NetworkImage(
-          //                 'http://192.168.1.111:8000/asset/DiscoveryMongoliaTours.jpg')),
+          //                 'http://192.168.1.83:8000/asset/DiscoveryMongoliaTours.jpg')),
           //         color: Colors.grey,
           //         borderRadius: BorderRadius.circular(10),
           //       ),
@@ -251,7 +251,7 @@ class _Tours_screenState extends State<Tours_screen> {
           //             fit: BoxFit.cover,
           //             filterQuality: FilterQuality.high,
           //             image: NetworkImage(
-          //                 'http://192.168.1.111:8000/asset/Juulchin.jpg')),
+          //                 'http://192.168.1.83:8000/asset/Juulchin.jpg')),
           //         color: Colors.grey,
           //         borderRadius: BorderRadius.circular(10),
           //       ),
@@ -276,7 +276,7 @@ class _Tours_screenState extends State<Tours_screen> {
           //             fit: BoxFit.cover,
           //             filterQuality: FilterQuality.high,
           //             image: NetworkImage(
-          //                 'http://192.168.1.111:8000/asset/KhongorExpeditions.jpg')),
+          //                 'http://192.168.1.83:8000/asset/KhongorExpeditions.jpg')),
           //         color: Colors.grey,
           //         borderRadius: BorderRadius.circular(10),
           //       ),
@@ -301,7 +301,7 @@ class _Tours_screenState extends State<Tours_screen> {
           //             fit: BoxFit.cover,
           //             filterQuality: FilterQuality.high,
           //             image: NetworkImage(
-          //                 'http://192.168.1.111:8000/asset/SelenaTravel.jpg')),
+          //                 'http://192.168.1.83:8000/asset/SelenaTravel.jpg')),
           //         color: Colors.grey,
           //         borderRadius: BorderRadius.circular(10),
           //       ),

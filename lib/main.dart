@@ -80,7 +80,7 @@ class MyApp extends StatelessWidget {
         routes: {
           '/NavBar': (context) => const NavBar(),
           '/splash': (context) => const Splash(),
-          '/boarding': (context) => const Boarding(),
+          // '/boarding': (context) => const Boarding(),
           '/login': (context) => const Login(),
           '/': (context) => const NewHomeScreen(),
           // '/': (context) => const HomeScreen(),

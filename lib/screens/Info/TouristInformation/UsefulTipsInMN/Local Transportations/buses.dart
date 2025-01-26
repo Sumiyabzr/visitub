@@ -24,7 +24,7 @@ class _LocalBusesState extends State<LocalBuses> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.localbus),
+                        image: NetworkImage(AppStyle.localbus),
                         fit: BoxFit.cover)),
                 width: size.width,
                 height: size.width * 0.5,

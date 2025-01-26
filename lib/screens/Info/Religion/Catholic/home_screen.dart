@@ -26,7 +26,7 @@ class _CatholicState extends State<Catholic> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/cath4.jpg'))),
+                          'http://192.168.1.83:8000/asset/cath4.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -78,7 +78,10 @@ class _CatholicState extends State<Catholic> {
                         color: Colors.white,
                         fontSize: 25,
                         fontWeight: FontWeight.bold),
-                  ).animate().flipV(delay: 500.ms).move(delay: 300.ms, duration: 600.ms),
+                  )
+                      .animate()
+                      .flipV(delay: 500.ms)
+                      .move(delay: 300.ms, duration: 600.ms),
                   SizedBox(height: 5),
                   Text(
                     'Christianity in Mongolia is a minority religion, but it has been growing steadily over the past few decades. Here are some key points about Christianity in Mongolia History: Christian missions and missionaries from various denominations, including Protestant and Catholic, started arriving in Mongolia in the late 19th century. They aimed to spread the Christian faith and provide humanitarian and educational services to the local population.Growth and Presence: Christianity in Mongolia has experienced significant growth since the 1990s. Following the collapse of the Soviet Union and the subsequent political changes in Mongolia, there was a greater openness to religious freedom and an increased interest in Christianity.Denominations: The Christian community in Mongolia is diverse, consisting of different denominations. Protestantism, including various evangelical and Pentecostal groups, has seen considerable growth and has a significant presence. Additionally, there are Roman Catholic and Orthodox Christian communities.',
@@ -100,7 +103,7 @@ class _CatholicState extends State<Catholic> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/cath1.jpg'),
+                                  'http://192.168.1.83:8000/asset/cath1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -113,7 +116,7 @@ class _CatholicState extends State<Catholic> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/cath2.jpg'),
+                                  'http://192.168.1.83:8000/asset/cath2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -126,7 +129,7 @@ class _CatholicState extends State<Catholic> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/cath3.jpg'),
+                                  'http://192.168.1.83:8000/asset/cath3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -160,7 +163,7 @@ class _CatholicState extends State<Catholic> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/cath5.jpg'),
+                                  'http://192.168.1.83:8000/asset/cath5.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -173,7 +176,7 @@ class _CatholicState extends State<Catholic> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/cath6.jpg'),
+                                  'http://192.168.1.83:8000/asset/cath6.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -186,7 +189,7 @@ class _CatholicState extends State<Catholic> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/cath7.jpg'),
+                                  'http://192.168.1.83:8000/asset/cath7.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -199,7 +202,7 @@ class _CatholicState extends State<Catholic> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

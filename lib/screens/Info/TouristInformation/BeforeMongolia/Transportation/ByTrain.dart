@@ -22,7 +22,7 @@ class _ByTrainState extends State<ByTrain> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.train), fit: BoxFit.cover),
+                      image: NetworkImage(AppStyle.train), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 width: size.width,

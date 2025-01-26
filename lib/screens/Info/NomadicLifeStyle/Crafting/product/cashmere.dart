@@ -26,7 +26,7 @@ class _CashmereState extends State<Cashmere> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Other/wool2.jpg'))),
+                          'http://192.168.1.83:8000/asset/Other/wool2.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -102,7 +102,7 @@ class _CashmereState extends State<Cashmere> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.cashmere))),
+                        DecorationImage(image: NetworkImage(AppStyle.cashmere))),
                 width: size.width,
                 height: size.width,
               ),
@@ -156,7 +156,7 @@ class _CashmereState extends State<Cashmere> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.cashmere2))),
+                        DecorationImage(image: NetworkImage(AppStyle.cashmere2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -210,7 +210,7 @@ class _CashmereState extends State<Cashmere> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.cashmere3))),
+                        DecorationImage(image: NetworkImage(AppStyle.cashmere3))),
                 width: size.width,
                 height: size.width,
               ),

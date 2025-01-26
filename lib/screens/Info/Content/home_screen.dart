@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:visitub/screens/Info/Content/tabs/creator.dart';
-import 'package:visitub/screens/Info/Content/tabs/photo.dart';
-import 'package:visitub/screens/Info/Content/tabs/video.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:page_transition/page_transition.dart';
+import 'package:visitub/screens/Info/Content/visual_treasures/home_screen.dart';
 
 class Content extends StatefulWidget {
   const Content({super.key});
@@ -11,68 +11,180 @@ class Content extends StatefulWidget {
 }
 
 class _ContentState extends State<Content> {
-  // Tabs
-  final List<Widget> tabs = const [
-    Tab(
-      icon: Icon(
-        Icons.video_chat_outlined,
-        color: Colors.blue,
-      ),
-      text: 'Video',
-    ),
-    Tab(
-      icon: Icon(
-        Icons.photo_camera_outlined,
-        color: Colors.blue,
-      ),
-      text: 'Photos',
-    ),
-    Tab(
-      icon: Icon(
-        Icons.create_outlined,
-        color: Colors.blue,
-      ),
-      text: 'Creators',
-    )
-  ];
-
-  final List<Widget> tabBarViews = [
-    VideoView(),
-    PhotoView(),
-    CreatorView(),
-  ];
-
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        backgroundColor: Colors.white,
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text(
-            'Content',
-            style: TextStyle(
-                fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black),
+    final size = MediaQuery.of(context).size;
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text(
+          'Content',
+          style: TextStyle(
+            fontSize: 17,
+            fontWeight: FontWeight.w900,
           ),
-          backgroundColor: Colors.white,
-          elevation: 0,
-          leading: IconButton(
-              onPressed: () => Navigator.pop(context),
-              icon: Icon(
-                Icons.arrow_back_rounded,
-                color: Colors.black,
-              )),
         ),
-        body: Column(
-          children: [
-            TabBar(
-                isScrollable: false,
-                labelColor: Colors.black,
-                unselectedLabelColor: Colors.grey.shade400,
-                tabs: tabs),
-            Expanded(child: TabBarView(children: tabBarViews))
-          ],
+        backgroundColor: Colors.white,
+      ),
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
+        child: Padding(
+          padding: EdgeInsets.symmetric(
+            horizontal: 15,
+            vertical: 10,
+          ),
+          child: Column(
+            children: [
+              Container(
+                alignment: Alignment.bottomLeft,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: NetworkImage(
+                      'http://192.168.1.83:8000/asset/ThumnbailApp/FourJourneys.jpg',
+                    ),
+                    fit: BoxFit.cover,
+                  ),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                width: size.width,
+                height: size.width * 0.44,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'The Four Journeys',
+                    style: TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    alignment: Alignment.bottomLeft,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          'http://192.168.1.83:8000/asset/ThumnbailApp/LandofStories.jpg',
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                      borderRadius: BorderRadius.circular(
+                        15,
+                      ),
+                    ),
+                    width: size.width * 0.44,
+                    height: size.width * 0.9,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Land of Stories',
+                        style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w900,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    alignment: Alignment.bottomLeft,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          'http://192.168.1.83:8000/asset/ThumnbailApp/CulturalChronicles.jpg',
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                      borderRadius: BorderRadius.circular(
+                        15,
+                      ),
+                    ),
+                    width: size.width * 0.44,
+                    height: size.width * 0.9,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Cultural Chronicles',
+                        style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w900,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: 10),
+              GestureDetector(
+                onTap: () => Navigator.push(
+                  context,
+                  PageTransition(
+                    child: VisualTreasures(),
+                    type: PageTransitionType.fade,
+                    duration: 300.ms,
+                  ),
+                ),
+                child: Container(
+                  alignment: Alignment.bottomLeft,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        'http://192.168.1.83:8000/asset/ThumnbailApp/VisualTreasures.jpg',
+                      ),
+                      fit: BoxFit.cover,
+                    ),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  width: size.width,
+                  height: size.width * 0.44,
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Visual Treasures',
+                      style: TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.w900,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 10),
+              Container(
+                alignment: Alignment.bottomLeft,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: NetworkImage(
+                      'http://192.168.1.83:8000/asset/ThumnbailApp/BNMOriginals.jpg',
+                    ),
+                    fit: BoxFit.cover,
+                  ),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                width: size.width,
+                height: size.width * 0.44,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'BNM Originals',
+                    style: TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

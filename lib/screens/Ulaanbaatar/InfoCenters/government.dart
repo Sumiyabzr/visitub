@@ -24,7 +24,7 @@ class _GovernmentBuildingState extends State<GovernmentBuilding> {
                       bottomLeft: Radius.circular(10),
                       bottomRight: Radius.circular(10)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.government),
+                      image: NetworkImage(AppStyle.government),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.7,

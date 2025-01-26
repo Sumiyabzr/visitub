@@ -25,7 +25,7 @@ class _MorinHuurState extends State<MorinHuur> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.morinhuur))),
+                      image: NetworkImage(AppStyle.morinhuur))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -101,7 +101,7 @@ class _MorinHuurState extends State<MorinHuur> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.morinhuur2))),
+                        image: NetworkImage(AppStyle.morinhuur2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -119,7 +119,7 @@ class _MorinHuurState extends State<MorinHuur> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd5.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd5.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -132,7 +132,7 @@ class _MorinHuurState extends State<MorinHuur> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd4.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd4.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -145,7 +145,7 @@ class _MorinHuurState extends State<MorinHuur> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd3.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd3.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -180,7 +180,7 @@ class _MorinHuurState extends State<MorinHuur> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.wood))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.wood))),
                 width: size.width,
                 height: size.width,
               ),
@@ -213,7 +213,7 @@ class _MorinHuurState extends State<MorinHuur> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.morinhuur3))),
+                        image: NetworkImage(AppStyle.morinhuur3))),
                 width: size.width,
                 height: size.width,
               ),

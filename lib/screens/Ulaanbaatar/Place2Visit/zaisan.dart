@@ -13,8 +13,8 @@ class Zaisan extends StatefulWidget {
 
 class _ZaisanState extends State<Zaisan> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Zaisan (3 of 3).jpg",
-    "http://192.168.1.111:8000/asset/Zaisan (2 of 3).jpg",
+    "http://192.168.1.83:8000/asset/Zaisan (3 of 3).jpg",
+    "http://192.168.1.83:8000/asset/Zaisan (2 of 3).jpg",
   ];
 
   @override

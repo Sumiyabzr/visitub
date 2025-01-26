@@ -24,7 +24,7 @@ class _MagtaalState extends State<Magtaal> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.magtaal))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.magtaal))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

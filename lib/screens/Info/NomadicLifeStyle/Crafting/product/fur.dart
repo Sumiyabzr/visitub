@@ -26,7 +26,7 @@ class _FurState extends State<Fur> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Other/wool4.jpg'))),
+                          'http://192.168.1.83:8000/asset/Other/wool4.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -101,7 +101,7 @@ class _FurState extends State<Fur> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.fur))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.fur))),
                 width: size.width,
                 height: size.width,
               ),

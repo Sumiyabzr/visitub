@@ -24,7 +24,7 @@ class _MongolPostState extends State<MongolPost> {
                       bottomLeft: Radius.circular(10),
                       bottomRight: Radius.circular(10)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.mongolpost),
+                      image: NetworkImage(AppStyle.mongolpost),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.7,

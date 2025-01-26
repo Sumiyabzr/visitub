@@ -22,7 +22,7 @@ class _WeatherState extends State<Weather> {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.weather), fit: BoxFit.cover)),
+                      image: NetworkImage(AppStyle.weather), fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.7,
               child: SafeArea(

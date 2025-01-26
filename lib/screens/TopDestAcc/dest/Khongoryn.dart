@@ -32,7 +32,7 @@ class _TopKhongorynElsState extends State<TopKhongorynEls> {
                     fit: StackFit.expand,
                     children: [
                       Image.network(
-                          "http://192.168.1.111:8000/asset/" +
+                          "http://192.168.1.83:8000/asset/" +
                               provider.getCategoryProducts(2)[0]['thumb'],
                           fit: BoxFit.cover),
                       Align(
@@ -164,7 +164,7 @@ class _TopKhongorynElsState extends State<TopKhongorynEls> {
                                 borderRadius: BorderRadius.circular(5),
                               ),
                               child: Image.network(
-                                "http://192.168.1.111:8000/asset/" +
+                                "http://192.168.1.83:8000/asset/" +
                                     provider.getCategoryProducts(2)[0]['images']
                                         [index],
                                 fit: BoxFit.cover,

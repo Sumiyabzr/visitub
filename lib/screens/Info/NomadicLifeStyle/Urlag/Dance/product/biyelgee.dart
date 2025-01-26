@@ -24,7 +24,7 @@ class _BiyelgeeState extends State<Biyelgee> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.biyelgee))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.biyelgee))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

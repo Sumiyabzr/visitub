@@ -52,7 +52,7 @@ class _GobiState extends State<Gobi> {
                                             bottomRight: Radius.circular(15)),
                                       ),
                                       child: Image.network(
-                                        "http://192.168.1.111:8000/asset/" +
+                                        "http://192.168.1.83:8000/asset/" +
                                             provider.getProducts(
                                                     widget.data)![2][3][0]
                                                 ['photo1'][index],
@@ -105,7 +105,7 @@ class _GobiState extends State<Gobi> {
                                         shape: BoxShape.circle,
                                         image: DecorationImage(
                                             image: NetworkImage(
-                                              "http://192.168.1.111:8000/asset/" +
+                                              "http://192.168.1.83:8000/asset/" +
                                                   provider.getProducts(
                                                           widget.data)![2][3][0]
                                                       ['photo'],
@@ -297,7 +297,7 @@ class _GobiState extends State<Gobi> {
                                         borderRadius: BorderRadius.circular(5),
                                       ),
                                       child: Image.network(
-                                        "http://192.168.1.111:8000/asset/" +
+                                        "http://192.168.1.83:8000/asset/" +
                                             provider.getProducts(
                                                     widget.data)![2][3][0]
                                                 ['Image'][index],
@@ -349,7 +349,7 @@ class _GobiState extends State<Gobi> {
                         //                   decoration: BoxDecoration(
                         //                     borderRadius: BorderRadius.circular(8),
                         //                     image: DecorationImage(image: NetworkImage(
-                        //                       "http://192.168.1.111:8000/asset/" +
+                        //                       "http://192.168.1.83:8000/asset/" +
                         //                            provider.getProducts(
                         //                       widget.data)![
                         //                   provider.categoryIndex][provider.productIndex][provider.subProductIndex]['Image'][index],

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:visitub/screens/Info/Religion/Buddhism/home_screen.dart';
 import 'package:visitub/screens/Info/Religion/Catholic/home_screen.dart';
 import 'package:visitub/screens/Info/Religion/Islam/home_screen.dart';
@@ -35,134 +36,309 @@ class _ReligionHomeState extends State<ReligionHome> {
           ),
         ),
       ),
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            // Text(
-            //   'Religion',
-            //   style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700),
-            // ),
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
+        child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+            child: Column(
+              children: [
+                Text(
+                  textAlign: TextAlign.justify,
+                  'Mongolia is a land where diverse spiritual beliefs intertwine to create a unique harmony. From the deep-rooted traditions of Shamanism, the guiding spirit of Mongolia’s ancient nomads, to the serene teachings of Buddhism, which flourished under the Mongol Empire, the country`s spiritual landscape reflects its rich history and resilience. Islam found its way to Mongolia through trade and cultural exchanges along the Silk Road, enriching the tapestry of faith. Catholicism, introduced by missionaries in the 13th century, carved a quiet but enduring presence, representing Mongolia’s openness to the world. Today, these four religions coexist peacefully, symbolizing Mongolia’s commitment to respect and unity. In this vast land of open skies and enduring traditions, spiritual harmony is not just a value but a way of life. It’s a testament to the resilience and adaptability of the Mongolian people, who have embraced diversity while preserving their heritage.',
+                ),
+                SizedBox(height: 10),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Column(
+                      children: [
+                        GestureDetector(
+                          onTap: () => Navigator.push(
+                            context,
+                            PageTransition(
+                              child: Buddhism(),
+                              type: PageTransitionType.leftToRightWithFade,
+                              duration: 300.ms,
+                            ),
+                          ),
+                          child: Container(
+                            alignment: Alignment.bottomLeft,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Buddhism.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(
+                                15,
+                              ),
+                            ),
+                            width: size.width * 0.44,
+                            height: size.width * 0.9,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                'Buddhism',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 10),
+                        GestureDetector(
+                          onTap: () => Navigator.push(
+                            context,
+                            PageTransition(
+                              child: Islam(),
+                              type: PageTransitionType.leftToRightWithFade,
+                              duration: 300.ms,
+                            ),
+                          ),
+                          child: Container(
+                            alignment: Alignment.bottomLeft,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Muslim.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(
+                                15,
+                              ),
+                            ),
+                            width: size.width * 0.44,
+                            height: size.width * 0.44,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                'Islam',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        GestureDetector(
+                          onTap: () => Navigator.push(
+                            context,
+                            PageTransition(
+                              child: Catholic(),
+                              type: PageTransitionType.rightToLeftWithFade,
+                              duration: 300.ms,
+                            ),
+                          ),
+                          child: Container(
+                            alignment: Alignment.bottomLeft,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Christianity.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(
+                                15,
+                              ),
+                            ),
+                            width: size.width * 0.44,
+                            height: size.width * 0.44,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                'Catholic Church',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        SizedBox(height: 10),
+                        GestureDetector(
+                          onTap: () => Navigator.push(
+                            context,
+                            PageTransition(
+                              child: Shamanism(),
+                              type: PageTransitionType.rightToLeftWithFade,
+                              duration: 300.ms,
+                            ),
+                          ),
+                          child: Container(
+                            alignment: Alignment.bottomLeft,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Shamanism.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(
+                                15,
+                              ),
+                            ),
+                            width: size.width * 0.44,
+                            height: size.width * 0.9,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                'Shamanism',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    )
+                  ],
+                )
+              ],
+            )
+            // Column(
+            //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            //   children: [
+            //     // Text(
+            //     //   'Religion',
+            //     //   style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700),
+            //     // ),
 
-            GestureDetector(
-              onTap: () => Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => Shamanism())),
-              child: Container(
-                width: size.width,
-                height: size.height * 0.22,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    fit: BoxFit.cover,
-                    filterQuality: FilterQuality.high,
-                    image: NetworkImage(
-                        'http://192.168.1.111:8000/asset/shamanism.jpg'),
-                  ),
-                  color: Colors.grey,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                clipBehavior: Clip.antiAlias,
-                child: Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Text(
-                    'Shamanism',
-                    style: TextStyle(
-                        fontSize: 16,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800),
-                  ).animate().flipV(delay: 300.ms),
-                ),
-              ),
+            //     GestureDetector(
+            //       onTap: () => Navigator.push(context,
+            //           MaterialPageRoute(builder: (context) => Shamanism())),
+            //       child: Container(
+            //         width: size.width,
+            //         height: size.height * 0.22,
+            //         decoration: BoxDecoration(
+            //           image: DecorationImage(
+            //             fit: BoxFit.cover,
+            //             filterQuality: FilterQuality.high,
+            //             image: NetworkImage(
+            //                 'http://192.168.1.83:8000/asset/shamanism.jpg'),
+            //           ),
+            //           color: Colors.grey,
+            //           borderRadius: BorderRadius.circular(10),
+            //         ),
+            //         clipBehavior: Clip.antiAlias,
+            //         child: Align(
+            //           alignment: Alignment.bottomCenter,
+            //           child: Text(
+            //             'Shamanism',
+            //             style: TextStyle(
+            //                 fontSize: 16,
+            //                 color: Colors.white,
+            //                 fontWeight: FontWeight.w800),
+            //           ).animate().flipV(delay: 300.ms),
+            //         ),
+            //       ),
+            //     ),
+            //     GestureDetector(
+            //       onTap: () => Navigator.push(
+            //           context, MaterialPageRoute(builder: (context) => Buddhism())),
+            //       child: Container(
+            //         width: size.width,
+            //         height: size.height * 0.22,
+            //         decoration: BoxDecoration(
+            //           image: DecorationImage(
+            //             fit: BoxFit.cover,
+            //             filterQuality: FilterQuality.high,
+            //             image: NetworkImage(
+            //                 'http://192.168.1.83:8000/asset/buddhism.jpg'),
+            //           ),
+            //           color: Colors.grey,
+            //           borderRadius: BorderRadius.circular(10),
+            //         ),
+            //         clipBehavior: Clip.antiAlias,
+            //         child: Align(
+            //           alignment: Alignment.bottomCenter,
+            //           child: Text(
+            //             'Buddhism',
+            //             style: TextStyle(
+            //                 fontSize: 16,
+            //                 color: Colors.white,
+            //                 fontWeight: FontWeight.w800),
+            //           ).animate().flipV(delay: 300.ms),
+            //         ),
+            //       ),
+            //     ),
+            //     GestureDetector(
+            //       onTap: () => Navigator.push(
+            //           context, MaterialPageRoute(builder: (context) => Catholic())),
+            //       child: Container(
+            //         width: size.width,
+            //         height: size.height * 0.22,
+            //         decoration: BoxDecoration(
+            //           image: DecorationImage(
+            //             fit: BoxFit.cover,
+            //             filterQuality: FilterQuality.high,
+            //             image: NetworkImage(
+            //                 'http://192.168.1.83:8000/asset/catholic.jpg'),
+            //           ),
+            //           color: Colors.grey,
+            //           borderRadius: BorderRadius.circular(10),
+            //         ),
+            //         clipBehavior: Clip.antiAlias,
+            //         child: Align(
+            //           alignment: Alignment.bottomCenter,
+            //           child: Text(
+            //             'Catholic Church',
+            //             style: TextStyle(
+            //                 fontSize: 16,
+            //                 color: Colors.white,
+            //                 fontWeight: FontWeight.w800),
+            //           ).animate().flipV(delay: 300.ms),
+            //         ),
+            //       ),
+            //     ),
+            //     GestureDetector(
+            //       onTap: () => Navigator.push(
+            //           context, MaterialPageRoute(builder: (context) => Islam())),
+            //       child: Container(
+            //         width: size.width,
+            //         height: size.height * 0.20,
+            //         decoration: BoxDecoration(
+            //           image: DecorationImage(
+            //             fit: BoxFit.cover,
+            //             filterQuality: FilterQuality.high,
+            //             image: NetworkImage(
+            //                 'http://192.168.1.83:8000/asset/islam.jpg'),
+            //           ),
+            //           color: Colors.grey,
+            //           borderRadius: BorderRadius.circular(10),
+            //         ),
+            //         clipBehavior: Clip.antiAlias,
+            //         child: Align(
+            //           alignment: Alignment.bottomCenter,
+            //           child: Text(
+            //             'Islam',
+            //             style: TextStyle(
+            //                 fontSize: 16,
+            //                 color: Colors.white,
+            //                 fontWeight: FontWeight.w800),
+            //           ).animate().flipV(delay: 500.ms),
+            //         ),
+            //       ),
+            //     ),
+            //   ],
+            // ),
             ),
-            GestureDetector(
-              onTap: () => Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Buddhism())),
-              child: Container(
-                width: size.width,
-                height: size.height * 0.22,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    fit: BoxFit.cover,
-                    filterQuality: FilterQuality.high,
-                    image: NetworkImage(
-                        'http://192.168.1.111:8000/asset/buddhism.jpg'),
-                  ),
-                  color: Colors.grey,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                clipBehavior: Clip.antiAlias,
-                child: Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Text(
-                    'Buddhism',
-                    style: TextStyle(
-                        fontSize: 16,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800),
-                  ).animate().flipV(delay: 300.ms),
-                ),
-              ),
-            ),
-            GestureDetector(
-              onTap: () => Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Catholic())),
-              child: Container(
-                width: size.width,
-                height: size.height * 0.22,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    fit: BoxFit.cover,
-                    filterQuality: FilterQuality.high,
-                    image: NetworkImage(
-                        'http://192.168.1.111:8000/asset/catholic.jpg'),
-                  ),
-                  color: Colors.grey,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                clipBehavior: Clip.antiAlias,
-                child: Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Text(
-                    'Catholic Church',
-                    style: TextStyle(
-                        fontSize: 16,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800),
-                  ).animate().flipV(delay: 300.ms),
-                ),
-              ),
-            ),
-            GestureDetector(
-              onTap: () => Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Islam())),
-              child: Container(
-                width: size.width,
-                height: size.height * 0.20,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    fit: BoxFit.cover,
-                    filterQuality: FilterQuality.high,
-                    image: NetworkImage(
-                        'http://192.168.1.111:8000/asset/islam.jpg'),
-                  ),
-                  color: Colors.grey,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                clipBehavior: Clip.antiAlias,
-                child: Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Text(
-                    'Islam',
-                    style: TextStyle(
-                        fontSize: 16,
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800),
-                  ).animate().flipV(delay: 500.ms),
-                ),
-              ),
-            ),
-          ],
-        ),
       ),
     );
   }

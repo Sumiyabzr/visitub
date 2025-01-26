@@ -30,7 +30,7 @@ class _ForgotPassState extends State<ForgotPass> {
                     width: size.width,
                     height: size.height,
                     child: Image.network(
-                      'http://192.168.1.111:8000/asset/login.jpg',
+                      'http://192.168.1.83:8000/asset/login.jpg',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -91,7 +91,7 @@ class _ForgotPassState extends State<ForgotPass> {
                                   ),
                                   width: size.width,
                                   height: size.height * 0.1 - 15,
-                                  child: Text(
+                                  child: const Text(
                                     'Send Code',
                                     style: TextStyle(
                                         fontSize: 16,

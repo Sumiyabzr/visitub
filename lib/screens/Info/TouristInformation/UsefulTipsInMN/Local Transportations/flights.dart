@@ -23,7 +23,7 @@ class _LocalFlightsState extends State<LocalFlights> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.airborder),
+                        image: NetworkImage(AppStyle.airborder),
                         fit: BoxFit.cover)),
                 width: size.width,
                 height: size.width * 0.5,

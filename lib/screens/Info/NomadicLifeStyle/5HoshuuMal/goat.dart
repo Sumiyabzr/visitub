@@ -20,7 +20,7 @@ class Goat extends StatelessWidget {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/goatthumb.jpg'))),
+                          'http://192.168.1.83:8000/asset/goatthumb.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -94,7 +94,7 @@ class Goat extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/goat1.jpg'),
+                                  'http://192.168.1.83:8000/asset/goat1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -107,7 +107,7 @@ class Goat extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/goat2.jpg'),
+                                  'http://192.168.1.83:8000/asset/goat2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -120,7 +120,7 @@ class Goat extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/goat3.jpg'),
+                                  'http://192.168.1.83:8000/asset/goat3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -154,7 +154,7 @@ class Goat extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/goatthumb.jpg'),
+                                  'http://192.168.1.83:8000/asset/goatthumb.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -167,7 +167,7 @@ class Goat extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/goat4.jpg'),
+                                  'http://192.168.1.83:8000/asset/goat4.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -180,7 +180,7 @@ class Goat extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/goat5.jpg'),
+                                  'http://192.168.1.83:8000/asset/goat5.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

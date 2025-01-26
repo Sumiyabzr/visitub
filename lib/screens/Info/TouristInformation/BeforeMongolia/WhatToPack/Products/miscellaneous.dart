@@ -23,7 +23,7 @@ class _MiscellaneousState extends State<Miscellaneous> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.miscellaneous),
+                      image: NetworkImage(AppStyle.miscellaneous),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,

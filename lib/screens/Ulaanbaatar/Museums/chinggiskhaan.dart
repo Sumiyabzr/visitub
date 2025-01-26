@@ -13,16 +13,16 @@ class ChinggisKhaanMuseum extends StatefulWidget {
 
 class _ChinggisKhaanMuseumState extends State<ChinggisKhaanMuseum> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(2%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(3%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(4%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(5%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(6%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(7%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(8%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(9%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(10%20of%2010).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(2%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(3%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(4%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(5%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(6%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(7%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(8%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(9%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(10%20of%2010).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/ChinggisKhaanMuseum/ChinggisKhaanMuseum%20(1%20of%201).jpg",
   ];
 
   List data = [

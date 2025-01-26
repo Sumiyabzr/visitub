@@ -94,7 +94,7 @@ class _CityTourState extends State<CityTour> {
                         bottom: size.height * 0.0001 - size.height * 0.035,
                         child: Image(
                           image: NetworkImage(
-                              'http://192.168.1.111:8000/asset/me.png'),
+                              'http://192.168.1.83:8000/asset/me.png'),
                         ),
                       ),
                     ],
@@ -127,7 +127,7 @@ class _CityTourState extends State<CityTour> {
                                     borderRadius: BorderRadius.circular(10),
                                     image: DecorationImage(
                                       image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/Other/city_tour_new2.jpg',
+                                        'http://192.168.1.83:8000/asset/Other/city_tour_new2.jpg',
                                       ),
                                       fit: BoxFit.cover,
                                     ),
@@ -194,7 +194,7 @@ class _CityTourState extends State<CityTour> {
                                     borderRadius: BorderRadius.circular(10),
                                     image: DecorationImage(
                                       image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/Other/city_tour_new.jpg',
+                                        'http://192.168.1.83:8000/asset/Other/city_tour_new.jpg',
                                       ),
                                       fit: BoxFit.cover,
                                     ),
@@ -261,7 +261,7 @@ class _CityTourState extends State<CityTour> {
                                     borderRadius: BorderRadius.circular(10),
                                     image: DecorationImage(
                                       image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/Other/telej_new_1.jpg',
+                                        'http://192.168.1.83:8000/asset/Other/telej_new_1.jpg',
                                       ),
                                       fit: BoxFit.cover,
                                     ),

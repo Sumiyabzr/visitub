@@ -13,8 +13,8 @@ class BuddhaStatue extends StatefulWidget {
 
 class _BuddhaStatueState extends State<BuddhaStatue> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Cultural/PlacesVisit/GoldenBuddha/Buddha%20(2%20of%202).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Cultural/PlacesVisit/GoldenBuddha/Buddha%20(1%20of%202).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Cultural/PlacesVisit/GoldenBuddha/Buddha%20(2%20of%202).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Cultural/PlacesVisit/GoldenBuddha/Buddha%20(1%20of%202).jpg",
   ];
 
   @override

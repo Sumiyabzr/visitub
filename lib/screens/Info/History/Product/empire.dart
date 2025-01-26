@@ -29,7 +29,7 @@ class _MNEmpireState extends State<MNEmpire> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
-                      image: AssetImage(AppStyle.genghis))),
+                      image: NetworkImage(AppStyle.genghis))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -105,7 +105,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.genghis1),
+                              image: NetworkImage(AppStyle.genghis1),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -117,7 +117,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.genghis2),
+                              image: NetworkImage(AppStyle.genghis2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -129,7 +129,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.genghis3),
+                              image: NetworkImage(AppStyle.genghis3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -175,7 +175,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.conquests),
+                              image: NetworkImage(AppStyle.conquests),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -187,7 +187,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.conquests2),
+                              image: NetworkImage(AppStyle.conquests2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -199,7 +199,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.conquests3),
+                              image: NetworkImage(AppStyle.conquests3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -211,7 +211,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.conquests4),
+                              image: NetworkImage(AppStyle.conquests4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -224,7 +224,7 @@ class _MNEmpireState extends State<MNEmpire> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -237,7 +237,7 @@ class _MNEmpireState extends State<MNEmpire> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -281,7 +281,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.mnempire),
+                              image: NetworkImage(AppStyle.mnempire),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -293,7 +293,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.mnempire2),
+                              image: NetworkImage(AppStyle.mnempire2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -305,7 +305,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.mnempire3),
+                              image: NetworkImage(AppStyle.mnempire3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -317,7 +317,7 @@ class _MNEmpireState extends State<MNEmpire> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.mnempire4),
+                              image: NetworkImage(AppStyle.mnempire4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -330,7 +330,7 @@ class _MNEmpireState extends State<MNEmpire> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -343,7 +343,7 @@ class _MNEmpireState extends State<MNEmpire> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

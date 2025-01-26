@@ -24,7 +24,7 @@ class _MuralsPaintingState extends State<MuralsPainting> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.murals))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.murals))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

@@ -12,8 +12,7 @@ class _ShamanismState extends State<Shamanism> {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
-    return 
-    Scaffold(
+    return Scaffold(
       backgroundColor: Colors.black,
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
@@ -27,7 +26,7 @@ class _ShamanismState extends State<Shamanism> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/shamanism1.jpg'))),
+                          'http://192.168.1.83:8000/asset/shamanism1.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -79,7 +78,10 @@ class _ShamanismState extends State<Shamanism> {
                         color: Colors.white,
                         fontSize: 25,
                         fontWeight: FontWeight.bold),
-                  ).animate().flipV(delay: 500.ms).move(delay: 300.ms, duration: 600.ms),
+                  )
+                      .animate()
+                      .flipV(delay: 500.ms)
+                      .move(delay: 300.ms, duration: 600.ms),
                   SizedBox(height: 5),
                   Text(
                     'Tengrism is an ancient Central Asian religious and spiritual belief system that predates the introduction of Buddhism, Islam, and other major religions in the region. It originated among the Turkic and Mongolic-speaking peoples, including the Mongols, Turks, and Tuvans. The term "Tengrism" comes from the word "Tengri," which means "sky" or "heaven" in the Turkic and Mongolic languages.Tengrism is based on the worship of Tengri, the supreme sky god or deity, who is believed to govern all aspects of the natural world, including celestial bodies, weather phenomena, and the well-being of humans and animals. Tengri is often depicted as a benevolent and all-powerful being, and followers of Tengrism believe in maintaining a harmonious relationship with the natural world and the spirits that reside within it.In Tengrism, nature is considered sacred, and various natural elements, such as mountains, rivers, trees, and animals, are revered and believed to possess spiritual qualities. Ancestor worship is also an important aspect of Tengrism, with ancestors being venerated and believed to provide guidance and protection to their living descendants.',
@@ -101,7 +103,7 @@ class _ShamanismState extends State<Shamanism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/shamanism2.jpg'),
+                                  'http://192.168.1.83:8000/asset/shamanism2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -114,7 +116,7 @@ class _ShamanismState extends State<Shamanism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/shamanism4.jpg'),
+                                  'http://192.168.1.83:8000/asset/shamanism4.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -127,7 +129,7 @@ class _ShamanismState extends State<Shamanism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/shamanism5.jpg'),
+                                  'http://192.168.1.83:8000/asset/shamanism5.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -161,7 +163,7 @@ class _ShamanismState extends State<Shamanism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/shamanism6.jpg'),
+                                  'http://192.168.1.83:8000/asset/shamanism6.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -174,7 +176,7 @@ class _ShamanismState extends State<Shamanism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/shamanism7.jpg'),
+                                  'http://192.168.1.83:8000/asset/shamanism7.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -187,7 +189,7 @@ class _ShamanismState extends State<Shamanism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                                  'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -200,7 +202,7 @@ class _ShamanismState extends State<Shamanism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                                  'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

@@ -69,7 +69,7 @@ class _Edit_ProfileState extends State<Edit_Profile> {
                           image: DecorationImage(
                               fit: BoxFit.cover,
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/tours.jpg'))),
+                                  'http://192.168.1.83:8000/asset/tours.jpg'))),
                     ),
                     // Positioned(
                     //   bottom: 0,

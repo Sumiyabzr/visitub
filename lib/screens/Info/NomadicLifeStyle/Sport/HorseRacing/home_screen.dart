@@ -25,7 +25,7 @@ class _HorseRacingState extends State<HorseRacing> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/hurdanmorithumb.jpg'))),
+                          'http://192.168.1.83:8000/asset/hurdanmorithumb.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -101,7 +101,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori1.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -114,7 +114,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori2.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -127,7 +127,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori3.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -140,7 +140,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori4.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori4.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -153,7 +153,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori5.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori5.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -187,7 +187,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori6.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori6.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -200,7 +200,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori7.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori7.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -213,7 +213,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori8.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori8.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -226,7 +226,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori9.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori9.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -239,7 +239,7 @@ class _HorseRacingState extends State<HorseRacing> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/hurdanmori10.jpg'),
+                                  'http://192.168.1.83:8000/asset/hurdanmori10.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

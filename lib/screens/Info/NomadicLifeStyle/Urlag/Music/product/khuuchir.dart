@@ -24,7 +24,7 @@ class _KhuuchirState extends State<Khuuchir> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.huuchir))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.huuchir))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -100,7 +100,7 @@ class _KhuuchirState extends State<Khuuchir> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.huuchir2))),
+                        DecorationImage(image: NetworkImage(AppStyle.huuchir2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -118,7 +118,7 @@ class _KhuuchirState extends State<Khuuchir> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd5.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd5.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -131,7 +131,7 @@ class _KhuuchirState extends State<Khuuchir> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd4.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd4.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -144,7 +144,7 @@ class _KhuuchirState extends State<Khuuchir> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd3.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd3.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -180,7 +180,7 @@ class _KhuuchirState extends State<Khuuchir> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.huuchir3))),
+                        DecorationImage(image: NetworkImage(AppStyle.huuchir3))),
                 width: size.width,
                 height: size.width,
               ),
@@ -270,7 +270,7 @@ class _KhuuchirState extends State<Khuuchir> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd2.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd2.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -283,7 +283,7 @@ class _KhuuchirState extends State<Khuuchir> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd1.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd1.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),

@@ -23,7 +23,7 @@ class _FoodDrinkState extends State<FoodDrink> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.food), fit: BoxFit.cover)),
+                      image: NetworkImage(AppStyle.food), fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,
               child: SafeArea(

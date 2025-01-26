@@ -13,8 +13,8 @@ class JukowMuseum extends StatefulWidget {
 
 class _JukowMuseumState extends State<JukowMuseum> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/JukowMuseum/JukowMuseum%20(1%20of%201).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/JukowMuseum/JukowMuseum%20(1%20of%201)-2.jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/JukowMuseum/JukowMuseum%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/JukowMuseum/JukowMuseum%20(1%20of%201)-2.jpg",
   ];
 
   List data = [

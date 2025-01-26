@@ -195,7 +195,7 @@ class _DesNavState extends State<DesNav> {
     //                   decoration: BoxDecoration(
     //                       image: DecorationImage(
     //                           image: NetworkImage(
-    //                               'http://192.168.1.111:8000/asset/infoNLS.jpg'),
+    //                               'http://192.168.1.83:8000/asset/infoNLS.jpg'),
     //                           fit: BoxFit.cover),
     //                       borderRadius: BorderRadius.circular(8),
     //                       color: const Color.fromARGB(255, 255, 255, 255)),
@@ -221,7 +221,7 @@ class _DesNavState extends State<DesNav> {
     //                     decoration: BoxDecoration(
     //                         image: DecorationImage(
     //                             image: NetworkImage(
-    //                                 'http://192.168.1.111:8000/asset/infoHistory.jpg'),
+    //                                 'http://192.168.1.83:8000/asset/infoHistory.jpg'),
     //                             fit: BoxFit.cover),
     //                         borderRadius: BorderRadius.circular(8),
     //                         color: const Color.fromARGB(255, 255, 255, 255)),
@@ -248,7 +248,7 @@ class _DesNavState extends State<DesNav> {
     //                   decoration: BoxDecoration(
     //                       image: DecorationImage(
     //                           image: NetworkImage(
-    //                               'http://192.168.1.111:8000/asset/infoContent.jpg'),
+    //                               'http://192.168.1.83:8000/asset/infoContent.jpg'),
     //                           fit: BoxFit.cover),
     //                       borderRadius: BorderRadius.circular(8),
     //                       color: const Color.fromARGB(255, 255, 255, 255)),
@@ -272,7 +272,7 @@ class _DesNavState extends State<DesNav> {
     //                     decoration: BoxDecoration(
     //                         image: DecorationImage(
     //                             image: NetworkImage(
-    //                                 'http://192.168.1.111:8000/asset/infoTour.jpg'),
+    //                                 'http://192.168.1.83:8000/asset/infoTour.jpg'),
     //                             fit: BoxFit.cover),
     //                         borderRadius: BorderRadius.circular(8),
     //                         color: const Color.fromARGB(255, 255, 255, 255)),
@@ -304,7 +304,7 @@ class _DesNavState extends State<DesNav> {
     //                     decoration: BoxDecoration(
     //                         image: DecorationImage(
     //                             image: NetworkImage(
-    //                                 'http://192.168.1.111:8000/asset/infoReligion.jpg'),
+    //                                 'http://192.168.1.83:8000/asset/infoReligion.jpg'),
     //                             fit: BoxFit.cover),
     //                         borderRadius: BorderRadius.circular(8),
     //                         color: const Color.fromARGB(255, 255, 255, 255)),

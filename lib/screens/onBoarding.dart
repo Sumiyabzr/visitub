@@ -27,13 +27,13 @@ class _BoardingState extends State<Boarding> {
             });
           },
           children: [
-             _page("http://192.168.1.111:8000/asset/images/1.jpg", "",
+            _page("http://192.168.1.83:8000/asset/images/1.jpg", "",
                 "Embark on an unforgettable adventure as you traverse Mongolia's enchanting tourist destinations, where ancient history, breathtaking landscapes, and vibrant culture converge to create an immersive and awe-inspiring travel experience."),
-            _page("http://192.168.1.111:8000/asset/images/2.jpg", "",
+            _page("http://192.168.1.83:8000/asset/images/2.jpg", "",
                 "Delve into the fascinating tapestry of Mongolian culture through extensive research, unlocking a rich narrative woven with nomadic traditions, throat singing melodies, and the timeless allure of the vast steppes."),
-            _page("http://192.168.1.111:8000/asset/images/3.jpg", "",
+            _page("http://192.168.1.83:8000/asset/images/3.jpg", "",
                 "Discover the captivating allure of Mongolia's hospitality and culinary scene, where boutique hotels, tempting restaurants, and dynamic commercial enterprises seamlessly fuse luxury with authentic Mongolian experiences."),
-            _page("http://192.168.1.111:8000/asset/images/4.jpg", "",
+            _page("http://192.168.1.83:8000/asset/images/4.jpg", "",
                 " Immerse yourself in the vibrant tapestry of Mongolian tourism events through comprehensive research, unveiling a calendar brimming with cultural festivals, adventurous expeditions, and captivating celebrations that showcase the nation's diverse and dynamic allure")
           ],
         ),
@@ -175,9 +175,7 @@ class _BoardingState extends State<Boarding> {
               padding: const EdgeInsets.symmetric(horizontal: 15),
               child: SizedBox(
                 child: Padding(
-                  padding: EdgeInsets.only(
-                    bottom: 120
-                  ),
+                  padding: EdgeInsets.only(bottom: 120),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.end,
                     crossAxisAlignment: CrossAxisAlignment.center,

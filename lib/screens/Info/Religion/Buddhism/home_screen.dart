@@ -26,7 +26,7 @@ class _BuddhismState extends State<Buddhism> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/budd6.jpg'))),
+                          'http://192.168.1.83:8000/asset/budd6.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -78,7 +78,10 @@ class _BuddhismState extends State<Buddhism> {
                         color: Colors.white,
                         fontSize: 25,
                         fontWeight: FontWeight.bold),
-                  ).animate().flipV(delay: 500.ms).move(delay: 300.ms, duration: 600.ms),
+                  )
+                      .animate()
+                      .flipV(delay: 500.ms)
+                      .move(delay: 300.ms, duration: 600.ms),
                   SizedBox(height: 5),
                   Text(
                     'Buddhism has a long and significant history in Mongolia. The country is association with Buddhism dates back to the time of the Mongol Empire in the 13th century. During this period, Mongolia was ruled by Genghis Khan and his successors, who were tolerant of different religious beliefs, including Buddhism.Initially, Buddhism in Mongolia was influenced by Tibetan Buddhism, particularly the Gelug school, also known as the Yellow Hat sect. In the 16th century, Altan Khan, the ruler of the Tümed Mongols, declared Buddhism as the state religion, further solidifying its prominence in Mongolian society.Over the centuries, Buddhism played a crucial role in shaping Mongolian culture, art, and way of life. Monasteries, known as "kharas" were established across the country, becoming centers of spiritual and intellectual activities. These monasteries housed a large number of monks and served as repositories of religious texts and teachings.However, during the 20th century, Mongolia underwent significant political and social changes. In 1924, the country experienced a communist revolution, and the Mongolian People is Republic was established. As part of the communist ideology, the government implemented policies that suppressed religious practices, including Buddhism. Many monasteries were destroyed, and Buddhist monks were persecuted, leading to a decline in Buddhism is influence.',
@@ -100,7 +103,7 @@ class _BuddhismState extends State<Buddhism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/budd5.jpg'),
+                                  'http://192.168.1.83:8000/asset/budd5.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -113,7 +116,7 @@ class _BuddhismState extends State<Buddhism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/budd4.jpg'),
+                                  'http://192.168.1.83:8000/asset/budd4.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -126,7 +129,7 @@ class _BuddhismState extends State<Buddhism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/budd3.jpg'),
+                                  'http://192.168.1.83:8000/asset/budd3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -160,7 +163,7 @@ class _BuddhismState extends State<Buddhism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/budd2.jpg'),
+                                  'http://192.168.1.83:8000/asset/budd2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -173,7 +176,7 @@ class _BuddhismState extends State<Buddhism> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/budd1.jpg'),
+                                  'http://192.168.1.83:8000/asset/budd1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -186,7 +189,7 @@ class _BuddhismState extends State<Buddhism> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -199,7 +202,7 @@ class _BuddhismState extends State<Buddhism> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

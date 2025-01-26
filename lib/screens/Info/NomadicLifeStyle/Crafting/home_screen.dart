@@ -51,7 +51,7 @@ class _MaterialsState extends State<Materials> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.crafting),
+                        image: NetworkImage(AppStyle.crafting),
                         fit: BoxFit.cover)),
                 width: size.width,
                 height: size.width * 0.9,
@@ -78,7 +78,7 @@ class _MaterialsState extends State<Materials> {
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
                           image: NetworkImage(
-                            'http://192.168.1.111:8000/asset/Other/wool1.jpg',
+                            'http://192.168.1.83:8000/asset/Other/wool1.jpg',
                           ),
                           fit: BoxFit.cover,
                         ),
@@ -110,7 +110,7 @@ class _MaterialsState extends State<Materials> {
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
                           image: NetworkImage(
-                            'http://192.168.1.111:8000/asset/Other/wool2.jpg',
+                            'http://192.168.1.83:8000/asset/Other/wool2.jpg',
                           ),
                           fit: BoxFit.cover,
                         ),
@@ -150,7 +150,7 @@ class _MaterialsState extends State<Materials> {
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
                           image: NetworkImage(
-                            'http://192.168.1.111:8000/asset/Other/wool3.jpg',
+                            'http://192.168.1.83:8000/asset/Other/wool3.jpg',
                           ),
                           fit: BoxFit.cover,
                         ),
@@ -182,7 +182,7 @@ class _MaterialsState extends State<Materials> {
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
                           image: NetworkImage(
-                            'http://192.168.1.111:8000/asset/Other/wool4.jpg',
+                            'http://192.168.1.83:8000/asset/Other/wool4.jpg',
                           ),
                           fit: BoxFit.cover,
                         ),
@@ -221,7 +221,7 @@ class _MaterialsState extends State<Materials> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.wood),
+                              image: NetworkImage(AppStyle.wood),
                               fit: BoxFit.cover)),
                       width: size.width * 0.45,
                       height: size.height * 0.2,
@@ -248,7 +248,7 @@ class _MaterialsState extends State<Materials> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.gemstones),
+                              image: NetworkImage(AppStyle.gemstones),
                               fit: BoxFit.cover)),
                       width: size.width * 0.45,
                       height: size.height * 0.2,

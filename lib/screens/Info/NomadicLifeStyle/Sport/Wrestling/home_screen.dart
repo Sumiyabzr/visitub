@@ -20,7 +20,7 @@ class Wrestling extends StatelessWidget {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/sportwrestlingthumb.jpg'))),
+                          'http://192.168.1.83:8000/asset/sportwrestlingthumb.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -96,7 +96,7 @@ class Wrestling extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/wrestling1.jpg'),
+                                  'http://192.168.1.83:8000/asset/wrestling1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -109,7 +109,7 @@ class Wrestling extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/wrestling2.jpg'),
+                                  'http://192.168.1.83:8000/asset/wrestling2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -122,7 +122,7 @@ class Wrestling extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/wrestling3.jpg'),
+                                  'http://192.168.1.83:8000/asset/wrestling3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -156,7 +156,7 @@ class Wrestling extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/wrestling4.jpg'),
+                                  'http://192.168.1.83:8000/asset/wrestling4.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -169,7 +169,7 @@ class Wrestling extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/wrestling5.jpg'),
+                                  'http://192.168.1.83:8000/asset/wrestling5.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

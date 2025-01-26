@@ -22,7 +22,7 @@ class _ByRoadState extends State<ByRoad> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.road), fit: BoxFit.cover),
+                      image: NetworkImage(AppStyle.road), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 width: size.width,

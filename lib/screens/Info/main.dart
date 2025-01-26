@@ -6,7 +6,6 @@ import 'package:visitub/screens/Info/History/home_screen.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/home_screen.dart';
 import 'package:visitub/screens/Info/Religion/home_screen.dart';
 import 'package:visitub/screens/Info/TouristInformation/home_screen.dart';
-import 'package:visitub/style/app_style.dart';
 
 class InfoN extends StatefulWidget {
   const InfoN({super.key});
@@ -58,7 +57,7 @@ class _InfoNState extends State<InfoN> {
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                           image: NetworkImage(
-                              'http://192.168.1.111:8000/asset/images/Nomadic Culture.jpg'),
+                              'http://192.168.1.83:8000/asset/images/Nomadic Culture.jpg'),
                           fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.45,
@@ -112,7 +111,7 @@ class _InfoNState extends State<InfoN> {
                               borderRadius: BorderRadius.circular(10),
                               image: DecorationImage(
                                   image: NetworkImage(
-                                      'http://192.168.1.111:8000/asset/infoHistory.jpg'),
+                                      'http://192.168.1.83:8000/asset/infoHistory.jpg'),
                                   fit: BoxFit.cover)),
                           width: size.width * 0.45,
                           height: size.width * 0.44,
@@ -160,7 +159,7 @@ class _InfoNState extends State<InfoN> {
                                 borderRadius: BorderRadius.circular(10),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/infoReligion.jpg'),
+                                        'http://192.168.1.83:8000/asset/infoReligion.jpg'),
                                     fit: BoxFit.cover)),
                             width: size.width * 0.45,
                             height: size.width * 0.44,
@@ -205,7 +204,8 @@ class _InfoNState extends State<InfoN> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.infotour),
+                              image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/zadgai/Thumbnails/Tourist Information.jpg'),
                               fit: BoxFit.cover)),
                       width: size.width * 0.46,
                       height: size.width * 0.89,
@@ -254,7 +254,7 @@ class _InfoNState extends State<InfoN> {
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
                           image: NetworkImage(
-                              'http://192.168.1.111:8000/asset/infoContent.jpg'),
+                              'http://192.168.1.83:8000/asset/infoContent.jpg'),
                           fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.45,
@@ -307,7 +307,7 @@ class _InfoNState extends State<InfoN> {
     //                 decoration: BoxDecoration(
     //                     image: DecorationImage(
     //                         image: NetworkImage(
-    //                             'http://192.168.1.111:8000/asset/infoNLS.jpg'),
+    //                             'http://192.168.1.83:8000/asset/infoNLS.jpg'),
     //                         fit: BoxFit.cover),
     //                     borderRadius: BorderRadius.circular(8),
     //                     color: const Color.fromARGB(255, 255, 255, 255)),
@@ -332,7 +332,7 @@ class _InfoNState extends State<InfoN> {
     //                   decoration: BoxDecoration(
     //                       image: DecorationImage(
     //                           image: NetworkImage(
-    //                               'http://192.168.1.111:8000/asset/infoHistory.jpg'),
+    //                               'http://192.168.1.83:8000/asset/infoHistory.jpg'),
     //                           fit: BoxFit.cover),
     //                       borderRadius: BorderRadius.circular(8),
     //                       color: const Color.fromARGB(255, 255, 255, 255)),
@@ -359,7 +359,7 @@ class _InfoNState extends State<InfoN> {
     //                 decoration: BoxDecoration(
     //                     image: DecorationImage(
     //                         image: NetworkImage(
-    //                             'http://192.168.1.111:8000/asset/infoContent.jpg'),
+    //                             'http://192.168.1.83:8000/asset/infoContent.jpg'),
     //                         fit: BoxFit.cover),
     //                     borderRadius: BorderRadius.circular(8),
     //                     color: const Color.fromARGB(255, 255, 255, 255)),
@@ -383,7 +383,7 @@ class _InfoNState extends State<InfoN> {
     //                   decoration: BoxDecoration(
     //                       image: DecorationImage(
     //                           image: NetworkImage(
-    //                               'http://192.168.1.111:8000/asset/infoTour.jpg'),
+    //                               'http://192.168.1.83:8000/asset/infoTour.jpg'),
     //                           fit: BoxFit.cover),
     //                       borderRadius: BorderRadius.circular(8),
     //                       color: const Color.fromARGB(255, 255, 255, 255)),
@@ -415,7 +415,7 @@ class _InfoNState extends State<InfoN> {
     //                   decoration: BoxDecoration(
     //                       image: DecorationImage(
     //                           image: NetworkImage(
-    //                               'http://192.168.1.111:8000/asset/infoReligion.jpg'),
+    //                               'http://192.168.1.83:8000/asset/infoReligion.jpg'),
     //                           fit: BoxFit.cover),
     //                       borderRadius: BorderRadius.circular(8),
     //                       color: const Color.fromARGB(255, 255, 255, 255)),

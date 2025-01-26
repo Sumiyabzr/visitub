@@ -24,7 +24,7 @@ class _ThangkaPaintingState extends State<ThangkaPainting> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.thangka))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.thangka))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

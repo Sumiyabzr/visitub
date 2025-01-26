@@ -33,7 +33,7 @@ class _NomadicScreenState extends State<NomadicScreen> {
                 fit: StackFit.expand,
                 children: [
                   Image.network(
-                    'http://192.168.1.111:8000/asset/NLS.jpg',
+                    'http://192.168.1.83:8000/asset/NLS.jpg',
                     fit: BoxFit.cover,
                   ),
                   SafeArea(
@@ -87,333 +87,260 @@ class _NomadicScreenState extends State<NomadicScreen> {
                     ],
                   ),
                   Padding(
-                    padding: EdgeInsets.symmetric(vertical: 10),
-                    child: Column(children: [
-                      GestureDetector(
-                        onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => FiveLiveStock())),
-                        child: Container(
-                            width: size.width,
-                            height: size.height * 0.13,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20),
-                                image: DecorationImage(
-                                    image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/5hoshuu.jpg'),
-                                    fit: BoxFit.cover)),
-                            clipBehavior: Clip.antiAlias,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(20),
-                                  gradient: LinearGradient(
-                                      begin: Alignment.bottomCenter,
-                                      end: Alignment.center,
-                                      colors: [
-                                        Colors.black87,
-                                        Colors.black12.withOpacity(0.005)
-                                      ])),
-                              child: Align(
-                                alignment: Alignment.bottomLeft,
-                                child: Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text(
-                                    'Five Snouts',
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 15),
-                                  ),
-                                ),
-                              ),
-                            )),
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Row(
-                        children: [
-                          GestureDetector(
-                            onTap: () {},
-                            child: Column(
-                              children: [
-                                GestureDetector(
-                                  onTap: () => Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (context) => Food(),
-                                      )),
-                                  child: Container(
-                                    width: size.width * 0.45,
-                                    height: size.height * 0.25,
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(20),
-                                        image: DecorationImage(
-                                            image: NetworkImage(
-                                                'http://192.168.1.111:8000/asset/hool.jpg'),
-                                            filterQuality: FilterQuality.high,
-                                            fit: BoxFit.cover)),
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(20),
-                                          gradient: LinearGradient(
-                                              begin: Alignment.bottomCenter,
-                                              end: Alignment.center,
-                                              colors: [
-                                                Colors.black87,
-                                                Colors.black12
-                                                    .withOpacity(0.005)
-                                              ])),
-                                      child: Align(
-                                        alignment: Alignment.bottomLeft,
-                                        child: Padding(
-                                          padding: const EdgeInsets.all(8.0),
-                                          child: Text(
-                                            'Food',
-                                            style: TextStyle(
-                                                fontSize: 15,
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.white),
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                SizedBox(
-                                  height: 5,
-                                ),
-                                GestureDetector(
-                                  onTap: () => Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (context) => ClothingInfo(),
-                                      )),
-                                  child: Container(
-                                      width: size.width * 0.45,
-                                      height: size.height * 0.25,
-                                      decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(20),
-                                          image: DecorationImage(
-                                              image: NetworkImage(
-                                                  'http://192.168.1.111:8000/asset/huwtsas.jpg'),
-                                              fit: BoxFit.cover)),
-                                      clipBehavior: Clip.antiAlias,
-                                      child: Container(
-                                        decoration: BoxDecoration(
-                                            borderRadius:
-                                                BorderRadius.circular(20),
-                                            gradient: LinearGradient(
-                                                begin: Alignment.bottomCenter,
-                                                end: Alignment.center,
-                                                colors: [
-                                                  Colors.black87,
-                                                  Colors.black12
-                                                      .withOpacity(0.005)
-                                                ])),
-                                        child: Align(
-                                          alignment: Alignment.bottomLeft,
-                                          child: Padding(
-                                            padding: const EdgeInsets.all(8.0),
-                                            child: Text(
-                                              'Clothing',
-                                              style: TextStyle(
-                                                  color: Colors.white,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 15),
-                                            ),
-                                          ),
-                                        ),
-                                      )),
-                                ),
-                              ],
-                            ),
-                          ),
-                          Expanded(child: Container()),
-                          GestureDetector(
-                            onTap: () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => Art(),
-                                )),
-                            child: Container(
-                              width: size.width * 0.44,
-                              height: size.height * 0.5,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(20),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/urlag.jpg'),
-                                      fit: BoxFit.cover)),
-                              clipBehavior: Clip.antiAlias,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    gradient: LinearGradient(
-                                        begin: Alignment.bottomCenter,
-                                        end: Alignment.center,
-                                        colors: [
-                                          Colors.black87,
-                                          Colors.black12.withOpacity(0.005)
-                                        ])),
-                                child: Align(
-                                  alignment: Alignment.bottomLeft,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'Art',
-                                      style: TextStyle(
-                                          fontSize: 15,
-                                          fontWeight: FontWeight.bold,
-                                          color: Colors.white),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      Row(children: [
+                    padding: const EdgeInsets.symmetric(
+                      vertical: 10,
+                    ),
+                    child: Column(
+                      children: [
                         GestureDetector(
                           onTap: () => Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => Ger(),
                               )),
-                          // () {
-                          //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                          // },
                           child: Container(
-                              width: size.width * 0.45,
-                              height: size.height * 0.22,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(20),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/ger.jpg'),
-                                      fit: BoxFit.cover)),
-                              clipBehavior: Clip.antiAlias,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    gradient: LinearGradient(
-                                        begin: Alignment.bottomCenter,
-                                        end: Alignment.center,
-                                        colors: [
-                                          Colors.black87,
-                                          Colors.black12.withOpacity(0.005)
-                                        ])),
-                                child: Align(
-                                  alignment: Alignment.bottomLeft,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'Ger',
-                                      style: TextStyle(
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 15),
-                                    ),
-                                  ),
-                                ),
-                              )),
-                        ),
-                        Expanded(child: Container()),
-                        GestureDetector(
-                          onTap: () => Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Sport(),
-                              )),
-                          child: Container(
-                              width: size.width * 0.44,
-                              height: size.height * 0.22,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(20),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/sport.jpg'),
-                                      fit: BoxFit.cover)),
-                              clipBehavior: Clip.antiAlias,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    gradient: LinearGradient(
-                                        begin: Alignment.bottomCenter,
-                                        end: Alignment.center,
-                                        colors: [
-                                          Colors.black87,
-                                          Colors.black12.withOpacity(0.005)
-                                        ])),
-                                child: Align(
-                                  alignment: Alignment.bottomLeft,
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(8.0),
-                                    child: Text(
-                                      'Sport',
-                                      style: TextStyle(
-                                          color: Colors.white,
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 15),
-                                    ),
-                                  ),
-                                ),
-                              )),
-                        ),
-                      ]),
-                      SizedBox(
-                        height: 5,
-                      ),
-                      GestureDetector(
-                        onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Materials(),
-                            )),
-                        child: Container(
-                          width: size.width,
-                          height: size.height * 0.15,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              image: DecorationImage(
-                                  image: NetworkImage(
-                                      'http://192.168.1.111:8000/asset/material.jpg'),
-                                  filterQuality: FilterQuality.high,
-                                  fit: BoxFit.cover)),
-                          child: Container(
+                            alignment: Alignment.bottomLeft,
                             decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20),
-                                gradient: LinearGradient(
-                                    begin: Alignment.bottomCenter,
-                                    end: Alignment.center,
-                                    colors: [
-                                      Colors.black87,
-                                      Colors.black12.withOpacity(0.005)
-                                    ])),
-                            child: Align(
-                              alignment: Alignment.bottomLeft,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text(
-                                  'Crafting',
-                                  style: TextStyle(
-                                      fontSize: 15,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.white),
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    'http://192.168.1.83:8000/asset/ThumnbailApp/Ger.jpg',
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
+                                borderRadius: BorderRadius.circular(15)),
+                            width: size.width,
+                            height: size.width * 0.44,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                'Ger',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white,
                                 ),
                               ),
                             ),
                           ),
                         ),
-                      ),
-                    ]),
+                        SizedBox(height: 10),
+                        Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  children: [
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) => Food(),
+                                          )),
+                                      child: Container(
+                                        alignment: Alignment.bottomLeft,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                              image: NetworkImage(
+                                                'http://192.168.1.83:8000/asset/ThumnbailApp/Food.jpg',
+                                              ),
+                                              fit: BoxFit.cover),
+                                          borderRadius:
+                                              BorderRadius.circular(15),
+                                        ),
+                                        width: size.width * 0.44,
+                                        height: size.width * 0.44,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Food',
+                                            style: TextStyle(
+                                              fontSize: 17,
+                                              fontWeight: FontWeight.w900,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) => Art(),
+                                          )),
+                                      child: Container(
+                                        alignment: Alignment.bottomLeft,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                              image: NetworkImage(
+                                                'http://192.168.1.83:8000/asset/ThumnbailApp/Nomadic Art.jpg',
+                                              ),
+                                              fit: BoxFit.cover),
+                                          borderRadius:
+                                              BorderRadius.circular(15),
+                                        ),
+                                        width: size.width * 0.44,
+                                        height: size.width * 0.9,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Nomadic Art',
+                                            style: TextStyle(
+                                              fontSize: 17,
+                                              fontWeight: FontWeight.w900,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) => Sport(),
+                                          )),
+                                      child: Container(
+                                        alignment: Alignment.bottomLeft,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                              image: NetworkImage(
+                                                'http://192.168.1.83:8000/asset/ThumnbailApp/Sports.jpg',
+                                              ),
+                                              fit: BoxFit.cover),
+                                          borderRadius:
+                                              BorderRadius.circular(15),
+                                        ),
+                                        width: size.width * 0.44,
+                                        height: size.width * 0.44,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Sports of Mongolia',
+                                            style: TextStyle(
+                                              fontSize: 17,
+                                              fontWeight: FontWeight.w900,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Column(
+                                  children: [
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) =>
+                                                FiveLiveStock(),
+                                          )),
+                                      child: Container(
+                                        alignment: Alignment.bottomLeft,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                              image: NetworkImage(
+                                                'http://192.168.1.83:8000/asset/ThumnbailApp/FiveSnouts.jpg',
+                                              ),
+                                              fit: BoxFit.cover),
+                                          borderRadius:
+                                              BorderRadius.circular(15),
+                                        ),
+                                        width: size.width * 0.44,
+                                        height: size.width * 0.9,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Five Snouts',
+                                            style: TextStyle(
+                                              fontSize: 17,
+                                              fontWeight: FontWeight.w900,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) =>
+                                                ClothingInfo(),
+                                          )),
+                                      child: Container(
+                                        alignment: Alignment.bottomLeft,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                              image: NetworkImage(
+                                                'http://192.168.1.83:8000/asset/ThumnbailApp/Clothing.jpg',
+                                              ),
+                                              fit: BoxFit.cover),
+                                          borderRadius:
+                                              BorderRadius.circular(15),
+                                        ),
+                                        width: size.width * 0.44,
+                                        height: size.width * 0.44,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Clothing',
+                                            style: TextStyle(
+                                              fontSize: 17,
+                                              fontWeight: FontWeight.w900,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    SizedBox(height: 10),
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) => Materials(),
+                                          )),
+                                      child: Container(
+                                        alignment: Alignment.bottomLeft,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                              image: NetworkImage(
+                                                'http://192.168.1.83:8000/asset/ThumnbailApp/Crafting.jpg',
+                                              ),
+                                              fit: BoxFit.cover),
+                                          borderRadius:
+                                              BorderRadius.circular(15),
+                                        ),
+                                        width: size.width * 0.44,
+                                        height: size.width * 0.44,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Crafting',
+                                            style: TextStyle(
+                                              fontSize: 17,
+                                              fontWeight: FontWeight.w900,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   )
                 ],
               ),

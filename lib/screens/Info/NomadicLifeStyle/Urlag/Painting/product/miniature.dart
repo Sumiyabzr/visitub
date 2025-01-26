@@ -25,7 +25,7 @@ class _MiniaturePaintingState extends State<MiniaturePainting> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.miniature))),
+                      image: NetworkImage(AppStyle.miniature))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

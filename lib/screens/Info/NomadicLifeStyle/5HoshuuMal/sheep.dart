@@ -20,7 +20,7 @@ class Sheep extends StatelessWidget {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Other/sheep2.jpg'))),
+                          'http://192.168.1.83:8000/asset/Other/sheep2.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -94,7 +94,7 @@ class Sheep extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/FLsheep.jpg'),
+                                  'http://192.168.1.83:8000/asset/FLsheep.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -107,7 +107,7 @@ class Sheep extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Sheep1.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Sheep1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -141,7 +141,7 @@ class Sheep extends StatelessWidget {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/cattle2.jpg'),
+            //                       'http://192.168.1.83:8000/asset/cattle2.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -154,7 +154,7 @@ class Sheep extends StatelessWidget {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/cattle3.jpg'),
+            //                       'http://192.168.1.83:8000/asset/cattle3.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),

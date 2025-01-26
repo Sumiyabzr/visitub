@@ -25,7 +25,7 @@ class _BoginoDuuState extends State<BoginoDuu> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.boginoduu))),
+                      image: NetworkImage(AppStyle.boginoduu))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

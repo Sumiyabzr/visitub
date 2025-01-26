@@ -15,7 +15,7 @@ class _SplashState extends State<Splash> {
     super.initState();
     Timer(Duration(seconds: 5), () {
       Navigator.pop(context);
-      Navigator.popAndPushNamed(context, '/boarding');
+      Navigator.popAndPushNamed(context, '/');
     });
   }
 
@@ -24,7 +24,7 @@ class _SplashState extends State<Splash> {
     final size = MediaQuery.of(context).size;
     return Scaffold(
       body: Image(
-        image: NetworkImage('http://192.168.1.111:8000/asset/Other/splash.jpg'),
+        image: NetworkImage('http://192.168.1.83:8000/asset/Other/splash.jpg'),
         width: size.width,
         height: size.height,
       ),

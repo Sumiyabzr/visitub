@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Sport/Anklebone/home_screen.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Sport/Archery/home_screen.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Sport/HorseRacing/home_screen.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Sport/Wrestling/home_screen.dart';
-import 'package:visitub/screens/coming_soon_pop_up.dart';
 
 class Sport extends StatefulWidget {
   const Sport({super.key});
@@ -21,17 +22,14 @@ class _SportState extends State<Sport> {
         centerTitle: true,
         title: Text(
           'Sport',
-          style: TextStyle(color: Colors.black, fontSize: 17),
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 17,
+            fontWeight: FontWeight.w900,
+          ),
         ),
         backgroundColor: Colors.white,
         elevation: 0,
-        leading: IconButton(
-            onPressed: () => Navigator.pop(context),
-            icon: Icon(
-              Icons.arrow_back_rounded,
-              color: Colors.black,
-              size: 30,
-            )),
       ),
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
@@ -44,7 +42,7 @@ class _SportState extends State<Sport> {
                     borderRadius: BorderRadius.circular(8),
                     image: DecorationImage(
                         image: NetworkImage(
-                            'http://192.168.1.111:8000/asset/mori.jpg'),
+                            'http://192.168.1.83:8000/asset/mori.jpg'),
                         fit: BoxFit.cover)),
                 width: size.width,
                 height: size.height * 0.3,
@@ -53,170 +51,217 @@ class _SportState extends State<Sport> {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: SizedBox(
-                child: Text(
-                    'Mongolian sports have deep historical roots and are closely tied to the nomadic lifestyle and warrior traditions of the Mongolian people. Many of these sports originated centuries ago and were developed as essential skills for survival, training for warfare, and as forms of entertainment.'),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-              child: Column(
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      GestureDetector(
-                        onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Wrestling(),
-                            )),
-                        child: Container(
-                          alignment: Alignment.topCenter,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              image: DecorationImage(
-                                  image: NetworkImage(
-                                      'http://192.168.1.111:8000/asset/boh.jpg'),
-                                  fit: BoxFit.cover)),
+                child: Column(
+                  children: [
+                    Text(
+                      textAlign: TextAlign.justify,
+                      'Mongolian sports embody the resilience, skill, and heritage of a deeply rooted nomadic culture. Centered around traditional skills essential to survival and cultural pride, Mongolian sports have developed from practical and military training into celebrated national competitions. The renowned “Three Manly Games”—wrestling, horse racing, and archery—are highlights of Naadam, Mongolia`s largest festival, and reflect ancient practices of physical strength, precision, and agility honed over centuries. Beyond these, sports like ankle bone shooting and eagle hunting underscore a lifestyle in harmony with Mongolia’s vast landscapes and rich traditions. Today, these sports not only entertain but preserve and pass down Mongolian values, history, and identity, drawing admiration from spectators both locally and globally.',
+                    ),
+                    SizedBox(height: 10),
+                    GestureDetector(
+                      onTap: () => Navigator.push(
+                        context,
+                        PageTransition(
+                          child: Wrestling(),
+                          type: PageTransitionType.bottomToTop,
+                          duration: 400.ms,
+                        ),
+                      ),
+                      child: Container(
+                        alignment: Alignment.bottomLeft,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: NetworkImage(
+                              'http://192.168.1.83:8000/asset/ThumnbailApp/Wrestling.jpg',
+                            ),
+                            fit: BoxFit.cover,
+                          ),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        width: size.width,
+                        height: size.width * 0.44,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
                           child: Text(
                             'Wrestling',
                             style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold),
+                              fontSize: 17,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.white,
+                            ),
                           ),
-                          width: size.width * 0.45,
-                          height: size.height * 0.35,
                         ),
                       ),
-                      GestureDetector(
-                        onTap: () => Navigator.push(
+                    ),
+                    SizedBox(height: 10),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        GestureDetector(
+                          onTap: () => Navigator.push(
                             context,
-                            MaterialPageRoute(
-                              builder: (context) => Archery(),
-                            )),
-                        child: Container(
-                          alignment: Alignment.topCenter,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              image: DecorationImage(
+                            PageTransition(
+                              child: Archery(),
+                              type: PageTransitionType.leftToRightWithFade,
+                              duration: 300.ms,
+                            ),
+                          ),
+                          child: Container(
+                            alignment: Alignment.bottomLeft,
+                            decoration: BoxDecoration(
+                                image: DecorationImage(
                                   image: NetworkImage(
-                                      'http://192.168.1.111:8000/asset/harwaa.jpg'),
-                                  fit: BoxFit.cover)),
-                          child: Text(
-                            'Archery',
-                            style: TextStyle(
+                                    'http://192.168.1.83:8000/asset/ThumnbailApp/Archery.jpg',
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
+                                borderRadius: BorderRadius.circular(15)),
+                            width: size.width * 0.44,
+                            height: size.width * 0.9,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                'Archery',
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Falconry.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(15)),
+                          width: size.width * 0.44,
+                          height: size.width * 0.9,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Falconry and Eagle Hunting',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
                                 color: Colors.white,
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold),
+                              ),
+                            ),
                           ),
-                          width: size.width * 0.45,
-                          height: size.height * 0.35,
                         ),
-                      )
-                    ],
-                  ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      GestureDetector(
-                        onTap: () => Navigator.push(
+                      ],
+                    ),
+                    SizedBox(height: 10),
+                    GestureDetector(
+                      onTap: () => Navigator.push(
+                        context,
+                        PageTransition(
+                          child: HorseRacing(),
+                          type: PageTransitionType.topToBottom,
+                          duration: 400.ms,
+                        ),
+                      ),
+                      child: Container(
+                        alignment: Alignment.bottomLeft,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: NetworkImage(
+                              'http://192.168.1.83:8000/asset/ThumnbailApp/HorseRacing.jpg',
+                            ),
+                            fit: BoxFit.cover,
+                          ),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        width: size.width,
+                        height: size.width * 0.44,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Horse Racing',
+                            style: TextStyle(
+                              fontSize: 17,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        GestureDetector(
+                          onTap: () => Navigator.push(
                             context,
-                            MaterialPageRoute(
-                              builder: (context) => HorseRacing(),
-                            )),
-                        child: Column(
-                          children: [
-                            Container(
-                              alignment: Alignment.topCenter,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/hurdanmori.jpg'),
-                                      fit: BoxFit.cover)),
+                            PageTransition(
+                              child: Anklebone(),
+                              type: PageTransitionType.leftToRightWithFade,
+                              duration: 400.ms,
+                            ),
+                          ),
+                          child: Container(
+                            alignment: Alignment.bottomLeft,
+                            decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    'http://192.168.1.83:8000/asset/ThumnbailApp/AngleBoneShooting.jpg',
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
+                                borderRadius: BorderRadius.circular(15)),
+                            width: size.width * 0.44,
+                            height: size.width * 0.44,
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                'Horse racing',
+                                'Ankle Bone Shooting',
                                 style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold),
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white,
+                                ),
                               ),
-                              width: size.width * 0.45,
-                              height: size.height * 0.35,
-                            )
-                          ],
+                            ),
+                          ),
                         ),
-                      ),
-                      Column(
-                        children: [
-                          GestureDetector(
-                            onTap: () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => Anklebone(),
-                                )),
-                            child: Container(
-                              alignment: Alignment.topCenter,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/shagai.jpg'),
-                                      fit: BoxFit.cover)),
-                              child: Text(
-                                'Anklebone archery',
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold),
+                        Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/CamelRacing.jpg',
+                                ),
+                                fit: BoxFit.cover,
                               ),
-                              width: size.width * 0.45,
-                              height: size.height * 0.17,
+                              borderRadius: BorderRadius.circular(15)),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Camel Racing',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          GestureDetector(
-                            onTap: () {
-                              showDialog(
-                                context: context,
-                                builder: (context) => Coming_Soon(),
-                              );
-                            },
-                            child: Container(
-                              alignment: Alignment.topCenter,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/sport.jpg'),
-                                      fit: BoxFit.cover)),
-                              child: Text(
-                                'Horseback archery',
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              width: size.width * 0.45,
-                              height: size.height * 0.17,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
-                  )
-                ],
+                        ),
+                      ],
+                    )
+                  ],
+                ),
               ),
             ),
-            SizedBox(
-              height: 10,
-            )
+            SizedBox(height: 15),
           ],
         ),
       ),

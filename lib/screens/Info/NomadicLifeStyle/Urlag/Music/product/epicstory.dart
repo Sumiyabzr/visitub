@@ -24,7 +24,7 @@ class _TuuliState extends State<Tuuli> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.tuuli))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.tuuli))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

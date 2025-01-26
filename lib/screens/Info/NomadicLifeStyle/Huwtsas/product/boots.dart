@@ -24,7 +24,7 @@ class _BootsState extends State<Boots> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.gutal))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.gutal))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -99,7 +99,7 @@ class _BootsState extends State<Boots> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.gutal2))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.gutal2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -131,7 +131,7 @@ class _BootsState extends State<Boots> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.gutal3))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.gutal3))),
                 width: size.width,
                 height: size.width,
               ),
@@ -163,7 +163,7 @@ class _BootsState extends State<Boots> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.gutal4))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.gutal4))),
                 width: size.width,
                 height: size.width,
               ),

@@ -30,7 +30,7 @@ class _DayScreenState extends State<DayScreen> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/S.jpg'))),
+                          'http://192.168.1.83:8000/asset/S.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -166,7 +166,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (1 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (1 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -179,7 +179,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (2 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (2 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -192,7 +192,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (3 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (3 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -205,7 +205,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (4 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (4 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -218,7 +218,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (5 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (5 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -231,7 +231,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (6 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (6 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -244,7 +244,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (7 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (7 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -257,7 +257,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/SukhbaatarSquare (8 of 8).jpg'),
+                                  'http://192.168.1.83:8000/asset/SukhbaatarSquare (8 of 8).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -311,7 +311,7 @@ class _DayScreenState extends State<DayScreen> {
                                 size: 20,
                               ),
                               Text(
-                                'Get Directions',
+                                'Get\nDirections',
                                 style: TextStyle(fontSize: 12),
                               )
                             ],
@@ -338,7 +338,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chinggis (4 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chinggis (4 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -351,7 +351,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chinggis (3 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chinggis (3 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -364,7 +364,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chinggis (2 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chinggis (2 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -377,7 +377,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chinggis (1 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chinggis (1 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -431,7 +431,7 @@ class _DayScreenState extends State<DayScreen> {
                                 size: 20,
                               ),
                               Text(
-                                'Get Directions',
+                                'Get\nDirections',
                                 style: TextStyle(fontSize: 12),
                               )
                             ],
@@ -465,7 +465,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chinggis (3 of 3).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chinggis (3 of 3).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -478,7 +478,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chinggis (2 of 3).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chinggis (2 of 3).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -491,7 +491,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chinggis (1 of 3).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chinggis (1 of 3).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -536,7 +536,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Galleria (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/Galleria (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -549,7 +549,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gobi (1 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gobi (1 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -562,7 +562,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gobi (2 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gobi (2 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -575,7 +575,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gobi (3 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gobi (3 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -588,7 +588,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gobi (4 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gobi (4 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -601,7 +601,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gobi (5 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gobi (5 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -691,7 +691,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chojin (1 of 2).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chojin (1 of 2).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -704,7 +704,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Chojin (2 of 2).jpg'),
+                                  'http://192.168.1.83:8000/asset/Chojin (2 of 2).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -717,7 +717,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gandan (1 of 2).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gandan (1 of 2).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -730,7 +730,7 @@ class _DayScreenState extends State<DayScreen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gandan (2 of 2).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gandan (2 of 2).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

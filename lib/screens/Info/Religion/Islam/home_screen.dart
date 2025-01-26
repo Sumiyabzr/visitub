@@ -26,7 +26,7 @@ class _IslamState extends State<Islam> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Other/Muslim - 1.jpg'))),
+                          'http://192.168.1.83:8000/asset/Other/Muslim - 1.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -78,7 +78,10 @@ class _IslamState extends State<Islam> {
                         color: Colors.white,
                         fontSize: 25,
                         fontWeight: FontWeight.bold),
-                  ).animate().flipV(delay: 500.ms).move(delay: 300.ms, duration: 600.ms),
+                  )
+                      .animate()
+                      .flipV(delay: 500.ms)
+                      .move(delay: 300.ms, duration: 600.ms),
                   SizedBox(height: 5),
                   Text(
                     'Islam in Mongolia is a minority religion practiced by a small but significant portion of the population. While Mongolia is traditionally a Buddhist country, Islam has been present in the region for centuries, particularly among the ethnic Kazakh communities.Here are some key points about Islam in Mongolia:History: Islam arrived in Mongolia during the 13th century when the Mongol Empire, led by Genghis Khan and his successors, expanded its territories across Central Asia and the Middle East. As a result, Mongols came into contact with various Islamic cultures and adopted Islam to varying degrees.Ethnic Muslim Communities: The majority of Muslims in Mongolia belong to the ethnic Kazakh community, who are descendants of Kazakhs who migrated from neighboring Kazakhstan. The Kazakh community, concentrated mainly in western Mongolia, practices Sunni Islam.',
@@ -100,7 +103,7 @@ class _IslamState extends State<Islam> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Muslim - 2.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Muslim - 2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -113,7 +116,7 @@ class _IslamState extends State<Islam> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Muslim - 3.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Muslim - 3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -126,7 +129,7 @@ class _IslamState extends State<Islam> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Muslim - 4.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Muslim - 4.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -160,7 +163,7 @@ class _IslamState extends State<Islam> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/no.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/no.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -173,7 +176,7 @@ class _IslamState extends State<Islam> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/no.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/no.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -186,7 +189,7 @@ class _IslamState extends State<Islam> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/no.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/no.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -199,7 +202,7 @@ class _IslamState extends State<Islam> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/no.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/no.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

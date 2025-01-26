@@ -29,7 +29,7 @@ class _VerifyState extends State<Verify> {
                     width: size.width,
                     height: size.height,
                     child: Image.network(
-                      'http://192.168.1.111:8000/asset/login.jpg',
+                      'http://192.168.1.83:8000/asset/login.jpg',
                       fit: BoxFit.cover,
                     ),
                   ),

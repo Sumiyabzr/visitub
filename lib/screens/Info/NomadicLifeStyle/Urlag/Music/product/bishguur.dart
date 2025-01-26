@@ -24,7 +24,7 @@ class _BishguurState extends State<Bishguur> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(''))),
+                      image: NetworkImage('http://192.168.1.83:8000/asset/images/ulaanbaatar history/bishguur-1.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -86,16 +86,7 @@ class _BishguurState extends State<Bishguur> {
                 ],
               ),
             ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
-                ),
-                width: size.width,
-                height: size.width,
-              ),
-            ),
+          
             Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 0),
@@ -116,16 +107,7 @@ class _BishguurState extends State<Bishguur> {
                 ],
               ),
             ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
-                ),
-                width: size.width,
-                height: size.width,
-              ),
-            ),
+          
             Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 0),
@@ -146,16 +128,7 @@ class _BishguurState extends State<Bishguur> {
                 ],
               ),
             ),
-             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
-                ),
-                width: size.width,
-                height: size.width,
-              ),
-            ),
+           
             Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 0),
@@ -176,16 +149,7 @@ class _BishguurState extends State<Bishguur> {
                 ],
               ),
             ),
-             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
-                ),
-                width: size.width,
-                height: size.width,
-              ),
-            ),
+            
             Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 0),

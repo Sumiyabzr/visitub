@@ -23,7 +23,7 @@ class _GeneralTravelGearState extends State<GeneralTravelGear> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.travelgear),
+                      image: NetworkImage(AppStyle.travelgear),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,

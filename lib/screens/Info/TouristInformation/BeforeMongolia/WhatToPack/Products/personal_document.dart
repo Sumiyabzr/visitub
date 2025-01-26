@@ -23,7 +23,7 @@ class _PersonalDocumentState extends State<PersonalDocument> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.documents),
+                      image: NetworkImage(AppStyle.documents),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,

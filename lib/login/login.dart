@@ -33,7 +33,7 @@ class _LoginState extends State<Login> {
                     width: size.width,
                     height: size.height,
                     child: Image.network(
-                      'http://192.168.1.111:8000/asset/login.jpg',
+                      'http://192.168.1.83:8000/asset/login.jpg',
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -159,7 +159,7 @@ class _LoginState extends State<Login> {
                                         width: size.width * 0.28,
                                         height: size.height * 0.12,
                                         child: Image.network(
-                                          'http://192.168.1.111:8000/asset/fb.png',
+                                          'http://192.168.1.83:8000/asset/fb.png',
                                         ),
                                       ),
                                       Container(
@@ -170,7 +170,7 @@ class _LoginState extends State<Login> {
                                         width: size.width * 0.28,
                                         height: size.height * 0.12,
                                         child: Image.network(
-                                          'http://192.168.1.111:8000/asset/google.png',
+                                          'http://192.168.1.83:8000/asset/google.png',
                                         ),
                                       ),
                                       Container(

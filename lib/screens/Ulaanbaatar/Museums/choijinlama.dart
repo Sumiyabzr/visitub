@@ -16,18 +16,18 @@ class _ChoijinLamaState extends State<ChoijinLama> {
   late YoutubePlayerController _youtubeController;
 
   final List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(2%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(3%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(4%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(5%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(6%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(7%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(8%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(9%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(10%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(11%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(1%20of%2011).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/q (1 of 1).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(2%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(3%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(4%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(5%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(6%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(7%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(8%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(9%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(10%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(11%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/ChoijinLama%20(1%20of%2011).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/q (1 of 1).jpg",
   ];
 
   bool showYoutubePlayer = false;

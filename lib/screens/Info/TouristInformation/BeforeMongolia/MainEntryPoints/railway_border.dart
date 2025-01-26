@@ -24,7 +24,7 @@ class _RailwayBorderState extends State<RailwayBorder> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.railway), fit: BoxFit.cover),
+                      image: NetworkImage(AppStyle.railway), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 width: size.width,

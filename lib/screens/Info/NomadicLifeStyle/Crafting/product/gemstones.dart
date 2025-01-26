@@ -25,7 +25,7 @@ class _GemstonesState extends State<Gemstones> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.gemstones))),
+                      image: NetworkImage(AppStyle.gemstones))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -192,7 +192,7 @@ class _GemstonesState extends State<Gemstones> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.hoorog))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.hoorog))),
                 width: size.width,
                 height: size.width,
               ),

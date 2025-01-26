@@ -13,14 +13,14 @@ class Dashchoilin extends StatefulWidget {
 
 class _DashchoilinState extends State<Dashchoilin> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (9 of 10).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (3 of 10).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (4 of 10).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (5 of 10).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (6 of 10).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (7 of 10).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (8 of 10).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (10 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (9 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (3 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (4 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (5 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (6 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (7 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (8 of 10).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (10 of 10).jpg",
   ];
 
   @override

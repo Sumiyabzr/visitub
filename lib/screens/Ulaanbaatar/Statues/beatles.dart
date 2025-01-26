@@ -13,7 +13,7 @@ class Beatles extends StatefulWidget {
 
 class _BeatlesState extends State<Beatles> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Other/beatles.jpg",
+    "http://192.168.1.83:8000/asset/Other/beatles.jpg",
   ];
   @override
   Widget build(BuildContext context) {

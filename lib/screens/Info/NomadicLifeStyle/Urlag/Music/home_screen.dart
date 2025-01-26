@@ -62,7 +62,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage(AppStyle.morinhuur))),
+                            image: NetworkImage(AppStyle.morinhuur))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -77,7 +77,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image:
-                            DecorationImage(image: AssetImage(AppStyle.yatga))),
+                            DecorationImage(image: NetworkImage(AppStyle.yatga))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -92,7 +92,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage(AppStyle.huuchir))),
+                            image: NetworkImage(AppStyle.huuchir))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -143,7 +143,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image:
-                            DecorationImage(image: AssetImage(AppStyle.limbe))),
+                            DecorationImage(image: NetworkImage(AppStyle.limbe))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -158,7 +158,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage(AppStyle.tovshuur))),
+                            image: NetworkImage(AppStyle.tovshuur))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -172,7 +172,8 @@ class _MusicState extends State<Music> {
                   child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
-                        color: Colors.grey),
+                        image: DecorationImage(
+                            image: NetworkImage(AppStyle.bishguur))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -223,7 +224,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage(AppStyle.shamandrum))),
+                            image: NetworkImage(AppStyle.shamandrum))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -238,7 +239,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage(AppStyle.urtiinduu))),
+                            image: NetworkImage(AppStyle.urtiinduu))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -253,7 +254,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage(AppStyle.boginoduu))),
+                            image: NetworkImage(AppStyle.boginoduu))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -303,7 +304,7 @@ class _MusicState extends State<Music> {
                   child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
-                        color: Colors.grey),
+                        image: DecorationImage(image: NetworkImage(AppStyle.throat))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -318,7 +319,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image: DecorationImage(
-                            image: AssetImage(AppStyle.magtaal))),
+                            image: NetworkImage(AppStyle.magtaal))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -333,7 +334,7 @@ class _MusicState extends State<Music> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         image:
-                            DecorationImage(image: AssetImage(AppStyle.tuuli))),
+                            DecorationImage(image: NetworkImage(AppStyle.tuuli))),
                     width: size.width * 0.3,
                     height: size.width * 0.3,
                   ),
@@ -347,6 +348,7 @@ class _MusicState extends State<Music> {
                   width: size.width * 0.3,
                   child: Text(
                     'Throat Singing',
+
                     textAlign: TextAlign.center,
                   ),
                 ),

@@ -24,7 +24,7 @@ class _LimbeState extends State<Limbe> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.limbe))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.limbe))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -99,7 +99,7 @@ class _LimbeState extends State<Limbe> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.limbe2))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.limbe2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -117,7 +117,7 @@ class _LimbeState extends State<Limbe> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd5.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd5.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -130,7 +130,7 @@ class _LimbeState extends State<Limbe> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd4.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd4.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -143,7 +143,7 @@ class _LimbeState extends State<Limbe> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd3.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd3.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -178,7 +178,7 @@ class _LimbeState extends State<Limbe> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.limbe3))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.limbe3))),
                 width: size.width,
                 height: size.width,
               ),
@@ -236,7 +236,7 @@ class _LimbeState extends State<Limbe> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.limbe4))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.limbe4))),
                 width: size.width,
                 height: size.width,
               ),
@@ -277,7 +277,7 @@ class _LimbeState extends State<Limbe> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd2.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd2.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),
@@ -290,7 +290,7 @@ class _LimbeState extends State<Limbe> {
             //               borderRadius: BorderRadius.circular(20),
             //               image: DecorationImage(
             //                   image: NetworkImage(
-            //                       'http://192.168.1.111:8000/asset/budd1.jpg'),
+            //                       'http://192.168.1.83:8000/asset/budd1.jpg'),
             //                   fit: BoxFit.cover,
             //                   filterQuality: FilterQuality.high)),
             //         ),

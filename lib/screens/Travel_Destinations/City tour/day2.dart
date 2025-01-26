@@ -30,7 +30,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Gandan (1 of 1).jpg'))),
+                          'http://192.168.1.83:8000/asset/Gandan (1 of 1).jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -131,7 +131,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                                           size: 20,
                                         ),
                                         Text(
-                                          'Get Directions',
+                                          'Get\nDirections',
                                           style: TextStyle(fontSize: 12),
                                         )
                                       ],
@@ -166,7 +166,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gandan (1 of 2)-2.jpg'),
+                                  'http://192.168.1.83:8000/asset/Gandan (1 of 2)-2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -179,7 +179,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gandan (1 of 3).jpg'),
+                                  'http://192.168.1.83:8000/asset/Gandan (1 of 3).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -192,7 +192,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Gandan (2 of 2)-2.jpg'),
+                                  'http://192.168.1.83:8000/asset/Gandan (2 of 2)-2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -274,7 +274,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Zaisan (2 of 3).jpg'),
+                                  'http://192.168.1.83:8000/asset/Zaisan (2 of 3).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -287,7 +287,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Zaisan (3 of 3).jpg'),
+                                  'http://192.168.1.83:8000/asset/Zaisan (3 of 3).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -340,7 +340,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                                 size: 20,
                               ),
                               Text(
-                                'Get Directions',
+                                'Get\nDirections',
                                 style: TextStyle(fontSize: 12),
                               )
                             ],
@@ -368,7 +368,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Bogd (1 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Bogd (1 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -381,7 +381,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Bogd (2 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Bogd (2 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -394,7 +394,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Bogd (3 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Bogd (3 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -407,7 +407,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Bogd (4 of 4).jpg'),
+                                  'http://192.168.1.83:8000/asset/Bogd (4 of 4).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -452,7 +452,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TumenEkh (1 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/TumenEkh (1 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -465,7 +465,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TumenEkh (2 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/TumenEkh (2 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -478,7 +478,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TumenEkh (3 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/TumenEkh (3 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -491,7 +491,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TumenEkh (4 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/TumenEkh (4 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -504,7 +504,7 @@ class _Day2ScreenState extends State<Day2Screen> {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/TumenEkh (5 of 5).jpg'),
+                                  'http://192.168.1.83:8000/asset/TumenEkh (5 of 5).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

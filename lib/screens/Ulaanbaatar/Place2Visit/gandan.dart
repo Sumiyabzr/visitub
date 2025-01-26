@@ -13,14 +13,14 @@ class Gandan extends StatefulWidget {
 
 class _GandanState extends State<Gandan> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Other/Гандан (8 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (2 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (1 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (3 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (4 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (5 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (6 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (7 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (8 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (2 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (1 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (3 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (4 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (5 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (6 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (7 of 8).jpg",
   ];
 
   @override

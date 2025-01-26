@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:visitub/style/app_style.dart';
 
 class Embassies extends StatefulWidget {
   const Embassies({super.key});
@@ -26,7 +27,10 @@ class _EmbassiesState extends State<Embassies> {
                 alignment: Alignment.center,
                 fit: StackFit.expand,
                 children: [
-                  Image(image: AssetImage('assets/images/emb.png'), fit: BoxFit.cover,),
+                  Image(
+                    image: NetworkImage(AppStyle.embessies),
+                    fit: BoxFit.cover,
+                  ),
                   SafeArea(
                     child: Padding(
                       padding: EdgeInsets.only(top: 12),
@@ -83,7 +87,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/united states.png'),
+                                    'http://192.168.1.83:8000/asset/united states.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -111,7 +115,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/russia.png'),
+                                    'http://192.168.1.83:8000/asset/russia.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -139,7 +143,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/china.png'),
+                                    'http://192.168.1.83:8000/asset/china.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -158,7 +162,10 @@ class _EmbassiesState extends State<Embassies> {
                     children: [
                       GestureDetector(
                         onTap: () {
-                          showDialog(context: context, builder: (context) => Japan(),);
+                          showDialog(
+                            context: context,
+                            builder: (context) => Japan(),
+                          );
                         },
                         child: Container(
                           alignment: Alignment.center,
@@ -169,7 +176,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/japan.png'),
+                                    'http://192.168.1.83:8000/asset/japan.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -183,7 +190,10 @@ class _EmbassiesState extends State<Embassies> {
                       ),
                       GestureDetector(
                         onTap: () {
-                          showDialog(context: context, builder: (context) => Korea(),);
+                          showDialog(
+                            context: context,
+                            builder: (context) => Korea(),
+                          );
                         },
                         child: Container(
                           alignment: Alignment.center,
@@ -194,7 +204,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/south korea.png'),
+                                    'http://192.168.1.83:8000/asset/south korea.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -208,7 +218,10 @@ class _EmbassiesState extends State<Embassies> {
                       ),
                       GestureDetector(
                         onTap: () {
-                          showDialog(context: context, builder: (context) => Germany(),);
+                          showDialog(
+                            context: context,
+                            builder: (context) => Germany(),
+                          );
                         },
                         child: Container(
                           alignment: Alignment.center,
@@ -219,7 +232,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/germany.png'),
+                                    'http://192.168.1.83:8000/asset/germany.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -238,7 +251,10 @@ class _EmbassiesState extends State<Embassies> {
                     children: [
                       GestureDetector(
                         onTap: () {
-                          showDialog(context: context, builder: (context) => Turkey(),);
+                          showDialog(
+                            context: context,
+                            builder: (context) => Turkey(),
+                          );
                         },
                         child: Container(
                           alignment: Alignment.center,
@@ -249,7 +265,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/turkey.png'),
+                                    'http://192.168.1.83:8000/asset/turkey.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -263,7 +279,10 @@ class _EmbassiesState extends State<Embassies> {
                       ),
                       GestureDetector(
                         onTap: () {
-                          showDialog(context: context, builder: (context) => French(),);
+                          showDialog(
+                            context: context,
+                            builder: (context) => French(),
+                          );
                         },
                         child: Container(
                           alignment: Alignment.center,
@@ -274,7 +293,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/france.png'),
+                                    'http://192.168.1.83:8000/asset/france.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -288,7 +307,10 @@ class _EmbassiesState extends State<Embassies> {
                       ),
                       GestureDetector(
                         onTap: () {
-                          showDialog(context: context, builder: (context) => UnitedKingdom(),);
+                          showDialog(
+                            context: context,
+                            builder: (context) => UnitedKingdom(),
+                          );
                         },
                         child: Container(
                           alignment: Alignment.center,
@@ -299,7 +321,7 @@ class _EmbassiesState extends State<Embassies> {
                             children: [
                               Image(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/united kingdom.png'),
+                                    'http://192.168.1.83:8000/asset/united kingdom.png'),
                                 width: 48,
                                 height: 48,
                               ),
@@ -315,7 +337,10 @@ class _EmbassiesState extends State<Embassies> {
                   ),
                   GestureDetector(
                     onTap: () {
-                      showDialog(context: context, builder: (context) => India(),);
+                      showDialog(
+                        context: context,
+                        builder: (context) => India(),
+                      );
                     },
                     child: Container(
                       alignment: Alignment.center,
@@ -326,7 +351,7 @@ class _EmbassiesState extends State<Embassies> {
                         children: [
                           Image(
                             image: NetworkImage(
-                                'http://192.168.1.111:8000/asset/india.png'),
+                                'http://192.168.1.83:8000/asset/india.png'),
                             width: 48,
                             height: 48,
                           ),
@@ -348,7 +373,6 @@ class _EmbassiesState extends State<Embassies> {
   }
 }
 
-
 class America extends StatefulWidget {
   const America({super.key});
 
@@ -367,58 +391,73 @@ class _AmericaState extends State<America> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/united states.png'),
+                  backgroundImage: NetworkImage(
+                      'http://192.168.1.83:8000/asset/united states.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the United States of America', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the United States of America',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 7007-6001'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              Clipboard.setData(ClipboardData(text: data));
-                            }, icon: Icon(Icons.copy))
+                            IconButton(
+                                onPressed: () {
+                                  Clipboard.setData(ClipboardData(text: data));
+                                },
+                                icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Denver Street #3, 11th Micro-District, Ulaanbaatar 14190, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Denver Street #3, 11th Micro-District, Ulaanbaatar 14190, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class Russia extends StatefulWidget {
   const Russia({super.key});
@@ -437,58 +476,69 @@ class _RussiaState extends State<Russia> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/russia.png'),
+                  backgroundImage: NetworkImage(
+                      'http://192.168.1.83:8000/asset/russia.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the Russian Federation', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the Russian Federation',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 329350'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Enkhtaivan Avenue #15, Ulaanbaatar 15160, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Enkhtaivan Avenue #15, Ulaanbaatar 15160, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class China extends StatefulWidget {
   const China({super.key});
@@ -507,58 +557,69 @@ class _ChinaState extends State<China> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/china.png'),
+                  backgroundImage:
+                      NetworkImage('http://192.168.1.83:8000/asset/china.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the People`s Republic of China', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the People`s Republic of China',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 329041'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Enkhtaivan Avenue #6, Ulaanbaatar 14170, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Enkhtaivan Avenue #6, Ulaanbaatar 14170, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class Japan extends StatefulWidget {
   const Japan({super.key});
@@ -577,58 +638,69 @@ class _JapanState extends State<Japan> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/japan.png'),
+                  backgroundImage:
+                      NetworkImage('http://192.168.1.83:8000/asset/japan.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of Japan', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of Japan',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11322125'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Seoul Street #11, 1st Khoroo, Chingeltei District, Ulaanbaatar 15160, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Seoul Street #11, 1st Khoroo, Chingeltei District, Ulaanbaatar 15160, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class Korea extends StatefulWidget {
   const Korea({super.key});
@@ -647,58 +719,69 @@ class _KoreaState extends State<Korea> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/south korea.png'),
+                  backgroundImage: NetworkImage(
+                      'http://192.168.1.83:8000/asset/south korea.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the People`s Republic of Korea', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the People`s Republic of Korea',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 324303'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Olympic Street #16, Sukhbaatar District, Ulaanbaatar 14210, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Olympic Street #16, Sukhbaatar District, Ulaanbaatar 14210, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class Germany extends StatefulWidget {
   const Germany({super.key});
@@ -717,58 +800,69 @@ class _GermanyState extends State<Germany> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/germany.png'),
+                  backgroundImage: NetworkImage(
+                      'http://192.168.1.83:8000/asset/germany.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the Federal Republic of Germany', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the Federal Republic of Germany',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 329833'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Enkhtaivan Avenue #34, Ulaanbaatar 14192, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Enkhtaivan Avenue #34, Ulaanbaatar 14192, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class Turkey extends StatefulWidget {
   const Turkey({super.key});
@@ -787,58 +881,69 @@ class _TurkeyState extends State<Turkey> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/turkey.png'),
+                  backgroundImage: NetworkImage(
+                      'http://192.168.1.83:8000/asset/turkey.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the Republic of Turkey', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the Republic of Turkey',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 320926'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Seoul Street #1, 1st Khoroo, Chingeltei District, Ulaanbaatar 14230')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Seoul Street #1, 1st Khoroo, Chingeltei District, Ulaanbaatar 14230')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class French extends StatefulWidget {
   const French({super.key});
@@ -857,58 +962,69 @@ class _FrenchState extends State<French> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/france.png'),
+                  backgroundImage: NetworkImage(
+                      'http://192.168.1.83:8000/asset/france.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the French Republic', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the French Republic',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 312433'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Olympic Street #14, Sukhbaatar District, Ulaanbaatar 14190, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Olympic Street #14, Sukhbaatar District, Ulaanbaatar 14190, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class UnitedKingdom extends StatefulWidget {
   const UnitedKingdom({super.key});
@@ -927,58 +1043,69 @@ class _UnitedKingdomState extends State<UnitedKingdom> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/united kingdom.png'),
+                  backgroundImage: NetworkImage(
+                      'http://192.168.1.83:8000/asset/united kingdom.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the United Kingdom', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the United Kingdom',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 310603'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Seoul Street #19, Sukhbaatar District, Ulaanbaatar 14241, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Seoul Street #19, Sukhbaatar District, Ulaanbaatar 14241, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }
 }
-
 
 class India extends StatefulWidget {
   const India({super.key});
@@ -997,53 +1124,65 @@ class _IndiaState extends State<India> {
         backgroundColor: Colors.black12.withOpacity(0.1),
         body: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-          color: Colors.white
-          ),
+              borderRadius: BorderRadius.circular(20), color: Colors.white),
           width: double.maxFinite,
-          child: Padding(padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
             child: Column(
               children: [
                 CircleAvatar(
-                  backgroundImage: NetworkImage('http://192.168.1.111:8000/asset/india.png'),
+                  backgroundImage:
+                      NetworkImage('http://192.168.1.83:8000/asset/india.png'),
                   radius: 45,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 25),
-                  child: Column(
-                    children: [
-                      Container(
-                        width: size.width,
-                        child: Text('Embassy of the People`s Republic of India', style: TextStyle(fontWeight: FontWeight.bold), textAlign: TextAlign.center,)),
-                        SizedBox(height: 20,),
+                    padding: EdgeInsets.symmetric(horizontal: 25),
+                    child: Column(
+                      children: [
+                        Container(
+                            width: size.width,
+                            child: Text(
+                              'Embassy of the People`s Republic of India',
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            )),
+                        SizedBox(
+                          height: 20,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.phone),
-                            SizedBox(width: 10,),
+                            SizedBox(
+                              width: 10,
+                            ),
                             Text('+976 11 350116'),
                             Spacer(),
-                            IconButton(onPressed: () {
-                              
-                            }, icon: Icon(Icons.copy))
+                            IconButton(onPressed: () {}, icon: Icon(Icons.copy))
                           ],
                         ),
-                        SizedBox(height: 30,),
+                        SizedBox(
+                          height: 30,
+                        ),
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 10,),
-                            Expanded(child: Text('Village No. 1, 15 Khan-Uul District, Ulaanbaatar, Mongolia')),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Expanded(
+                                child: Text(
+                                    'Village No. 1, 15 Khan-Uul District, Ulaanbaatar, Mongolia')),
                           ],
                         )
-                    ],
-                  )
-                    )
+                      ],
+                    ))
               ],
             ),
           ),
         ),
-        
       ),
     );
   }

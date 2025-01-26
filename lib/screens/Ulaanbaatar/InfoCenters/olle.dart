@@ -24,7 +24,7 @@ class _OlleState extends State<Olle> {
                       bottomLeft: Radius.circular(10),
                       bottomRight: Radius.circular(10)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.olle), fit: BoxFit.cover)),
+                      image: NetworkImage(AppStyle.olle), fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.7,
             ),

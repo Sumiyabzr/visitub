@@ -13,10 +13,10 @@ class Zorig extends StatefulWidget {
 
 class _ZorigState extends State<Zorig> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Other/Zorig1.jpg",
-    "http://192.168.1.111:8000/asset/Other/Zorig2.jpg",
-    "http://192.168.1.111:8000/asset/Other/Zorig3.jpg",
-    "http://192.168.1.111:8000/asset/Other/Zorig3.jpg",
+    "http://192.168.1.83:8000/asset/Other/Zorig1.jpg",
+    "http://192.168.1.83:8000/asset/Other/Zorig2.jpg",
+    "http://192.168.1.83:8000/asset/Other/Zorig3.jpg",
+    "http://192.168.1.83:8000/asset/Other/Zorig3.jpg",
   ];
 
   @override

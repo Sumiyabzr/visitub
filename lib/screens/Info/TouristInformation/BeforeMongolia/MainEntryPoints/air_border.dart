@@ -24,7 +24,7 @@ class _AirBorderState extends State<AirBorder> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.airborder), fit: BoxFit.cover),
+                      image: NetworkImage(AppStyle.airborder), fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),
                 width: size.width,

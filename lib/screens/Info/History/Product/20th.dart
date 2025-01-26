@@ -29,7 +29,7 @@ class _IndependenceState extends State<Independence> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
-                      image: AssetImage(AppStyle.early4))),
+                      image: NetworkImage(AppStyle.early4))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -105,7 +105,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.early),
+                              image: NetworkImage(AppStyle.early),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -117,7 +117,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.early2),
+                              image: NetworkImage(AppStyle.early2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -129,7 +129,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.early3),
+                              image: NetworkImage(AppStyle.early3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -141,7 +141,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.early4),
+                              image: NetworkImage(AppStyle.early4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -187,7 +187,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.communist),
+                              image: NetworkImage(AppStyle.communist),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -199,7 +199,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.communist4),
+                              image: NetworkImage(AppStyle.communist4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -211,7 +211,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.communist2),
+                              image: NetworkImage(AppStyle.communist2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -223,7 +223,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.communist3),
+                              image: NetworkImage(AppStyle.communist3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -236,7 +236,7 @@ class _IndependenceState extends State<Independence> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -249,7 +249,7 @@ class _IndependenceState extends State<Independence> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -293,7 +293,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.demo),
+                              image: NetworkImage(AppStyle.demo),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -305,7 +305,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.demo2),
+                              image: NetworkImage(AppStyle.demo2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -317,7 +317,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.demo3),
+                              image: NetworkImage(AppStyle.demo3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -329,7 +329,7 @@ class _IndependenceState extends State<Independence> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.demo4),
+                              image: NetworkImage(AppStyle.demo4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -342,7 +342,7 @@ class _IndependenceState extends State<Independence> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -355,7 +355,7 @@ class _IndependenceState extends State<Independence> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

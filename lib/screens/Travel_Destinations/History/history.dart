@@ -65,13 +65,17 @@ class _HistoryState extends State<History> {
                 SizedBox(
                   height: 15,
                 ),
-                Container(
-                  width: MediaQuery.of(context).size.width,
-                  height: 300,
-                  child: Image(
-                    image: AssetImage(AppStyle.earlysettlement),
-                    fit: BoxFit.cover,
-                  ),
+                Column(
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width,
+                      height: 300,
+                      // color: Colors.amber,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(image: NetworkImage(AppStyle.earlysettlement))
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 15,
@@ -99,7 +103,7 @@ class _HistoryState extends State<History> {
                   width: MediaQuery.of(context).size.width,
                   height: 300,
                   child: Image(
-                    image: AssetImage(AppStyle.estab),
+                    image: NetworkImage(AppStyle.estab),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -127,7 +131,7 @@ class _HistoryState extends State<History> {
                   width: MediaQuery.of(context).size.width,
                   height: 300,
                   child: Image(
-                    image: AssetImage(AppStyle.th),
+                    image: NetworkImage(AppStyle.th),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -157,7 +161,7 @@ class _HistoryState extends State<History> {
                   width: MediaQuery.of(context).size.width,
                   height: 300,
                   child: Image(
-                    image: AssetImage(AppStyle.chinese),
+                    image: NetworkImage(AppStyle.chinese),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -187,7 +191,7 @@ class _HistoryState extends State<History> {
                   width: MediaQuery.of(context).size.width,
                   height: 300,
                   child: Image(
-                    image: AssetImage(AppStyle.social),
+                    image: NetworkImage(AppStyle.social),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -217,7 +221,7 @@ class _HistoryState extends State<History> {
                   width: MediaQuery.of(context).size.width,
                   height: 300,
                   child: Image(
-                    image: AssetImage(AppStyle.democ),
+                    image: NetworkImage(AppStyle.democ),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -247,7 +251,7 @@ class _HistoryState extends State<History> {
                   width: MediaQuery.of(context).size.width,
                   height: 300,
                   child: Image(
-                    image: AssetImage(AppStyle.modernub),
+                    image: NetworkImage(AppStyle.modernub),
                     fit: BoxFit.cover,
                   ),
                 ),

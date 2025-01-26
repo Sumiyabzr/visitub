@@ -23,7 +23,7 @@ class _ElectronicsState extends State<Electronics> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.electronics),
+                      image: NetworkImage(AppStyle.electronics),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,

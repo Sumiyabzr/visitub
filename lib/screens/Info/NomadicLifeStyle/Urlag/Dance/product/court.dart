@@ -24,7 +24,7 @@ class _CourtDanceState extends State<CourtDance> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.court))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.court))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

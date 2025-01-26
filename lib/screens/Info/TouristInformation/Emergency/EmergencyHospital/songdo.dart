@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:visitub/style/app_style.dart';
 
 class Songdo extends StatefulWidget {
   const Songdo({super.key});
@@ -20,7 +21,7 @@ class _SongdoState extends State<Songdo> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('assets/images/songdo.png'),
+                      image: NetworkImage(AppStyle.songdo),
                       fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),

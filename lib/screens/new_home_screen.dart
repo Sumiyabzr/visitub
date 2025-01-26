@@ -4,21 +4,21 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hexcolor/hexcolor.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:visitub/bloc/bloc.dart';
 import 'package:visitub/bloc/events.dart';
 import 'package:visitub/bloc/states.dart';
 import 'package:visitub/components/new_home_card.dart';
-import 'package:visitub/screens/Profile/profile.dart';
+import 'package:visitub/screens/Events/home_screen.dart';
+import 'package:visitub/screens/Info/home_screen.dart';
 import 'package:visitub/screens/TopDestAcc/dest/Genghis.dart';
 import 'package:visitub/screens/TopDestAcc/dest/Khongoryn.dart';
 import 'package:visitub/screens/TopDestAcc/dest/Ulaan.dart';
 import 'package:visitub/screens/TopDestAcc/dest/acc/asaland.dart';
 import 'package:visitub/screens/TopDestAcc/dest/acc/gobi.dart';
 import 'package:visitub/screens/TopDestAcc/dest/acc/resortworldterelj.dart';
-import 'package:visitub/screens/coming_soon_pop_up.dart';
-import 'package:visitub/style/app_style.dart';
+import 'package:visitub/screens/Ulaanbaatar/InfoCenters/TICenter.dart';
+import 'package:visitub/screens/Ulaanbaatar/InfoCenters/home_screen.dart';
 
 class NewHomeScreen extends StatefulWidget {
   const NewHomeScreen({super.key});
@@ -55,28 +55,28 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
   @override
   Widget build(BuildContext context) {
     List<String> Home_photo = [
-      "http://192.168.1.111:8000/asset/images/gobi.png",
-      "http://192.168.1.111:8000/asset/images/deelte.jpg",
+      "http://192.168.1.83:8000/asset/images/gobi.png",
+      "http://192.168.1.83:8000/asset/images/deelte.jpg",
     ];
     List<String> Home_photo1 = [
-      "http://192.168.1.111:8000/asset/images/moriduud.jpg",
-      "http://192.168.1.111:8000/asset/images/deeltei1.jpg",
+      "http://192.168.1.83:8000/asset/images/moriduud.jpg",
+      "http://192.168.1.83:8000/asset/images/deeltei1.jpg",
     ];
 
     List<List> Topics = [
       [
         "Ulaanbaatar",
-        "http://192.168.1.111:8000/asset/images/VisitUb.jpg",
+        "http://192.168.1.83:8000/asset/images/VisitUb.jpg",
         // "assets/images/VisitUb.jpg",
       ],
-      [
-        "Destinations",
-        "http://192.168.1.111:8000/asset/images/Destination.jpg",
-        // "assets/images/Destination.jpg",
-      ],
+      // [
+      //   "Destinations",
+      //   "http://192.168.1.83:8000/asset/images/Destination.jpg",
+      //   // "assets/images/Destination.jpg",
+      // ],
       [
         "Information",
-        "http://192.168.1.111:8000/asset/images/Information.jpg",
+        "http://192.168.1.83:8000/asset/images/Information.jpg",
         // "assets/images/Information.jpg",
       ],
       // [
@@ -85,19 +85,19 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
       // ],
       [
         "Commercial",
-        "http://192.168.1.111:8000/asset/images/Commercial1.jpg",
+        "http://192.168.1.83:8000/asset/images/Commercial1.jpg",
         // "assets/images/Commercial1.jpg",
       ],
       [
         "Events",
-        "http://192.168.1.111:8000/asset/images/Events.jpg",
+        "http://192.168.1.83:8000/asset/images/Events.jpg",
         // "assets/images/Events.jpg",
       ],
-      [
-        "Accommodation",
-        "http://192.168.1.111:8000/asset/images/Accommodation.jpg",
-        // "assets/images/Accommodation.jpg",
-      ],
+      // [
+      //   "Accommodation",
+      //   "http://192.168.1.83:8000/asset/images/Accommodation.jpg",
+      //   // "assets/images/Accommodation.jpg",
+      // ],
       // [
       //   "Maps",
       //   "assets/images/MapsIcon.png",
@@ -148,7 +148,7 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                           decoration: const BoxDecoration(
                             image: DecorationImage(
                                 image: NetworkImage(
-                                  "http://192.168.1.111:8000/asset/images/Nomadic.jpg",
+                                  "http://192.168.1.83:8000/asset/images/Nomadic.jpg",
                                 ),
                                 fit: BoxFit.cover),
                           ),
@@ -315,52 +315,6 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                             .slide(delay: 500.ms, duration: 800.ms),
                       ),
                     ),
-                    Stack(
-                      children: [
-                        SizedBox(
-                          height: size.height * 0.3,
-                          width: size.width,
-                          child: PageView.builder(
-                              controller: _controller,
-                              itemCount: Home_photo.length,
-                              clipBehavior: Clip.antiAliasWithSaveLayer,
-                              itemBuilder: (context, index) => Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 15),
-                                    child: Container(
-                                      width: size.width,
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        image: DecorationImage(
-                                          image:
-                                              NetworkImage(Home_photo1[index]),
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    ),
-                                  )),
-                        ),
-                        SizedBox(
-                          width: size.width,
-                          height: size.height * 0.28,
-                          child: Align(
-                            alignment: Alignment.bottomCenter,
-                            child: SmoothPageIndicator(
-                              controller: _controller,
-                              count: Home_photo.length,
-                              effect: ScrollingDotsEffect(
-                                  activeDotScale: 1,
-                                  activeStrokeWidth: 1,
-                                  fixedCenter: true,
-                                  activeDotColor: Colors.red,
-                                  dotColor: Color.fromARGB(255, 109, 109, 109),
-                                  dotHeight: 8,
-                                  dotWidth: 8),
-                            ),
-                          ),
-                        )
-                      ],
-                    ),
                     SizedBox(
                       height: 10,
                     ),
@@ -369,415 +323,460 @@ class _NewHomeScreenState extends State<NewHomeScreen> {
                         horizontal: 15,
                       ),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text(
-                                'Accomodation',
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                              // IconButton(onPressed: () {
-                              //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                              // }, icon: Icon(Icons.arrow_forward_rounded, color: Colors.black,))
-                              GestureDetector(
-                                onTap: () {
-                                  // showDialog(context: context, builder: (context) => Coming_Soon(),);
-                                },
-                                child: Icon(Icons.arrow_forward_rounded,
-                                    color: Colors.black),
-                              )
+                              Text('Information Center',  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),),
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Religious(),)),
+                                      child: Icon(Icons.arrow_forward_rounded, color: Colors.black,))
                             ],
                           ),
+                          Container(
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: NetworkImage('http://192.168.1.83:8000/asset/zadgai/Information_center/touristinfocenter.jpg'),
+                              fit: BoxFit.cover),
+                              borderRadius: BorderRadius.circular(15)
+                            ),
+                            width: size.width,
+                            height: size.width * 0.6,
+                          ),
+                          SizedBox(height: 10,),
+                            Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text('Featured Events',  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),),
+                                    GestureDetector(
+                                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Events_screen(),)),
+                                      child: Icon(Icons.arrow_forward_rounded, color: Colors.black,))
+                            ],
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: NetworkImage('http://192.168.1.83:8000/asset/Events/EagleFestival/EagleFestival (5 of 13).jpg'),
+                              fit: BoxFit.cover),
+                              borderRadius: BorderRadius.circular(15)
+                            ),
+                            width: size.width,
+                            height: size.width * 0.6,
+                          ),
+                          // Row(
+                          //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          //   children: [
+                          //     Text(
+                          //       ' Top accomodation',
+                          //       style: TextStyle(
+                          //         fontSize: 18,
+                          //         fontWeight: FontWeight.bold,
+                          //       ),
+                          //     ),
+                          //     // IconButton(onPressed: () {
+                          //     //   showDialog(context: context, builder: (context) => Coming_Soon(),);
+                          //     // }, icon: Icon(Icons.arrow_forward_rounded, color: Colors.black,))
+                          //     GestureDetector(
+                          //       onTap: () {
+                          //         // showDialog(context: context, builder: (context) => Coming_Soon(),);
+                          //       },
+                          //       child: Icon(Icons.arrow_forward_rounded,
+                          //           color: Colors.black),
+                          //     )
+                          //   ],
+                          // ),
+                          // SizedBox(height: 10),
+                          // Stack(
+                          //   children: [
+                          //     GestureDetector(
+                          //       onTap: () {
+                          //         // showDialog(context: context, builder: (context) => Coming_Soon(),);
+                          //       },
+                          //       child: Container(
+                          //         decoration: BoxDecoration(
+                          //             borderRadius: BorderRadius.circular(10),
+                          //             image: DecorationImage(
+                          //                 image: NetworkImage(
+                          //                     'http://192.168.1.83:8000/asset/yy.png'),
+                          //                 alignment: Alignment.centerRight,
+                          //                 fit: BoxFit.contain),
+                          //             color: Colors.black),
+                          //         width: size.width,
+                          //         height: size.height * 0.1,
+                          //         child: Column(
+                          //             mainAxisAlignment:
+                          //                 MainAxisAlignment.center,
+                          //             children: [
+                          //               Text(
+                          //                 'Энд сурталчлаарай ',
+                          //                 style: TextStyle(color: Colors.white),
+                          //               ),
+                          //               Text(
+                          //                 'Сурталчилгаагаа өнөөдрөөс эхлүүл',
+                          //                 style: TextStyle(color: Colors.white),
+                          //               ),
+                          //             ]),
+                          //       ),
+                          //     ),
+                          //   ],
+                          // ),
                           SizedBox(
                             height: 10,
                           ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              GestureDetector(
-                                onTap: () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          ResortWorldTerelj('accProduct'),
-                                    )),
-                                // () {
-                                //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                                // },
-                                child: Container(
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(10),
-                                        image: DecorationImage(
-                                            image: NetworkImage(
-                                                'http://192.168.1.111:8000/asset/Accommodition/Nearby/Terelj/RWT/Acc-550.jpg'),
-                                            fit: BoxFit.cover)),
-                                    width: size.width * 0.3,
-                                    height: size.width * 0.35),
-                              ),
-                              GestureDetector(
-                                onTap: () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          AsaLand('accProduct'),
-                                    )),
-                                // () {
-                                //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                                // },
-                                child: Container(
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(10),
-                                        image: DecorationImage(
-                                            image: NetworkImage(
-                                                'http://192.168.1.111:8000/asset/Other/asaland_home.jpg'),
-                                            fit: BoxFit.cover)),
-                                    width: size.width * 0.3,
-                                    height: size.width * 0.35),
-                              ),
-                              GestureDetector(
-                                onTap: () => Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => Gobi('accProduct'),
-                                    )),
-                                // () {
-                                //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                                // },
-                                child: Container(
-                                    decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(10),
-                                        image: DecorationImage(
-                                            image: NetworkImage(
-                                                'http://192.168.1.111:8000/asset/Accommodition/Southern/TsagaanSuvraga/Gobi/Acc-285.jpg'),
-                                            fit: BoxFit.cover)),
-                                    width: size.width * 0.3,
-                                    height: size.width * 0.35),
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Container(
-                                    width: size.width * 0.3,
-                                    child: Text(
-                                      'Resort World Terelj',
-                                      textAlign: TextAlign.center,
-                                    ),
-                                  ),
-                                  Container(
-                                    width: size.width * 0.3,
-                                    child: Text(
-                                      'Asa Land',
-                                      textAlign: TextAlign.center,
-                                    ),
-                                  ),
-                                  Container(
-                                    width: size.width * 0.3,
-                                    child: Text(
-                                      'Gobi Caravanserai',
-                                      textAlign: TextAlign.center,
-                                    ),
-                                  ),
-                                ],
-                              )
-                            ],
-                          ),
+                          // Row(
+                          //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          //   children: [
+                          //     GestureDetector(
+                          //       onTap: () => Navigator.push(
+                          //           context,
+                          //           MaterialPageRoute(
+                          //             builder: (context) =>
+                          //                 ResortWorldTerelj('accProduct'),
+                          //           )),
+                          //       // () {
+                          //       //   showDialog(context: context, builder: (context) => Coming_Soon(),);
+                          //       // },
+                          //       child: Container(
+                          //           decoration: BoxDecoration(
+                          //               borderRadius: BorderRadius.circular(10),
+                          //               image: DecorationImage(
+                          //                   image: NetworkImage(
+                          //                       'http://192.168.1.83:8000/asset/Accommodition/Nearby/Terelj/RWT/Acc-550.jpg'),
+                          //                   fit: BoxFit.cover)),
+                          //           width: size.width * 0.3,
+                          //           height: size.width * 0.35),
+                          //     ),
+                          //     GestureDetector(
+                          //       onTap: () => Navigator.push(
+                          //           context,
+                          //           MaterialPageRoute(
+                          //             builder: (context) =>
+                          //                 AsaLand('accProduct'),
+                          //           )),
+                          //       // () {
+                          //       //   showDialog(context: context, builder: (context) => Coming_Soon(),);
+                          //       // },
+                          //       child: Container(
+                          //           decoration: BoxDecoration(
+                          //               borderRadius: BorderRadius.circular(10),
+                          //               image: DecorationImage(
+                          //                   image: NetworkImage(
+                          //                       'http://192.168.1.83:8000/asset/Other/asaland_home.jpg'),
+                          //                   fit: BoxFit.cover)),
+                          //           width: size.width * 0.3,
+                          //           height: size.width * 0.35),
+                          //     ),
+                          //     GestureDetector(
+                          //       onTap: () => Navigator.push(
+                          //           context,
+                          //           MaterialPageRoute(
+                          //             builder: (context) => Gobi('accProduct'),
+                          //           )),
+                          //       // () {
+                          //       //   showDialog(context: context, builder: (context) => Coming_Soon(),);
+                          //       // },
+                          //       child: Container(
+                          //           decoration: BoxDecoration(
+                          //               borderRadius: BorderRadius.circular(10),
+                          //               image: DecorationImage(
+                          //                   image: NetworkImage(
+                          //                       'http://192.168.1.83:8000/asset/Accommodition/Southern/TsagaanSuvraga/Gobi/Acc-285.jpg'),
+                          //                   fit: BoxFit.cover)),
+                          //           width: size.width * 0.3,
+                          //           height: size.width * 0.35),
+                          //     ),
+                          //   ],
+                          // ),
+                          // Column(
+                          //   children: [
+                          //     Row(
+                          //       mainAxisAlignment:
+                          //           MainAxisAlignment.spaceBetween,
+                          //       children: [
+                          //         Container(
+                          //           width: size.width * 0.3,
+                          //           child: Text(
+                          //             'Resort World Terelj',
+                          //             textAlign: TextAlign.center,
+                          //           ),
+                          //         ),
+                          //         Container(
+                          //           width: size.width * 0.3,
+                          //           child: Text(
+                          //             'Asa Land',
+                          //             textAlign: TextAlign.center,
+                          //           ),
+                          //         ),
+                          //         Container(
+                          //           width: size.width * 0.3,
+                          //           child: Text(
+                          //             'Gobi Caravanserai',
+                          //             textAlign: TextAlign.center,
+                          //           ),
+                          //         ),
+                          //       ],
+                          //     )
+                          //   ],
+                          // ),
                           SizedBox(
                             height: 15,
                           ),
-                          Stack(
-                            children: [
-                              GestureDetector(
-                                onTap: () {
-                                  // showDialog(context: context, builder: (context) => Coming_Soon(),);
-                                },
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(10),
-                                      image: DecorationImage(
-                                          image: NetworkImage(
-                                              'http://192.168.1.111:8000/asset/yy.png'),
-                                          alignment: Alignment.centerRight,
-                                          fit: BoxFit.contain),
-                                      color: Colors.black),
-                                  width: size.width,
-                                  height: size.height * 0.1,
-                                  child: Column(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Text(
-                                          'Энд сурталчлаарай ',
-                                          style: TextStyle(color: Colors.white),
-                                        ),
-                                        Text(
-                                          'Сурталчилгаагаа өнөөдрөөс эхлүүл',
-                                          style: TextStyle(color: Colors.white),
-                                        ),
-                                      ]),
-                                ),
-                              ),
-                            ],
-                          ),
                           SizedBox(
                             height: 10,
                           ),
-                          Column(
-                            children: [
-                              Row(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(
-                                    'Top destinations',
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                  GestureDetector(
-                                    onTap: () {
-                                      // showDialog(context: context, builder: (context) => Coming_Soon(),);
-                                    },
-                                    child: Icon(
-                                      Icons.arrow_forward_rounded,
-                                      color: Colors.black,
-                                    ),
-                                  )
-                                ],
-                              ),
-                              SizedBox(
-                                height: 15,
-                              )
-                            ],
-                          )
+                          // Column(
+                          //   children: [
+                          //     Row(
+                          //       mainAxisAlignment:
+                          //           MainAxisAlignment.spaceBetween,
+                          //       children: [
+                          //         Text(
+                          //           'Top destinations',
+                          //           style: TextStyle(
+                          //             fontSize: 18,
+                          //             fontWeight: FontWeight.bold,
+                          //           ),
+                          //         ),
+                          //         GestureDetector(
+                          //           onTap: () {
+                          //             // showDialog(context: context, builder: (context) => Coming_Soon(),);
+                          //           },
+                          //           child: Icon(
+                          //             Icons.arrow_forward_rounded,
+                          //             color: Colors.black,
+                          //           ),
+                          //         )
+                          //       ],
+                          //     ),
+                          //     SizedBox(
+                          //       height: 15,
+                          //     )
+                          //   ],
+                          // )
                         ],
                       ),
                     ),
-                    Container(
-                      height: size.width * 0.45,
-                      child: ListView(
-                        scrollDirection: Axis.horizontal,
-                        children: [
-                          Padding(
-                            padding:
-                                EdgeInsetsDirectional.symmetric(horizontal: 15),
-                            child: InkWell(
-                              onTap: () => Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => TopGenghis(),
-                                  )),
-                              // () {
-                              //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                              // },
-                              child: Container(
-                                alignment: Alignment.center,
-                                width: size.width * 0.4,
-                                decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/Destination/Nearby/GenghisComplex/Main Genghis Khan Statue complex.jpg'),
-                                      fit: BoxFit.cover),
-                                  borderRadius: BorderRadius.circular(20),
-                                  color: Colors.grey,
-                                ),
-                                child: Container(
-                                  width: size.width * 0.3,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(15),
-                                  ),
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(8),
-                                    child: BackdropFilter(
-                                        filter: ImageFilter.blur(
-                                          sigmaX: 1,
-                                          sigmaY: 5,
-                                        ),
-                                        child: Padding(
-                                          padding: EdgeInsets.all(5),
-                                          child: Container(
-                                            width: size.width * 0.3,
-                                            child: Text(
-                                              'Genghis Khan Statue Complex',
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 12,
-                                                  color: Colors.white),
-                                            ),
-                                          ),
-                                        )),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                          InkWell(
-                            onTap: () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => TopKhongorynEls(),
-                                )),
-                            // () {
-                            //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                            // },
-                            child: Container(
-                              alignment: Alignment.center,
-                              width: size.width * 0.4,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                    image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/Other/hongoriin_els_1.jpg'),
-                                    fit: BoxFit.cover),
-                                borderRadius: BorderRadius.circular(20),
-                                color: Colors.grey,
-                              ),
-                              child: Container(
-                                width: size.width * 0.3,
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(15),
-                                ),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(8),
-                                  child: BackdropFilter(
-                                      filter: ImageFilter.blur(
-                                        sigmaX: 1,
-                                        sigmaY: 5,
-                                      ),
-                                      child: Padding(
-                                        padding: EdgeInsets.all(5),
-                                        child: Container(
-                                          width: size.width * 0.3,
-                                          child: Text(
-                                            'Khongoryn Els',
-                                            textAlign: TextAlign.center,
-                                            style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 12,
-                                                color: Colors.white),
-                                          ),
-                                        ),
-                                      )),
-                                ),
-                              ),
-                            ),
-                          ),
-                          Padding(
-                            padding:
-                                EdgeInsetsDirectional.symmetric(horizontal: 15),
-                            child: InkWell(
-                              onTap: () => Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => TopUlaanTsutgalan(),
-                                  )),
-                              // () {
-                              //   showDialog(context: context, builder: (context) => Coming_Soon(),);
-                              // },
-                              child: Container(
-                                alignment: Alignment.center,
-                                width: size.width * 0.4,
-                                decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/Destination/Central/UlaanTsutgalan/Ulaan Tsutgalan-3Z.jpg'),
-                                      fit: BoxFit.cover),
-                                  borderRadius: BorderRadius.circular(20),
-                                  color: Colors.grey,
-                                ),
-                                child: Container(
-                                  width: size.width * 0.3,
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(15),
-                                  ),
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(8),
-                                    child: BackdropFilter(
-                                        filter: ImageFilter.blur(
-                                          sigmaX: 1,
-                                          sigmaY: 5,
-                                        ),
-                                        child: Padding(
-                                          padding: EdgeInsets.all(5),
-                                          child: Container(
-                                            width: size.width * 0.3,
-                                            child: Text(
-                                              'Ulaan tsutgalan',
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 12,
-                                                  color: Colors.white),
-                                            ),
-                                          ),
-                                        )),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
+                    // Container(
+                    //   height: size.width * 0.45,
+                    //   child: ListView(
+                    //     scrollDirection: Axis.horizontal,
+                    //     children: [
+                    //       Padding(
+                    //         padding:
+                    //             EdgeInsetsDirectional.symmetric(horizontal: 15),
+                    //         child: InkWell(
+                    //           onTap: () => Navigator.push(
+                    //               context,
+                    //               MaterialPageRoute(
+                    //                 builder: (context) => TopGenghis(),
+                    //               )),
+                    //           // () {
+                    //           //   showDialog(context: context, builder: (context) => Coming_Soon(),);
+                    //           // },
+                    //           child: Container(
+                    //             alignment: Alignment.center,
+                    //             width: size.width * 0.4,
+                    //             decoration: BoxDecoration(
+                    //               image: DecorationImage(
+                    //                   image: NetworkImage(
+                    //                       'http://192.168.1.83:8000/asset/Destination/Nearby/GenghisComplex/Main Genghis Khan Statue complex.jpg'),
+                    //                   fit: BoxFit.cover),
+                    //               borderRadius: BorderRadius.circular(20),
+                    //               color: Colors.grey,
+                    //             ),
+                    //             child: Container(
+                    //               width: size.width * 0.3,
+                    //               decoration: BoxDecoration(
+                    //                 borderRadius: BorderRadius.circular(15),
+                    //               ),
+                    //               child: ClipRRect(
+                    //                 borderRadius: BorderRadius.circular(8),
+                    //                 child: BackdropFilter(
+                    //                     filter: ImageFilter.blur(
+                    //                       sigmaX: 1,
+                    //                       sigmaY: 5,
+                    //                     ),
+                    //                     child: Padding(
+                    //                       padding: EdgeInsets.all(5),
+                    //                       child: Container(
+                    //                         width: size.width * 0.3,
+                    //                         child: Text(
+                    //                           'Genghis Khan Statue Complex',
+                    //                           textAlign: TextAlign.center,
+                    //                           style: TextStyle(
+                    //                               fontWeight: FontWeight.bold,
+                    //                               fontSize: 12,
+                    //                               color: Colors.white),
+                    //                         ),
+                    //                       ),
+                    //                     )),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //       ),
+                    //       InkWell(
+                    //         onTap: () => Navigator.push(
+                    //             context,
+                    //             MaterialPageRoute(
+                    //               builder: (context) => TopKhongorynEls(),
+                    //             )),
+                    //         // () {
+                    //         //   showDialog(context: context, builder: (context) => Coming_Soon(),);
+                    //         // },
+                    //         child: Container(
+                    //           alignment: Alignment.center,
+                    //           width: size.width * 0.4,
+                    //           decoration: BoxDecoration(
+                    //             image: DecorationImage(
+                    //                 image: NetworkImage(
+                    //                     'http://192.168.1.83:8000/asset/Other/hongoriin_els_1.jpg'),
+                    //                 fit: BoxFit.cover),
+                    //             borderRadius: BorderRadius.circular(20),
+                    //             color: Colors.grey,
+                    //           ),
+                    //           child: Container(
+                    //             width: size.width * 0.3,
+                    //             decoration: BoxDecoration(
+                    //               borderRadius: BorderRadius.circular(15),
+                    //             ),
+                    //             child: ClipRRect(
+                    //               borderRadius: BorderRadius.circular(8),
+                    //               child: BackdropFilter(
+                    //                   filter: ImageFilter.blur(
+                    //                     sigmaX: 1,
+                    //                     sigmaY: 5,
+                    //                   ),
+                    //                   child: Padding(
+                    //                     padding: EdgeInsets.all(5),
+                    //                     child: Container(
+                    //                       width: size.width * 0.3,
+                    //                       child: Text(
+                    //                         'Khongoryn Els',
+                    //                         textAlign: TextAlign.center,
+                    //                         style: TextStyle(
+                    //                             fontWeight: FontWeight.bold,
+                    //                             fontSize: 12,
+                    //                             color: Colors.white),
+                    //                       ),
+                    //                     ),
+                    //                   )),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //       ),
+                    //       Padding(
+                    //         padding:
+                    //             EdgeInsetsDirectional.symmetric(horizontal: 15),
+                    //         child: InkWell(
+                    //           onTap: () => Navigator.push(
+                    //               context,
+                    //               MaterialPageRoute(
+                    //                 builder: (context) => TopUlaanTsutgalan(),
+                    //               )),
+                    //           // () {
+                    //           //   showDialog(context: context, builder: (context) => Coming_Soon(),);
+                    //           // },
+                    //           child: Container(
+                    //             alignment: Alignment.center,
+                    //             width: size.width * 0.4,
+                    //             decoration: BoxDecoration(
+                    //               image: DecorationImage(
+                    //                   image: NetworkImage(
+                    //                       'http://192.168.1.83:8000/asset/Destination/Central/UlaanTsutgalan/Ulaan Tsutgalan-3Z.jpg'),
+                    //                   fit: BoxFit.cover),
+                    //               borderRadius: BorderRadius.circular(20),
+                    //               color: Colors.grey,
+                    //             ),
+                    //             child: Container(
+                    //               width: size.width * 0.3,
+                    //               decoration: BoxDecoration(
+                    //                 borderRadius: BorderRadius.circular(15),
+                    //               ),
+                    //               child: ClipRRect(
+                    //                 borderRadius: BorderRadius.circular(8),
+                    //                 child: BackdropFilter(
+                    //                     filter: ImageFilter.blur(
+                    //                       sigmaX: 1,
+                    //                       sigmaY: 5,
+                    //                     ),
+                    //                     child: Padding(
+                    //                       padding: EdgeInsets.all(5),
+                    //                       child: Container(
+                    //                         width: size.width * 0.3,
+                    //                         child: Text(
+                    //                           'Ulaan tsutgalan',
+                    //                           textAlign: TextAlign.center,
+                    //                           style: TextStyle(
+                    //                               fontWeight: FontWeight.bold,
+                    //                               fontSize: 12,
+                    //                               color: Colors.white),
+                    //                         ),
+                    //                       ),
+                    //                     )),
+                    //               ),
+                    //             ),
+                    //           ),
+                    //         ),
+                    //       )
+                    //     ],
+                    //   ),
+                    // ),
                     SizedBox(
                       height: 15,
                     ),
-                    Stack(
-                      children: [
-                        SizedBox(
-                          height: size.height * 0.6,
-                          width: size.width,
-                          child: PageView.builder(
-                              controller: _controller_,
-                              itemCount: Home_photo.length,
-                              clipBehavior: Clip.antiAliasWithSaveLayer,
-                              itemBuilder: (context, index) => Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 15),
-                                    child: Container(
-                                      width: size.width,
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(15),
-                                        image: DecorationImage(
-                                          image:
-                                              NetworkImage(Home_photo[index]),
-                                          //  image: DecorationImage(image: NetworkImage(data[1][2]), fit: BoxFit.cover)
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    ),
-                                  )),
-                        ),
-                        SizedBox(
-                          width: size.width,
-                          height: size.height * 0.58,
-                          child: Align(
-                            alignment: Alignment.bottomCenter,
-                            child: SmoothPageIndicator(
-                              controller: _controller_,
-                              count: Home_photo.length,
-                              effect: ScrollingDotsEffect(
-                                  activeDotScale: 1,
-                                  activeStrokeWidth: 1,
-                                  fixedCenter: true,
-                                  activeDotColor: Colors.red,
-                                  dotColor: Color.fromARGB(255, 109, 109, 109),
-                                  dotHeight: 8,
-                                  dotWidth: 8),
-                            ),
-                          ),
-                        )
-                      ],
-                    ),
+                    // Stack(
+                    //   children: [
+                    //     SizedBox(
+                    //       height: size.width * 0.6,
+                    //       width: size.width,
+                    //       child: PageView.builder(
+                    //           controller: _controller_,
+                    //           itemCount: Home_photo.length,
+                    //           clipBehavior: Clip.antiAliasWithSaveLayer,
+                    //           itemBuilder: (context, index) => Padding(
+                    //                 padding: const EdgeInsets.symmetric(
+                    //                     horizontal: 15),
+                    //                 child: Container(
+                    //                   width: size.width,
+                    //                   decoration: BoxDecoration(
+                    //                     borderRadius: BorderRadius.circular(15),
+                    //                     image: DecorationImage(
+                    //                       image:
+                    //                           NetworkImage(Home_photo[index]),
+                    //                       //  image: DecorationImage(image: NetworkImage(data[1][2]), fit: BoxFit.cover)
+                    //                       fit: BoxFit.cover,
+                    //                     ),
+                    //                   ),
+                    //                 ),
+                    //               )),
+                    //     ),
+                    //     SizedBox(
+                    //       width: size.width,
+                    //       height: size.width * 0.58,
+                    //       child: Align(
+                    //         alignment: Alignment.bottomCenter,
+                    //         child: SmoothPageIndicator(
+                    //           controller: _controller_,
+                    //           count: Home_photo.length,
+                    //           effect: ScrollingDotsEffect(
+                    //               activeDotScale: 1,
+                    //               activeStrokeWidth: 1,
+                    //               fixedCenter: true,
+                    //               activeDotColor: Colors.red,
+                    //               dotColor: Color.fromARGB(255, 109, 109, 109),
+                    //               dotHeight: 8,
+                    //               dotWidth: 8),
+                    //         ),
+                    //       ),
+                    //     )
+                    //   ],
+                    // ),
                     SizedBox(
                       height: 15,
                     ),

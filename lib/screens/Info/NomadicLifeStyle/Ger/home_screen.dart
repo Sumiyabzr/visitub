@@ -13,10 +13,10 @@ class Ger extends StatefulWidget {
 
 class _GerState extends State<Ger> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/NLS.jpg",
-    "http://192.168.1.111:8000/asset/ger.jpg",
-    "http://192.168.1.111:8000/asset/GerHome.jpg",
-    "http://192.168.1.111:8000/asset/SelenaTravel.jpg",
+    "http://192.168.1.83:8000/asset/NLS.jpg",
+    "http://192.168.1.83:8000/asset/ger.jpg",
+    "http://192.168.1.83:8000/asset/GerHome.jpg",
+    "http://192.168.1.83:8000/asset/SelenaTravel.jpg",
   ];
 
   @override
@@ -43,7 +43,7 @@ class _GerState extends State<Ger> {
                         ),
                         image: DecorationImage(
                             image: NetworkImage(
-                                'http://192.168.1.111:8000/asset/ger.jpg'),
+                                'http://192.168.1.83:8000/asset/ger.jpg'),
                             fit: BoxFit.cover)),
                   ),
                   Align(
@@ -130,7 +130,7 @@ class _GerState extends State<Ger> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(14),
                                 image: DecorationImage(
-                                    image: AssetImage(AppStyle.hana),
+                                    image: NetworkImage(AppStyle.hana),
                                     fit: BoxFit.cover),
                               ),
                               width: size.width * 0.3,
@@ -162,7 +162,7 @@ class _GerState extends State<Ger> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(14),
                                 image: DecorationImage(
-                                    image: AssetImage(AppStyle.haalga),
+                                    image: NetworkImage(AppStyle.haalga),
                                     fit: BoxFit.cover),
                               ),
                               width: size.width * 0.3,
@@ -194,7 +194,7 @@ class _GerState extends State<Ger> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(14),
                                 image: DecorationImage(
-                                    image: AssetImage(AppStyle.toono),
+                                    image: NetworkImage(AppStyle.toono),
                                     fit: BoxFit.cover),
                               ),
                               width: size.width * 0.3,
@@ -234,7 +234,7 @@ class _GerState extends State<Ger> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(14),
                                 image: DecorationImage(
-                                    image: AssetImage(AppStyle.bagana),
+                                    image: NetworkImage(AppStyle.bagana),
                                     fit: BoxFit.cover),
                               ),
                               width: size.width * 0.3,
@@ -266,7 +266,7 @@ class _GerState extends State<Ger> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(14),
                                 image: DecorationImage(
-                                    image: AssetImage(AppStyle.uni),
+                                    image: NetworkImage(AppStyle.uni),
                                     fit: BoxFit.cover),
                               ),
                               width: size.width * 0.3,
@@ -301,7 +301,7 @@ class _GerState extends State<Ger> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(14),
                                 image: DecorationImage(
-                                    image: AssetImage(AppStyle.shal),
+                                    image: NetworkImage(AppStyle.shal),
                                     fit: BoxFit.cover),
                               ),
                               width: size.width * 0.3,
@@ -410,7 +410,7 @@ class _HanaState extends State<Hana> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.hana), fit: BoxFit.cover)),
+                          image: NetworkImage(AppStyle.hana), fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.6,
                 ),
@@ -467,7 +467,7 @@ class _HaalgaState extends State<Haalga> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.haalga),
+                          image: NetworkImage(AppStyle.haalga),
                           fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.6,
@@ -525,7 +525,7 @@ class _ToonoState extends State<Toono> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.toono),
+                          image: NetworkImage(AppStyle.toono),
                           fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.6,
@@ -583,7 +583,7 @@ class _BaganaState extends State<Bagana> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.bagana),
+                          image: NetworkImage(AppStyle.bagana),
                           fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.6,
@@ -641,7 +641,7 @@ class _UniState extends State<Uni> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.uni), fit: BoxFit.cover)),
+                          image: NetworkImage(AppStyle.uni), fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.6,
                 ),
@@ -698,7 +698,7 @@ class _ShalState extends State<Shal> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.shal), fit: BoxFit.cover)),
+                          image: NetworkImage(AppStyle.shal), fit: BoxFit.cover)),
                   width: size.width,
                   height: size.width * 0.6,
                 ),

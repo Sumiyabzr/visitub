@@ -21,43 +21,43 @@ class _MuseumsState extends State<Museums> {
   List data = [
     [
       "Winter Palace of Bogd khaan",
-      "http://192.168.1.111:8000/asset/BogdKhaanMuseum (1 of 1).jpg",
+      "http://192.168.1.83:8000/asset/BogdKhaanMuseum (1 of 1).jpg",
     ],
     [
       "Chinggis Khaan Museum",
-      "http://192.168.1.111:8000/asset/Chinggis%20(4 of 4).jpg"
+      "http://192.168.1.83:8000/asset/Chinggis%20(4 of 4).jpg"
     ],
     [
       "National Museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%201).jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%201).jpg"
     ],
     [
       "Choijin Lama Temple museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/2/ChoijinLama/q (1 of 1).jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/2/ChoijinLama/q (1 of 1).jpg"
     ],
     [
       "Puzzle Museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(1%20of%201).jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(1%20of%201).jpg"
     ],
     [
       "Ulaanbaatar City Museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(7%20of%207).jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(7%20of%207).jpg"
     ],
     [
       "Jukow Museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/3/JukowMuseum/JukowMuseum%20(1%20of%201)-2.jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/3/JukowMuseum/JukowMuseum%20(1%20of%201)-2.jpg"
     ],
     [
       "Military Museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/3/MilitaryMuseum/MilitaryMuseum%20(1%20of%201).jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/3/MilitaryMuseum/MilitaryMuseum%20(1%20of%201).jpg"
     ],
     [
       "Theatre Museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(1%20of%201).jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(1%20of%201).jpg"
     ],
     [
       "Zanabazar Museum",
-      "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(1%20of%201).jpg"
+      "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(1%20of%201).jpg"
     ],
   ];
   @override

@@ -24,7 +24,7 @@ class _TsamState extends State<Tsam> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.tsam))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.tsam))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

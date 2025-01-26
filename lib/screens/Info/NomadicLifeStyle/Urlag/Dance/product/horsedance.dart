@@ -24,7 +24,7 @@ class _HorseDanceState extends State<HorseDance> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(''))),
+                      image: NetworkImage(''))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -90,7 +90,7 @@ class _HorseDanceState extends State<HorseDance> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
+                  image: DecorationImage(image: NetworkImage(''))
                 ),
                 width: size.width,
                 height: size.width,
@@ -120,7 +120,7 @@ class _HorseDanceState extends State<HorseDance> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
+                  image: DecorationImage(image: NetworkImage(''))
                 ),
                 width: size.width,
                 height: size.width,
@@ -150,7 +150,7 @@ class _HorseDanceState extends State<HorseDance> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
+                  image: DecorationImage(image: NetworkImage(''))
                 ),
                 width: size.width,
                 height: size.width,

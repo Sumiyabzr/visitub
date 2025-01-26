@@ -27,7 +27,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
-                      image: AssetImage(AppStyle.eco2))),
+                      image: NetworkImage(AppStyle.eco2))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -103,7 +103,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.eco),
+                              image: NetworkImage(AppStyle.eco),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -115,7 +115,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.eco4),
+                              image: NetworkImage(AppStyle.eco4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -127,7 +127,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.eco3),
+                              image: NetworkImage(AppStyle.eco3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -139,7 +139,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.eco2),
+                              image: NetworkImage(AppStyle.eco2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -185,7 +185,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.nomad),
+                              image: NetworkImage(AppStyle.nomad),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -197,7 +197,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.nomad2),
+                              image: NetworkImage(AppStyle.nomad2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -209,7 +209,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.nomad3),
+                              image: NetworkImage(AppStyle.nomad3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -221,7 +221,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.nomad4),
+                              image: NetworkImage(AppStyle.nomad4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -234,7 +234,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -247,7 +247,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -291,7 +291,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.tour),
+                              image: NetworkImage(AppStyle.tour),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -303,7 +303,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.tour2),
+                              image: NetworkImage(AppStyle.tour2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -315,7 +315,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.tour3),
+                              image: NetworkImage(AppStyle.tour3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -327,7 +327,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.tour4),
+                              image: NetworkImage(AppStyle.tour4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -340,7 +340,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -353,7 +353,7 @@ class _ModernMongoliaState extends State<ModernMongolia> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

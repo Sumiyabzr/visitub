@@ -22,10 +22,10 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
   @override
   Widget build(BuildContext context) {
     List<String> TopPhoto = [
-      "http://192.168.1.111:8000/asset/Chinggis (3 of 4).jpg",
-      "http://192.168.1.111:8000/asset/qq (1 of 1).jpg",
-      "http://192.168.1.111:8000/asset/Galleria (1 of 1).jpg",
-      "http://192.168.1.111:8000/asset/Gandan (3 of 3).jpg"
+      "http://192.168.1.83:8000/asset/Chinggis (3 of 4).jpg",
+      "http://192.168.1.83:8000/asset/qq (1 of 1).jpg",
+      "http://192.168.1.83:8000/asset/Galleria (1 of 1).jpg",
+      "http://192.168.1.83:8000/asset/Gandan (3 of 3).jpg"
     ];
 
     final size = MediaQuery.of(context).size;
@@ -94,7 +94,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                               //         ]),
                               //     image: DecorationImage(
                               //         image: NetworkImage(
-                              //             'http://192.168.1.111:8000/asset/Ellipse.png'),
+                              //             'http://192.168.1.83:8000/asset/Ellipse.png'),
                               //         alignment: Alignment.topRight),
                               //   ),
                               //   child: Container(
@@ -119,7 +119,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                               //               Align(
                               //                 alignment: Alignment.topLeft,
                               //                 child: Image.network(
-                              //                   'http://192.168.1.111:8000/asset/ulaanbaatar.png',
+                              //                   'http://192.168.1.83:8000/asset/ulaanbaatar.png',
                               //                   alignment: Alignment.topLeft,
                               //                 ),
                               //               ),
@@ -202,7 +202,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Image.network(
-                                      'http://192.168.1.111:8000/asset/PTV.png'),
+                                      'http://192.168.1.83:8000/asset/PTV.png'),
                                   Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
@@ -247,7 +247,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Image.network(
-                                    'http://192.168.1.111:8000/asset/Museums.png',
+                                    'http://192.168.1.83:8000/asset/Museums.png',
                                     width: 32,
                                     height: 32,
                                   ),
@@ -303,7 +303,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Image.network(
-                                    'http://192.168.1.111:8000/asset/Statue.png',
+                                    'http://192.168.1.83:8000/asset/Statue.png',
                                     width: 32,
                                     height: 32,
                                   ),
@@ -353,7 +353,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Image.network(
-                                    'http://192.168.1.111:8000/asset/reli.png',
+                                    'http://192.168.1.83:8000/asset/reli.png',
                                     width: 32,
                                     height: 32,
                                   ),
@@ -442,7 +442,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                           color: HexColor('#1862FF'),
                           image: DecorationImage(
                             image: NetworkImage(
-                                'http://192.168.1.111:8000/asset/pana.png'),
+                                'http://192.168.1.83:8000/asset/pana.png'),
                           ),
                         ),
                         child: Column(
@@ -501,7 +501,7 @@ class _UlaanbaatarNState extends State<UlaanbaatarN> {
                                 borderRadius: BorderRadius.circular(10),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/yy.png'),
+                                        'http://192.168.1.83:8000/asset/yy.png'),
                                     alignment: Alignment.centerRight,
                                     fit: BoxFit.contain),
                                 color: Colors.black),

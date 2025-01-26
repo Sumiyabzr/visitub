@@ -49,7 +49,7 @@ class Card_horizantiolState extends State<Card_horizantiol> {
                               image: DecorationImage(
                                   fit: BoxFit.cover,
                                   image: NetworkImage(
-                                      "http://192.168.1.111:8000/asset/" +
+                                      "http://192.168.1.83:8000/asset/" +
                                           provider.accProducts[
                                                       provider.categoryIndex]
                                                   [provider.productIndex]
@@ -148,7 +148,7 @@ class Card_horizantiolState extends State<Card_horizantiol> {
                                   image: DecorationImage(
                                       fit: BoxFit.cover,
                                       image: NetworkImage(
-                                          "http://192.168.1.111:8000/asset/" +
+                                          "http://192.168.1.83:8000/asset/" +
                                               provider.products[
                                                       provider.categoryIndex]
                                                   [widget.index]['photo']))),
@@ -245,7 +245,7 @@ class Card_horizantiolState extends State<Card_horizantiol> {
                                   image: DecorationImage(
                                       fit: BoxFit.cover,
                                       image: NetworkImage(
-                                          "http://192.168.1.111:8000/asset/" +
+                                          "http://192.168.1.83:8000/asset/" +
                                               provider.commProduct[
                                                       provider.categoryIndex]
                                                   [widget.index]['photo']))),
@@ -266,17 +266,17 @@ class Card_horizantiolState extends State<Card_horizantiol> {
                                       style: TextStyle(fontSize: 18),
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 5,
                                   ),
                                   SingleChildScrollView(
                                     scrollDirection: Axis.horizontal,
                                     child: Row(
                                       children: [
-                                        Icon(Icons.location_on, size: 12),
+                                        const Icon(Icons.location_on, size: 12),
                                         SizedBox(
                                           width: size.width * 0.47,
-                                          child: Text(
+                                          child: const Text(
                                               // provider.commProduct[
                                               //         provider.categoryIndex]
                                               //     [widget.index]['location'],
@@ -289,7 +289,7 @@ class Card_horizantiolState extends State<Card_horizantiol> {
                                       ],
                                     ),
                                   ),
-                                  SizedBox(
+                                  const SizedBox(
                                     height: 5,
                                   ),
                                   Expanded(
@@ -299,7 +299,7 @@ class Card_horizantiolState extends State<Card_horizantiol> {
                                         provider.commProduct[
                                                 provider.categoryIndex]
                                             [widget.index]['description'],
-                                        style: TextStyle(
+                                        style: const TextStyle(
                                           fontSize: 10,
                                           fontWeight: FontWeight.w500,
                                         ),

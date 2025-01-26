@@ -13,13 +13,13 @@ class UlaanbaatarCityMuseum extends StatefulWidget {
 
 class _UlaanbaatarCityMuseumState extends State<UlaanbaatarCityMuseum> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(3%20of%207).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(1%20of%207).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(2%20of%207).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(4%20of%207).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(5%20of%207).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(6%20of%207).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(7%20of%207).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(3%20of%207).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(1%20of%207).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(2%20of%207).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(4%20of%207).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(5%20of%207).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(6%20of%207).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/UlaanbaatarCityMuseum/UlaanbaatarCityMuseum%20(7%20of%207).jpg",
   ];
 
   List data = [

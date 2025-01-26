@@ -24,7 +24,7 @@ class _WoodInfoState extends State<WoodInfo> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.wood))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.wood))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -99,7 +99,7 @@ class _WoodInfoState extends State<WoodInfo> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.wood2))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.wood2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -159,7 +159,7 @@ class _WoodInfoState extends State<WoodInfo> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.wood3))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.wood3))),
                 width: size.width,
                 height: size.width,
               ),
@@ -217,7 +217,7 @@ class _WoodInfoState extends State<WoodInfo> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.wood4))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.wood4))),
                 width: size.width,
                 height: size.width,
               ),

@@ -6,7 +6,6 @@ import 'package:visitub/screens/Info/History/Product/ancient.dart';
 import 'package:visitub/screens/Info/History/Product/empire.dart';
 import 'package:visitub/screens/Info/History/Product/modern.dart';
 import 'package:visitub/screens/Info/History/Product/post_imperial.dart';
-import 'package:visitub/style/app_style.dart';
 
 class HistoryInfo extends StatefulWidget {
   const HistoryInfo({super.key});
@@ -42,245 +41,204 @@ class _HistoryInfoState extends State<HistoryInfo> {
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              GestureDetector(
-                onTap: () => Navigator.push(
-                    context,
-                    PageTransition(
-                      child: AncientMongolia(),
-                      type: PageTransitionType.fade,
-                      duration: 900.ms,
-                    )),
-                child: Container(
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
-                          image: AssetImage(AppStyle.ancient),
-                          fit: BoxFit.cover)),
-                  width: size.width,
-                  height: size.width * 0.45,
-                  child: Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        gradient: LinearGradient(
-                            begin: Alignment.bottomCenter,
-                            end: Alignment.center,
-                            colors: [
-                              Colors.black87,
-                              Colors.black12.withOpacity(0.005)
-                            ])),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.all(10),
-                      child: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: Text(
-                          'Ancient Mongolia',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold),
-                        ).animate().slide(delay: 1000.ms, duration: 1500.ms),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    children: [
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                            context,
+                            PageTransition(
+                                child: AncientMongolia(),
+                                type: PageTransitionType.leftToRightWithFade,
+                                duration: 300.ms)),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Ancient Mongolia.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(
+                              15,
+                            ),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Ancient Mongolia',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
                       ),
-                    ),
+                      SizedBox(height: 10),
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          PageTransition(
+                            child: Independence(),
+                            type: PageTransitionType.leftToRightWithFade,
+                            duration: 300.ms,
+                          ),
+                        ),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/images/Independance-1.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            color: Colors.amber,
+                            borderRadius: BorderRadius.circular(
+                              15,
+                            ),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.9,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Independence and 20th Century',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      )
+                    ],
                   ),
-                ),
-              )
-                  .animate()
-                  .fade(delay: 500.ms, duration: 800.ms)
-                  .move(delay: 1000.ms, duration: 1500.ms),
-              SizedBox(
-                height: 15,
+                  Column(
+                    children: [
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          PageTransition(
+                            child: MNEmpire(),
+                            type: PageTransitionType.rightToLeftWithFade,
+                            duration: 300.ms,
+                          ),
+                        ),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Mongol Empire.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(
+                              15,
+                            ),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.9,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'The Mongol Empire (13th - 14th centuries)',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          PageTransition(
+                            child: PostImperial(),
+                            type: PageTransitionType.rightToLeftWithFade,
+                            duration: 300.ms,
+                          ),
+                        ),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/images/ulaanbaatar history/qing.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(
+                              15,
+                            ),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Post-Imperial Period (15th - 19th centuries)',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  )
+                ],
               ),
+              SizedBox(height: 10),
               GestureDetector(
                 onTap: () => Navigator.push(
-                    context,
-                    PageTransition(
-                      child: MNEmpire(),
-                      type: PageTransitionType.fade,
-                      duration: 900.ms,
-                    )),
+                  context,
+                  PageTransition(
+                    child: ModernMongolia(),
+                    type: PageTransitionType.bottomToTop,
+                    duration: 300.ms,
+                  ),
+                ),
                 child: Container(
+                  alignment: Alignment.bottomLeft,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.empire),
-                          fit: BoxFit.cover)),
+                        image: NetworkImage(
+                          'http://192.168.1.83:8000/asset/ThumnbailApp/Modern Mongolia.jpg',
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                      borderRadius: BorderRadius.circular(15)),
                   width: size.width,
-                  height: size.width * 0.45,
-                  child: Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        gradient: LinearGradient(
-                            begin: Alignment.bottomCenter,
-                            end: Alignment.center,
-                            colors: [
-                              Colors.black87,
-                              Colors.black12.withOpacity(0.005)
-                            ])),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.all(10),
-                      child: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: Text(
-                          'The Mongol Empire (13th - 14th centuries)',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold),
-                        ).animate().slide(delay: 1000.ms, duration: 1500.ms),
+                  height: size.width * 0.44,
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Modern Mongolia',
+                      style: TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.w900,
+                        color: Colors.white,
                       ),
                     ),
                   ),
                 ),
-              )
-                  .animate()
-                  .fade(delay: 500.ms, duration: 800.ms)
-                  .move(delay: 1000.ms, duration: 1500.ms),
-              SizedBox(
-                height: 15,
               ),
-              GestureDetector(
-                onTap: () => Navigator.push(
-                    context,
-                    PageTransition(
-                      child: PostImperial(),
-                      type: PageTransitionType.fade,
-                      duration: 900.ms,
-                    )),
-                child: Container(
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
-                          image: AssetImage(AppStyle.period),
-                          fit: BoxFit.cover)),
-                  width: size.width,
-                  height: size.width * 0.45,
-                  child: Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        gradient: LinearGradient(
-                            begin: Alignment.bottomCenter,
-                            end: Alignment.center,
-                            colors: [
-                              Colors.black87,
-                              Colors.black12.withOpacity(0.005)
-                            ])),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.all(10),
-                      child: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: Text(
-                          'Post-Imperial Period (15th - 19th centuries)',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold),
-                        ).animate().slide(delay: 1000.ms, duration: 1500.ms),
-                      ),
-                    ),
-                  ),
-                ),
-              )
-                  .animate()
-                  .fade(delay: 500.ms, duration: 800.ms)
-                  .move(delay: 1000.ms, duration: 1500.ms),
-              SizedBox(
-                height: 15,
-              ),
-              GestureDetector(
-                onTap: () => Navigator.push(
-                    context,
-                    PageTransition(
-                      child: Independence(),
-                      type: PageTransitionType.fade,
-                      duration: 900.ms,
-                    )),
-                child: Container(
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
-                          image: AssetImage(AppStyle.independence),
-                          fit: BoxFit.cover)),
-                  width: size.width,
-                  height: size.width * 0.45,
-                  child: Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        gradient: LinearGradient(
-                            begin: Alignment.bottomCenter,
-                            end: Alignment.center,
-                            colors: [
-                              Colors.black87,
-                              Colors.black12.withOpacity(0.005)
-                            ])),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.all(10),
-                      child: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: Text(
-                          'Independence and 20th Century',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold),
-                        ).animate().slide(delay: 1000.ms, duration: 1500.ms),
-                      ),
-                    ),
-                  ),
-                ),
-              )
-                  .animate()
-                  .fade(delay: 500.ms, duration: 800.ms)
-                  .move(delay: 1000.ms, duration: 1500.ms),
-              SizedBox(
-                height: 15,
-              ),
-              GestureDetector(
-                onTap: () => Navigator.push(
-                    context,
-                    PageTransition(
-                      child: ModernMongolia(),
-                      type: PageTransitionType.fade,
-                      duration: 900.ms,
-                    )),
-                child: Container(
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
-                      image: DecorationImage(
-                          image: AssetImage(AppStyle.modern),
-                          fit: BoxFit.cover)),
-                  width: size.width,
-                  height: size.width * 0.45,
-                  child: Container(
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        gradient: LinearGradient(
-                            begin: Alignment.bottomCenter,
-                            end: Alignment.center,
-                            colors: [
-                              Colors.black87,
-                              Colors.black12.withOpacity(0.005)
-                            ])),
-                    child: Padding(
-                      padding: EdgeInsetsDirectional.all(10),
-                      child: Align(
-                        alignment: Alignment.bottomLeft,
-                        child: Text(
-                          'Modern Mongolia',
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold),
-                        ).animate().slide(delay: 1000.ms, duration: 1500.ms),
-                      ),
-                    ),
-                  ),
-                ),
-              )
-                  .animate()
-                  .fade(delay: 500.ms, duration: 800.ms)
-                  .move(delay: 1000.ms, duration: 1500.ms),
             ],
           ),
         ),

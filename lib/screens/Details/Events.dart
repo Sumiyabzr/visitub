@@ -32,7 +32,7 @@ class _EventDetailState extends State<EventDetail> {
                     image: DecorationImage(
                         fit: BoxFit.cover,
                         filterQuality: FilterQuality.high,
-                        image: NetworkImage("http://192.168.1.111:8000/asset/" +
+                        image: NetworkImage("http://192.168.1.83:8000/asset/" +
                             provider.eventProducts[provider.categoryIndex]
                                 [provider.productIndex]['thumb']))),
                 child: Container(
@@ -158,7 +158,7 @@ class _EventDetailState extends State<EventDetail> {
                               decoration: BoxDecoration(
                                   image: DecorationImage(
                                       image: NetworkImage(
-                                          "http://192.168.1.111:8000/asset/" +
+                                          "http://192.168.1.83:8000/asset/" +
                                               provider.eventProducts[provider
                                                           .categoryIndex]
                                                       [provider.productIndex]
@@ -206,7 +206,7 @@ class _EventDetailState extends State<EventDetail> {
                               decoration: BoxDecoration(
                                   image: DecorationImage(
                                       image: NetworkImage(
-                                          "http://192.168.1.111:8000/asset/" +
+                                          "http://192.168.1.83:8000/asset/" +
                                               provider.eventProducts[provider
                                                           .categoryIndex]
                                                       [provider.productIndex]
@@ -256,7 +256,7 @@ class _EventDetailState extends State<EventDetail> {
                               decoration: BoxDecoration(
                                   image: DecorationImage(
                                       image: NetworkImage(
-                                          "http://192.168.1.111:8000/asset/" +
+                                          "http://192.168.1.83:8000/asset/" +
                                               provider.eventProducts[provider
                                                           .categoryIndex]
                                                       [provider.productIndex]

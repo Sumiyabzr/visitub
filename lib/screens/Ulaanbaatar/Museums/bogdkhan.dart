@@ -13,19 +13,19 @@ class BogdKhan extends StatefulWidget {
 
 class _BogdKhanState extends State<BogdKhan> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(2%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum (1 of 1).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(1%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(3%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(4%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(5%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(6%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(7%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(8%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(9%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(10%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(11%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(12%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(2%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum (1 of 1).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(1%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(3%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(4%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(5%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(6%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(7%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(8%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(9%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(10%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(11%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/BogdKhaaniiMuseum/BogdKhaanMuseum%20(12%20of%2012).jpg",
   ];
 
   List data = [

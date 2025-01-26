@@ -263,7 +263,7 @@ class _AccOverviewState extends State<AccOverview> {
               //                   borderRadius: BorderRadius.circular(5),
               //                 ),
               //                 child: Image.network(
-              //                   "http://192.168.1.111:8000/asset/" +
+              //                   "http://192.168.1.83:8000/asset/" +
               //                       provider.getProducts(widget.data)![
               //                                       provider.categoryIndex]
               //                                   [provider.productIndex]

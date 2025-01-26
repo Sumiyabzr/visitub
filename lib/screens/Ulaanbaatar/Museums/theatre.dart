@@ -13,12 +13,12 @@ class TheatreMuseum extends StatefulWidget {
 
 class _TheatreMuseumState extends State<TheatreMuseum> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(1%20of%205).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(2%20of%205).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(3%20of%205).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(4%20of%205).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(5%20of%205).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(1%20of%205).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(2%20of%205).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(3%20of%205).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(4%20of%205).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(5%20of%205).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/TheatreMuseum/TheatreMuseum%20(1%20of%201).jpg",
   ];
 
   List data = [

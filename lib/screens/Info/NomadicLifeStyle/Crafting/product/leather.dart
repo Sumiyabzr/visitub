@@ -26,7 +26,7 @@ class _LeatherState extends State<Leather> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Other/wool3.jpg'))),
+                          'http://192.168.1.83:8000/asset/Other/wool3.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -163,7 +163,7 @@ class _LeatherState extends State<Leather> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.leather))),
+                        DecorationImage(image: NetworkImage(AppStyle.leather))),
                 width: size.width,
                 height: size.width,
               ),
@@ -196,7 +196,7 @@ class _LeatherState extends State<Leather> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.leather2))),
+                        DecorationImage(image: NetworkImage(AppStyle.leather2))),
                 width: size.width,
                 height: size.width,
               ),

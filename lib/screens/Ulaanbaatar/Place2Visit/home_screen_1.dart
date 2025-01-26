@@ -20,16 +20,16 @@ class Place_to_visit extends StatefulWidget {
 
 class _Place_to_visitState extends State<Place_to_visit> {
   List<String> image = [
-    "http://192.168.1.111:8000/asset/Ub/Cultural/PlacesVisit/SukhbaatarSquare/S%20(1%20of%201).jpg",
-    "http://192.168.1.111:8000/asset/Other/ugluu1.jpg",
-    "http://192.168.1.111:8000/asset/Other/park4.jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%201).jpg",
-    "http://192.168.1.111:8000/asset/Other/narantuul_1.jpg",
-    "http://192.168.1.111:8000/asset/Other/street_food_1.jpg",
-    "http://192.168.1.111:8000/asset/Ub/Cultural/PlacesVisit/GoldenBuddha/Buddha%20(1%20of%202).jpg",
-    "http://192.168.1.111:8000/asset/Zaisan (2 of 3).jpg",
-    "http://192.168.1.111:8000/asset/Other/Гандан (7 of 8).jpg",
-    "http://192.168.1.111:8000/asset/Other/Дашчойлин хийд (10 of 10).jpg"
+    "http://192.168.1.83:8000/asset/Ub/Cultural/PlacesVisit/SukhbaatarSquare/S%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Other/ugluu1.jpg",
+    "http://192.168.1.83:8000/asset/Other/park4.jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Other/narantuul_1.jpg",
+    "http://192.168.1.83:8000/asset/Other/street_food_1.jpg",
+    "http://192.168.1.83:8000/asset/Ub/Cultural/PlacesVisit/GoldenBuddha/Buddha%20(1%20of%202).jpg",
+    "http://192.168.1.83:8000/asset/Zaisan (2 of 3).jpg",
+    "http://192.168.1.83:8000/asset/Other/Гандан (7 of 8).jpg",
+    "http://192.168.1.83:8000/asset/Other/Дашчойлин хийд (10 of 10).jpg"
   ];
 
   @override

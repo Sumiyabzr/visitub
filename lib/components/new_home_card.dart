@@ -49,8 +49,8 @@ class _NewHomeCardState extends State<NewHomeCard> {
           Container(
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10), color: Colors.white),
-            width: (size.width) / 3.4,
-            height: (size.width - 260) / 1,
+            width: (size.width) / 4.5,
+            height: (size.width - 220) / 2,
             child: Stack(
               alignment: Alignment.center,
               children: [

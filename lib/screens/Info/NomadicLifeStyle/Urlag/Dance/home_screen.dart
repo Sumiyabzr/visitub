@@ -45,7 +45,7 @@ class _DanceState extends State<Dance> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.dancing),
+                        image: NetworkImage(AppStyle.dancing),
                         fit: BoxFit.cover)),
                 width: size.width,
                 height: size.width * 0.9,
@@ -72,7 +72,7 @@ class _DanceState extends State<Dance> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.biyelgee),
+                              image: NetworkImage(AppStyle.biyelgee),
                               fit: BoxFit.cover)),
                       width: size.width,
                       height: size.width * 0.4,
@@ -115,7 +115,7 @@ class _DanceState extends State<Dance> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.tsam),
+                              image: NetworkImage(AppStyle.tsam),
                               fit: BoxFit.cover)),
                       width: size.width,
                       height: size.width * 0.4,
@@ -200,7 +200,7 @@ class _DanceState extends State<Dance> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.court),
+                              image: NetworkImage(AppStyle.court),
                               fit: BoxFit.cover)),
                       width: size.width,
                       height: size.width * 0.4,
@@ -243,7 +243,7 @@ class _DanceState extends State<Dance> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.wrestler),
+                              image: NetworkImage(AppStyle.wrestler),
                               fit: BoxFit.cover)),
                       width: size.width,
                       height: size.width * 0.4,

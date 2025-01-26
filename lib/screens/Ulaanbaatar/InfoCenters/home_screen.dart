@@ -54,7 +54,7 @@ class _ReligiousState extends State<Religious> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.government),
+                          image: NetworkImage(AppStyle.government),
                           fit: BoxFit.cover),
                     ),
                     width: size.width * 0.45,
@@ -94,7 +94,7 @@ class _ReligiousState extends State<Religious> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.olle), fit: BoxFit.cover),
+                          image: NetworkImage(AppStyle.olle), fit: BoxFit.cover),
                     ),
                     width: size.width * 0.45,
                     height: size.width * 0.55,
@@ -141,7 +141,7 @@ class _ReligiousState extends State<Religious> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.olle2), fit: BoxFit.cover),
+                          image: NetworkImage(AppStyle.olle2), fit: BoxFit.cover),
                     ),
                     width: size.width * 0.45,
                     height: size.width * 0.55,
@@ -180,7 +180,7 @@ class _ReligiousState extends State<Religious> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.touristinfocenter),
+                          image: NetworkImage(AppStyle.touristinfocenter),
                           fit: BoxFit.cover),
                     ),
                     width: size.width * 0.45,
@@ -228,7 +228,7 @@ class _ReligiousState extends State<Religious> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.touristinfocenter),
+                          image: NetworkImage(AppStyle.touristinfocenter),
                           fit: BoxFit.cover),
                     ),
                     width: size.width * 0.45,
@@ -268,7 +268,7 @@ class _ReligiousState extends State<Religious> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: DecorationImage(
-                          image: AssetImage(AppStyle.mongolpost),
+                          image: NetworkImage(AppStyle.mongolpost),
                           fit: BoxFit.cover),
                     ),
                     width: size.width * 0.45,

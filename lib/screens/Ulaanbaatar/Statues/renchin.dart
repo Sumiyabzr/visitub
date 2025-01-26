@@ -13,10 +13,10 @@ class Renchin extends StatefulWidget {
 
 class _RenchinState extends State<Renchin> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Other/Renchin1.jpg",
-    "http://192.168.1.111:8000/asset/Other/Renchin2.jpg",
-    "http://192.168.1.111:8000/asset/Other/Renchin3.jpg",
-    "http://192.168.1.111:8000/asset/Other/Renchin4.jpg",
+    "http://192.168.1.83:8000/asset/Other/Renchin1.jpg",
+    "http://192.168.1.83:8000/asset/Other/Renchin2.jpg",
+    "http://192.168.1.83:8000/asset/Other/Renchin3.jpg",
+    "http://192.168.1.83:8000/asset/Other/Renchin4.jpg",
   ];
 
   @override

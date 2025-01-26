@@ -44,7 +44,7 @@ class _PaintingState extends State<Painting> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.painting),
+                        image: NetworkImage(AppStyle.painting),
                         fit: BoxFit.cover)),
                 width: size.width,
                 height: size.width * 0.9,
@@ -72,7 +72,7 @@ class _PaintingState extends State<Painting> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.thangka),
+                              image: NetworkImage(AppStyle.thangka),
                               fit: BoxFit.cover)),
                       width: size.width * 0.45,
                       height: size.width * 0.45,
@@ -111,7 +111,7 @@ class _PaintingState extends State<Painting> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.miniature),
+                              image: NetworkImage(AppStyle.miniature),
                               fit: BoxFit.cover)),
                       width: size.width * 0.45,
                       height: size.width * 0.45,
@@ -158,7 +158,7 @@ class _PaintingState extends State<Painting> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.contemporary),
+                              image: NetworkImage(AppStyle.contemporary),
                               fit: BoxFit.cover)),
                       width: size.width * 0.45,
                       height: size.width * 0.45,
@@ -197,7 +197,7 @@ class _PaintingState extends State<Painting> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.murals),
+                              image: NetworkImage(AppStyle.murals),
                               fit: BoxFit.cover)),
                       width: size.width * 0.45,
                       height: size.width * 0.45,

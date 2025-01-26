@@ -23,7 +23,7 @@ class _LocalTaxisState extends State<LocalTaxis> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.localtaxi),
+                        image: NetworkImage(AppStyle.localtaxi),
                         fit: BoxFit.cover)),
                 width: size.width,
                 height: size.width * 0.5,

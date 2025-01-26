@@ -46,7 +46,7 @@ class _AccDetailState extends State<AccDetail> {
                                         ),
                                         image: DecorationImage(
                                             image: NetworkImage(
-                                                "http://192.168.1.111:8000/asset/" +
+                                                "http://192.168.1.83:8000/asset/" +
                                                     provider.getProducts(widget
                                                                     .data)![
                                                                 provider
@@ -82,7 +82,7 @@ class _AccDetailState extends State<AccDetail> {
                                       shape: BoxShape.circle,
                                       image: DecorationImage(
                                           image: NetworkImage(
-                                            "http://192.168.1.111:8000/asset/" +
+                                            "http://192.168.1.83:8000/asset/" +
                                                 provider.getProducts(
                                                                 widget.data)![
                                                             provider
@@ -289,7 +289,7 @@ class _AccDetailState extends State<AccDetail> {
                                                               8),
                                                       image: DecorationImage(
                                                           image: NetworkImage(
-                                                            "http://192.168.1.111:8000/asset/" +
+                                                            "http://192.168.1.83:8000/asset/" +
                                                                 provider.getProducts(
                                                                         widget
                                                                             .data)![
@@ -398,7 +398,7 @@ class _AccDetailState extends State<AccDetail> {
                                                     Radius.circular(15)),
                                           ),
                                           child: Image.network(
-                                            "http://192.168.1.111:8000/asset/" +
+                                            "http://192.168.1.83:8000/asset/" +
                                                 provider.getProducts(
                                                                 widget.data)![
                                                             provider
@@ -458,7 +458,7 @@ class _AccDetailState extends State<AccDetail> {
                                             shape: BoxShape.circle,
                                             image: DecorationImage(
                                                 image: NetworkImage(
-                                                  "http://192.168.1.111:8000/asset/" +
+                                                  "http://192.168.1.83:8000/asset/" +
                                                       provider.getProducts(
                                                                   widget.data)![
                                                               provider
@@ -686,7 +686,7 @@ class _AccDetailState extends State<AccDetail> {
                                                 BorderRadius.circular(5),
                                           ),
                                           child: Image.network(
-                                            "http://192.168.1.111:8000/asset/" +
+                                            "http://192.168.1.83:8000/asset/" +
                                                 provider.getProducts(
                                                                 widget.data)![
                                                             provider
@@ -746,7 +746,7 @@ class _AccDetailState extends State<AccDetail> {
                             //                   decoration: BoxDecoration(
                             //                     borderRadius: BorderRadius.circular(8),
                             //                     image: DecorationImage(image: NetworkImage(
-                            //                       "http://192.168.1.111:8000/asset/" +
+                            //                       "http://192.168.1.83:8000/asset/" +
                             //                            provider.getProducts(
                             //                       widget.data)![
                             //                   provider.categoryIndex][provider.productIndex][provider.subProductIndex]['Image'][index],
@@ -783,7 +783,7 @@ class _AccDetailState extends State<AccDetail> {
                                   fit: StackFit.expand,
                                   children: [
                                     Image.network(
-                                      "http://192.168.1.111:8000/asset/" +
+                                      "http://192.168.1.83:8000/asset/" +
                                           provider.getProducts(widget.data)![
                                                   provider.categoryIndex]
                                               [provider.productIndex]['photo'],
@@ -905,7 +905,7 @@ class _AccDetailState extends State<AccDetail> {
                                                 borderRadius:
                                                     BorderRadius.circular(10),
                                                 child: Image.network(
-                                                  "http://192.168.1.111:8000/asset/" +
+                                                  "http://192.168.1.83:8000/asset/" +
                                                       provider.getProducts(widget
                                                                       .data)![
                                                                   provider

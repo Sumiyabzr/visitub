@@ -26,7 +26,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.ancient2))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.ancient2))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -102,7 +102,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                            image: AssetImage(AppStyle.prehistoric),
+                            image: NetworkImage(AppStyle.prehistoric),
                             fit: BoxFit.cover,
                           )),
                     ),
@@ -114,7 +114,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.prehistoric2),
+                              image: NetworkImage(AppStyle.prehistoric2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -126,7 +126,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.prehistoric3),
+                              image: NetworkImage(AppStyle.prehistoric3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -138,7 +138,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.prehistoric4),
+                              image: NetworkImage(AppStyle.prehistoric4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -184,7 +184,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.xiongnu),
+                              image: NetworkImage(AppStyle.xiongnu),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -196,7 +196,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.xiongnu2),
+                              image: NetworkImage(AppStyle.xiongnu2),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -208,7 +208,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.xiongnu3),
+                              image: NetworkImage(AppStyle.xiongnu3),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -220,7 +220,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
-                              image: AssetImage(AppStyle.xiongnu4),
+                              image: NetworkImage(AppStyle.xiongnu4),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -233,7 +233,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism8.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism8.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),
@@ -246,7 +246,7 @@ class _AncientMongoliaState extends State<AncientMongolia> {
                   //         borderRadius: BorderRadius.circular(20),
                   //         image: DecorationImage(
                   //             image: NetworkImage(
-                  //                 'http://192.168.1.111:8000/asset/shamanism9.jpg'),
+                  //                 'http://192.168.1.83:8000/asset/shamanism9.jpg'),
                   //             fit: BoxFit.cover,
                   //             filterQuality: FilterQuality.high)),
                   //   ),

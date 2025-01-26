@@ -25,7 +25,7 @@ class _CalligraphyState extends State<Calligraphy> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.calligraphy))),
+                      image: NetworkImage(AppStyle.calligraphy))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -101,7 +101,7 @@ class _CalligraphyState extends State<Calligraphy> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.calligraphy2))),
+                        image: NetworkImage(AppStyle.calligraphy2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -134,7 +134,7 @@ class _CalligraphyState extends State<Calligraphy> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.calligraphy3))),
+                        image: NetworkImage(AppStyle.calligraphy3))),
                 width: size.width,
                 height: size.width,
               ),

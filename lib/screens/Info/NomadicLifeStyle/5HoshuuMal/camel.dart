@@ -20,7 +20,7 @@ class Camel extends StatelessWidget {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/camelthumb.jpg'))),
+                          'http://192.168.1.83:8000/asset/camelthumb.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -94,7 +94,7 @@ class Camel extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/camel1.jpg'),
+                                  'http://192.168.1.83:8000/asset/camel1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -107,7 +107,7 @@ class Camel extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/camel2.jpg'),
+                                  'http://192.168.1.83:8000/asset/camel2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -141,7 +141,7 @@ class Camel extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/camel3.jpg'),
+                                  'http://192.168.1.83:8000/asset/camel3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -154,7 +154,7 @@ class Camel extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/camel4.jpg'),
+                                  'http://192.168.1.83:8000/asset/camel4.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

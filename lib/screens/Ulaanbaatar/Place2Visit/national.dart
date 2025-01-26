@@ -13,9 +13,9 @@ class NationalGarden extends StatefulWidget {
 
 class _NationalGardenState extends State<NationalGarden> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%202).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(2%20of%202).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%202).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(2%20of%202).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/1/NationalMuseum/Undesnii%20Museum%20(1%20of%201).jpg",
   ];
 
   @override

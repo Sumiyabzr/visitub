@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/5HoshuuMal/camel.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/5HoshuuMal/cattle.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/5HoshuuMal/goat.dart';
@@ -17,10 +19,11 @@ class _FiveLiveStockState extends State<FiveLiveStock> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          'Five livestock',
+          'Five Snouts',
           style: TextStyle(
               color: Colors.black, fontSize: 16, fontWeight: FontWeight.w600),
         ),
@@ -40,167 +43,203 @@ class _FiveLiveStockState extends State<FiveLiveStock> {
           children: [
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-              child: Text(
-                  '"5 Hoshuu mal" (5 хошуу мал) is a Mongolian term that translates to "five livestock." It refers to the five primary types of domesticated animals traditionally raised by Mongolian nomads. These livestock are central to their way of life, providing essential resources for sustenance, transportation, and trade. The "five livestock" consist of the following: Horses: Horses are the most iconic animals in Mongolian culture and history. They are valued for their speed, endurance, and versatility. Mongolian nomads use horses for transportation, herding, hunting, and participating in traditional sports and festivals like horse racing and archery.'),
-            ),
-            Column(
-              children: [
-                Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-                  child: Row(
+              child: Column(
+                children: [
+                  Text(
+                    textAlign: TextAlign.justify,
+                    'The Five Snouts—horses, cattle, camels, sheep, and goats—are the backbone of Mongolia’s nomadic culture, symbolizing survival, wealth, and deep connection to nature. For centuries, these animals have been essential to the livelihood of nomadic herders, providing everything from food and clothing to transportation and materials for shelter. Each of the five animals has a distinct role in Mongolian life. Horses are revered for their endurance and mobility, enabling the nomads to travel vast distances across the steppes. Cattle, including yaks, are a key source of dairy and meat, while their hides are used in clothing and tools. Camels, especially in the Gobi, are prized for their ability to carry heavy loads and survive long periods without water, making them essential for long-distance trade. Sheep and goats, meanwhile, are valued for their wool and cashmere, as well as their meat, which provides sustenance throughout the year. The concept of the Five Snouts highlights the harmonious balance between Mongolian herders and their environment. These animals not only sustain life but also reflect the resilience, adaptability, and resourcefulness of the nomadic way of living, where survival depends on understanding and respecting the natural cycles of the land and animals.',
+                  ),
+                  SizedBox(height: 10),
+                  GestureDetector(
+                    onTap: () => Navigator.push(
+                      context,
+                      PageTransition(
+                        child: Horse(),
+                        type: PageTransitionType.bottomToTop,
+                        duration: 400.ms,
+                      ),
+                    ),
+                    child: Container(
+                      alignment: Alignment.bottomLeft,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: NetworkImage(
+                            'http://192.168.1.83:8000/asset/ThumnbailApp/Horses.jpg',
+                          ),
+                          fit: BoxFit.cover,
+                        ),
+                        borderRadius: BorderRadius.circular(15),
+                      ),
+                      width: size.width,
+                      height: size.width * 0.44,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'Horses',
+                          style: TextStyle(
+                            fontSize: 17,
+                            fontWeight: FontWeight.w900,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       GestureDetector(
                         onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Horse(),
-                            )),
-                        child: Container(
-                          alignment: Alignment.bottomCenter,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              image: DecorationImage(
-                                  image: NetworkImage(
-                                      'http://192.168.1.111:8000/asset/fivelivestockhorse.jpg'),
-                                  fit: BoxFit.cover)),
-                          child: Text(
-                            'Horse',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18),
+                          context,
+                          PageTransition(
+                            child: Cattle(),
+                            type: PageTransitionType.leftToRightWithFade,
+                            duration: 400.ms,
                           ),
-                          width: size.width * 0.45,
-                          height: size.height * 0.2,
+                        ),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Cattle.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Cattle',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                       GestureDetector(
                         onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Cattle(),
-                            )),
-                        child: Container(
-                          alignment: Alignment.bottomCenter,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              image: DecorationImage(
-                                  image: NetworkImage(
-                                      'http://192.168.1.111:8000/asset/FLcattle.jpg'),
-                                  fit: BoxFit.cover)),
-                          child: Text(
-                            'Cattle',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18),
+                          context,
+                          PageTransition(
+                            child: Sheep(),
+                            type: PageTransitionType.rightToLeftWithFade,
+                            duration: 400.ms,
                           ),
-                          width: size.width * 0.45,
-                          height: size.height * 0.2,
+                        ),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Sheep.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Sheep',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ],
                   ),
-                ),
-                Padding(
-                  padding: EdgeInsets.symmetric(
-                    horizontal: 15,
-                  ),
-                  child: Row(
+                  SizedBox(height: 10),
+                  Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          GestureDetector(
-                            onTap: () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => Sheep(),
-                                )),
-                            child: Container(
-                              alignment: Alignment.bottomCenter,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/Other/Sheep1.jpg'),
-                                      fit: BoxFit.cover)),
-                              child: Text(
-                                'Sheep',
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 18),
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          PageTransition(
+                            child: Goat(),
+                            type: PageTransitionType.leftToRightWithFade,
+                            duration: 400.ms,
+                          ),
+                        ),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Goat.jpg',
                               ),
-                              width: size.width * 0.45,
-                              height: size.height * 0.25,
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Goat',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
-                          SizedBox(
-                            height: 10,
-                          ),
-                          GestureDetector(
-                            onTap: () => Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => Goat(),
-                                )),
-                            child: Container(
-                              alignment: Alignment.bottomCenter,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(8),
-                                  image: DecorationImage(
-                                      image: NetworkImage(
-                                          'http://192.168.1.111:8000/asset/FLgoat.jpg'),
-                                      fit: BoxFit.cover)),
-                              child: Text(
-                                'Goat',
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 18),
-                              ),
-                              width: size.width * 0.45,
-                              height: size.height * 0.2,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
                       GestureDetector(
                         onTap: () => Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Camel(),
-                            )),
-                        child: Container(
-                          alignment: Alignment.bottomCenter,
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(8),
-                              image: DecorationImage(
-                                  image: NetworkImage(
-                                      'http://192.168.1.111:8000/asset/FLcamel.jpg'),
-                                  fit: BoxFit.cover)),
-                          child: Text(
-                            'Camel',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18),
+                          context,
+                          PageTransition(
+                            child: Camel(),
+                            type: PageTransitionType.rightToLeftWithFade,
+                            duration: 400.ms,
                           ),
-                          width: size.width * 0.45,
-                          height: size.height * 0.46,
+                        ),
+                        child: Container(
+                          alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Camel.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Camel',
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ],
-                  ),
-                ),
-              ],
+                  )
+                ],
+              ),
             ),
-            SizedBox(
-              height: 20,
-            )
           ],
         ),
       ),

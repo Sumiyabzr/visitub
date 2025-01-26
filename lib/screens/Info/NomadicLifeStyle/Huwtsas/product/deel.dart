@@ -24,7 +24,7 @@ class _DeelState extends State<Deel> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.deel))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.deel))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -99,7 +99,7 @@ class _DeelState extends State<Deel> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.deel2))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.deel2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -131,7 +131,7 @@ class _DeelState extends State<Deel> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.deel3))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.deel3))),
                 width: size.width,
                 height: size.width,
               ),
@@ -163,7 +163,7 @@ class _DeelState extends State<Deel> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.deel4))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.deel4))),
                 width: size.width,
                 height: size.width,
               ),

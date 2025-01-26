@@ -25,7 +25,7 @@ class _TouristInformationCenter2State extends State<TouristInformationCenter2> {
                       bottomLeft: Radius.circular(10),
                       bottomRight: Radius.circular(10)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.touristinfocenter),
+                      image: NetworkImage(AppStyle.touristinfocenter),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.7,

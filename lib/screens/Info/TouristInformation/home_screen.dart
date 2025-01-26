@@ -3,7 +3,6 @@ import 'package:visitub/screens/Info/TouristInformation/BeforeMongolia/before.da
 import 'package:visitub/screens/Info/TouristInformation/Emergency/Embassies/home_screen.dart';
 import 'package:visitub/screens/Info/TouristInformation/Emergency/EmergencyHospital/emergency.dart';
 import 'package:visitub/screens/Info/TouristInformation/UsefulTipsInMN/firstScreen.dart';
-import 'package:visitub/style/app_style.dart';
 
 class ToursitInformation extends StatefulWidget {
   const ToursitInformation({super.key});
@@ -42,7 +41,7 @@ class _ToursitInformationState extends State<ToursitInformation> {
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         image: NetworkImage(
-                            "http://192.168.1.111:8000/asset/infohome.jpg"),
+                            "http://192.168.1.83:8000/asset/infohome.jpg"),
                         fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(10)),
                 width: size.width,
@@ -90,10 +89,13 @@ class _ToursitInformationState extends State<ToursitInformation> {
                     child: Container(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.before),
-                              fit: BoxFit.cover)),
+                        borderRadius: BorderRadius.circular(8),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                              'http://192.168.1.83:8000/asset/ThumnbailApp/Before Mongolia.jpg'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                       width: size.width,
                       height: size.width * 0.3,
                       child: Text(
@@ -117,10 +119,13 @@ class _ToursitInformationState extends State<ToursitInformation> {
                     child: Container(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.emergency),
-                              fit: BoxFit.cover)),
+                        borderRadius: BorderRadius.circular(8),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                              'http://192.168.1.83:8000/asset/ThumnbailApp/Emergency.jpg'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                       width: size.width,
                       height: size.width * 0.3,
                       child: Text(
@@ -144,10 +149,13 @@ class _ToursitInformationState extends State<ToursitInformation> {
                     child: Container(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.usefultips),
-                              fit: BoxFit.cover)),
+                        borderRadius: BorderRadius.circular(8),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                              'http://192.168.1.83:8000/asset/ThumnbailApp/Useful Tips.jpg'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                       width: size.width,
                       height: size.width * 0.3,
                       child: Text(
@@ -171,10 +179,13 @@ class _ToursitInformationState extends State<ToursitInformation> {
                     child: Container(
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.embessies),
-                              fit: BoxFit.cover)),
+                        borderRadius: BorderRadius.circular(8),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                              'http://192.168.1.83:8000/asset/ThumnbailApp/Embassies.jpg'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                       width: size.width,
                       height: size.width * 0.3,
                       child: Text(
@@ -204,7 +215,7 @@ class _ToursitInformationState extends State<ToursitInformation> {
               //               decoration: BoxDecoration(
               //                   image: DecorationImage(
               //                       image: NetworkImage(
-              //                           "http://192.168.1.111:8000/asset/beforeMN.jpg"),
+              //                           "http://192.168.1.83:8000/asset/beforeMN.jpg"),
               //                       fit: BoxFit.cover),
               //                   borderRadius: BorderRadius.circular(8),
               //                   color:
@@ -232,7 +243,7 @@ class _ToursitInformationState extends State<ToursitInformation> {
               //                   decoration: BoxDecoration(
               //                       image: DecorationImage(
               //                           image: NetworkImage(
-              //                               "http://192.168.1.111:8000/asset/emergency.jpg"),
+              //                               "http://192.168.1.83:8000/asset/emergency.jpg"),
               //                           fit: BoxFit.cover),
               //                       borderRadius: BorderRadius.circular(8),
               //                       color: const Color.fromARGB(
@@ -269,7 +280,7 @@ class _ToursitInformationState extends State<ToursitInformation> {
               //               decoration: BoxDecoration(
               //                   image: DecorationImage(
               //                       image: NetworkImage(
-              //                           "http://192.168.1.111:8000/asset/practical.jpg"),
+              //                           "http://192.168.1.83:8000/asset/practical.jpg"),
               //                       fit: BoxFit.cover),
               //                   borderRadius: BorderRadius.circular(8),
               //                   color:
@@ -289,7 +300,7 @@ class _ToursitInformationState extends State<ToursitInformation> {
               //             decoration: BoxDecoration(
               //                 image: DecorationImage(
               //                     image: NetworkImage(
-              //                         "http://192.168.1.111:8000/asset/faq.jpg"),
+              //                         "http://192.168.1.83:8000/asset/faq.jpg"),
               //                     fit: BoxFit.cover),
               //                 borderRadius: BorderRadius.circular(8),
               //                 color: const Color.fromARGB(255, 255, 255, 255)),

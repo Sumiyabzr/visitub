@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:url_launcher/url_launcher.dart' as launcher; 
+import 'package:url_launcher/url_launcher.dart' as launcher;
+import 'package:visitub/style/app_style.dart'; 
 
 class PhoneNumber extends StatefulWidget {
   const PhoneNumber({super.key});
@@ -26,7 +27,7 @@ class _PhoneNumberState extends State<PhoneNumber> {
                 alignment: Alignment.center,
                 fit: StackFit.expand,
                 children: [
-                  Image(image: AssetImage('assets/images/pnumber.png'), fit: BoxFit.cover,),
+                  Image(image: NetworkImage(AppStyle.number), fit: BoxFit.cover,),
                   SafeArea(
                     child: Padding(
                       padding: EdgeInsets.only(top: 12),

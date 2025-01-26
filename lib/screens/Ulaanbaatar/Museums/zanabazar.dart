@@ -13,19 +13,19 @@ class ZanabazarMuseum extends StatefulWidget {
 
 class _ZanabazarMuseumState extends State<ZanabazarMuseum> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(1%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(2%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(3%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(4%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(5%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(6%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(7%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(8%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(9%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(10%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(11%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(12%20of%2012).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(1%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(2%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(3%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(4%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(5%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(6%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(7%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(8%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(9%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(10%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(11%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(12%20of%2012).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/3/ZanabazarMuseum/ZanabazarMuseum%20(1%20of%201).jpg",
   ];
 
   List data = [

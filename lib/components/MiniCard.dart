@@ -5,8 +5,6 @@ import 'package:visitub/screens/Details/Accommodation.dart';
 import 'package:visitub/screens/Details/Destinations.dart';
 import 'package:visitub/screens/Details/Events.dart';
 
-import '../screens/SeeAll/SeeAll.dart';
-
 class MiniCard extends StatefulWidget {
   final String routeName;
   final String dataName;
@@ -36,11 +34,11 @@ class _MiniCardState extends State<MiniCard> {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (_context) => DesDetail()))
                 }
-              else if (widget.routeName == '/accCamp')
-                {
-                  Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (context) => SeeAll(1)))
-                }
+              // else if (widget.routeName == '/accCamp')
+              //   {
+              //     Navigator.of(context)
+              //         .push(MaterialPageRoute(builder: (context) => SeeAll(1)))
+              //   }
               else if (widget.routeName == '/accDetail')
                 {
                   Navigator.push(
@@ -81,7 +79,7 @@ class _MiniCardState extends State<MiniCard> {
                         colorFilter:
                             ColorFilter.mode(Colors.black12, BlendMode.dst),
                         filterQuality: FilterQuality.medium,
-                        image: NetworkImage('http://192.168.1.111:8000/asset/' +
+                        image: NetworkImage('http://192.168.1.83:8000/asset/' +
                             provider.getProducts(
                                     widget.dataName)![widget.categoryIndex]
                                 [widget.productIndex]['photo'])),

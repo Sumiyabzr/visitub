@@ -23,7 +23,7 @@ class _CurrencyState extends State<Currency> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.currency), fit: BoxFit.cover)),
+                      image: NetworkImage(AppStyle.currency), fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,
               child: SafeArea(

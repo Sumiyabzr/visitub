@@ -24,7 +24,7 @@ class _AccessoriesState extends State<Accessories> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.goyl))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.goyl))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -99,7 +99,7 @@ class _AccessoriesState extends State<Accessories> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.goyl2))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.goyl2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -159,7 +159,7 @@ class _AccessoriesState extends State<Accessories> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.goyl3))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.goyl3))),
                 width: size.width,
                 height: size.width,
               ),
@@ -191,7 +191,7 @@ class _AccessoriesState extends State<Accessories> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.goyl4))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.goyl4))),
                 width: size.width,
                 height: size.width,
               ),

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Huwtsas/product/accessories.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Huwtsas/product/boots.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Huwtsas/product/deel.dart';
 import 'package:visitub/screens/Info/NomadicLifeStyle/Huwtsas/product/headwear.dart';
-import 'package:visitub/style/app_style.dart';
 
 class ClothingInfo extends StatefulWidget {
   const ClothingInfo({super.key});
@@ -41,192 +42,235 @@ class _ClothingInfoState extends State<ClothingInfo> {
           padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
           child: Column(
             children: [
-              Container(
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    image: DecorationImage(
-                        image: AssetImage(AppStyle.clothing),
-                        fit: BoxFit.cover)),
-                width: size.width,
-                height: size.width * 0.9,
-              ),
-              SizedBox(
-                height: 5,
-              ),
               Text(
-                'Mongolian traditional clothing, characterized by its practicality, beauty, and cultural significance, is a vivid reflection of Mongolia`s nomadic lifestyle and the harsh climatic conditions of its vast steppes. Central to this traditional attire is the Deel, a durable and versatile garment that has been worn by Mongolian nomads for centuries. This guide provides a detailed overview of Mongolian traditional clothing, emphasizing the Deel, as well as other important elements such as boots, hats, and accessories.',
                 textAlign: TextAlign.justify,
+                'Mongolian clothing, particularly the deel, is not only a practical garment suited for the extreme climate but also a symbol of Mongolia’s nomadic lifestyle, history, and identity. Clothing in Mongolia is intricately tied to cultural customs, representing social status, tribal identity, and respect for nature. Worn for both everyday life and special occasions, traditional Mongolian clothing tells the story of a people deeply connected to the land and their heritage.',
               ),
-              SizedBox(
-                height: 15,
+              SizedBox(height: 10),
+              GestureDetector(
+                onTap: () => Navigator.push(
+                  context,
+                  PageTransition(
+                    child: Headwear(),
+                    type: PageTransitionType.bottomToTop,
+                    duration: 400.ms,
+                  ),
+                ),
+                child: Container(
+                  alignment: Alignment.bottomLeft,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          'http://192.168.1.83:8000/asset/ThumnbailApp/Hats.jpg',
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                      borderRadius: BorderRadius.circular(15)),
+                  width: size.width,
+                  height: size.width * 0.44,
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Hats: A Crown of Prestige',
+                      style: TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.w900,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ),
               ),
+              SizedBox(height: 10),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  GestureDetector(
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Deel(),
-                        )),
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.deel),
-                              fit: BoxFit.cover)),
-                      width: size.width * 0.45,
-                      height: size.width * 0.45,
-                      child: Container(
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            gradient: LinearGradient(
-                                begin: Alignment.bottomCenter,
-                                end: Alignment.center,
-                                colors: [
-                                  Colors.black87,
-                                  Colors.black12.withOpacity(0.005)
-                                ])),
-                        child: Align(
+                  Column(
+                    children: [
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          PageTransition(
+                            child: Deel(),
+                            type: PageTransitionType.leftToRightWithFade,
+                            duration: 400.ms,
+                          ),
+                        ),
+                        child: Container(
                           alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Deel.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(15)),
+                          width: size.width * 0.44,
+                          height: size.width * 0.9,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              'Deel',
+                              'Deel: The Core of Mongolian Attire',
                               style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold),
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                  ),
-                  GestureDetector(
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Boots(),
-                        )),
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.gutal),
-                              fit: BoxFit.cover)),
-                      width: size.width * 0.45,
-                      height: size.width * 0.45,
-                      child: Container(
+                      SizedBox(height: 10),
+                      Container(
+                        alignment: Alignment.bottomLeft,
                         decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            gradient: LinearGradient(
-                                begin: Alignment.bottomCenter,
-                                end: Alignment.center,
-                                colors: [
-                                  Colors.black87,
-                                  Colors.black12.withOpacity(0.005)
-                                ])),
-                        child: Align(
-                          alignment: Alignment.bottomLeft,
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Boots',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold),
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Belts.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(15)),
+                        width: size.width * 0.44,
+                        height: size.width * 0.44,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Belts and Sashes',
+                            style: TextStyle(
+                              fontSize: 17,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.white,
                             ),
                           ),
                         ),
                       ),
-                    ),
-                  ),
-                ],
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  GestureDetector(
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Headwear(),
-                        )),
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.malgai),
-                              fit: BoxFit.cover)),
-                      width: size.width * 0.45,
-                      height: size.width * 0.45,
-                      child: Container(
+                      SizedBox(height: 10),
+                      Container(
+                        alignment: Alignment.bottomLeft,
                         decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            gradient: LinearGradient(
-                                begin: Alignment.bottomCenter,
-                                end: Alignment.center,
-                                colors: [
-                                  Colors.black87,
-                                  Colors.black12.withOpacity(0.005)
-                                ])),
-                        child: Align(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Modern Deel.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(15)),
+                        width: size.width * 0.44,
+                        height: size.width * 0.9,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Modern Deel',
+                            style: TextStyle(
+                              fontSize: 17,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          PageTransition(
+                            child: Accessories(),
+                            type: PageTransitionType.rightToLeftWithFade,
+                            duration: 400.ms,
+                          ),
+                        ),
+                        child: Container(
                           alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Jewelry.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(15)),
+                          width: size.width * 0.44,
+                          height: size.width * 0.44,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              'Headwear',
+                              'Jewelry',
                               style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold),
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                  ),
-                  GestureDetector(
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Accessories(),
-                        )),
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          image: DecorationImage(
-                              image: AssetImage(AppStyle.goyl),
-                              fit: BoxFit.cover)),
-                      width: size.width * 0.45,
-                      height: size.width * 0.45,
-                      child: Container(
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            gradient: LinearGradient(
-                                begin: Alignment.bottomCenter,
-                                end: Alignment.center,
-                                colors: [
-                                  Colors.black87,
-                                  Colors.black12.withOpacity(0.005)
-                                ])),
-                        child: Align(
+                      SizedBox(height: 10),
+                      GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          PageTransition(
+                            child: Boots(),
+                            type: PageTransitionType.rightToLeftWithFade,
+                            duration: 400.ms,
+                          ),
+                        ),
+                        child: Container(
                           alignment: Alignment.bottomLeft,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  'http://192.168.1.83:8000/asset/ThumnbailApp/Boots.jpg',
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                              borderRadius: BorderRadius.circular(15)),
+                          width: size.width * 0.44,
+                          height: size.width * 0.9,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              'Accessories',
+                              'Boots (Gutal)',
                               style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold),
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
                         ),
                       ),
-                    ),
-                  ),
+                      SizedBox(height: 10),
+                      Container(
+                        alignment: Alignment.bottomLeft,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                'http://192.168.1.83:8000/asset/ThumnbailApp/Fur.jpg',
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(15)),
+                        width: size.width * 0.44,
+                        height: size.width * 0.9,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Fur and Leather',
+                            style: TextStyle(
+                              fontSize: 17,
+                              fontWeight: FontWeight.w900,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  )
                 ],
               )
             ],

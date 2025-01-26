@@ -20,7 +20,7 @@ class Horse extends StatelessWidget {
                       fit: BoxFit.cover,
                       filterQuality: FilterQuality.high,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/horse4.jpg'))),
+                          'http://192.168.1.83:8000/asset/horse4.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -94,7 +94,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/horse1.jpg'),
+                                  'http://192.168.1.83:8000/asset/horse1.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -107,7 +107,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/horse2.jpg'),
+                                  'http://192.168.1.83:8000/asset/horse2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -120,7 +120,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/horse3.jpg'),
+                                  'http://192.168.1.83:8000/asset/horse3.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -154,7 +154,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/horse5.jpg'),
+                                  'http://192.168.1.83:8000/asset/horse5.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -167,7 +167,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/horse6.jpg'),
+                                  'http://192.168.1.83:8000/asset/horse6.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -175,7 +175,7 @@ class Horse extends StatelessWidget {
                 ],
               ),
             ),
-             Container(
+            Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
               child: Column(
@@ -209,7 +209,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Хазаар (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Хазаар (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -222,7 +222,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Хазаар (1 of 1)-2.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Хазаар (1 of 1)-2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -230,7 +230,7 @@ class Horse extends StatelessWidget {
                 ],
               ),
             ),
-             Container(
+            Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
               child: Column(
@@ -264,7 +264,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Хазаар (1 of 1)-2.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Хазаар (1 of 1)-2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -277,7 +277,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Хазаар (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Хазаар (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -319,7 +319,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Морины уяа.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Морины уяа.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -332,7 +332,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Морины уяа.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Морины уяа.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -374,7 +374,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Чөдөр (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Чөдөр (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -387,7 +387,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Тушаа (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Тушаа (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -429,7 +429,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Эмээл (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Эмээл (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -442,7 +442,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Эмээл (1 of 1)-2.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Эмээл (1 of 1)-2.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -484,7 +484,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Тушаа (1 of 1).jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Тушаа (1 of 1).jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),
@@ -497,7 +497,7 @@ class Horse extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           image: DecorationImage(
                               image: NetworkImage(
-                                  'http://192.168.1.111:8000/asset/Other/Морины уяа.jpg'),
+                                  'http://192.168.1.83:8000/asset/Other/Морины уяа.jpg'),
                               fit: BoxFit.cover,
                               filterQuality: FilterQuality.high)),
                     ),

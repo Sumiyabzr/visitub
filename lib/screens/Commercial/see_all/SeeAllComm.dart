@@ -1,7 +1,14 @@
 import 'package:buttons_tabbar/buttons_tabbar.dart';
 import 'package:flutter/material.dart';
+import 'package:visitub/screens/Commercial/see_all/activities/activities.dart';
+import 'package:visitub/screens/Commercial/see_all/fashion/fashion.dart';
 import 'package:visitub/screens/Commercial/see_all/food/food.dart';
+import 'package:visitub/screens/Commercial/see_all/guesthouse/guesthouse.dart';
+import 'package:visitub/screens/Commercial/see_all/hospital/hospital.dart';
 import 'package:visitub/screens/Commercial/see_all/hotel/hotel.dart';
+import 'package:visitub/screens/Commercial/see_all/nightlife/nightlife.dart';
+import 'package:visitub/screens/Commercial/see_all/shopping/shopping.dart';
+import 'package:visitub/screens/Commercial/see_all/wellness/wellness.dart';
 
 class SeeAllComm extends StatefulWidget {
   SeeAllComm({super.key});
@@ -70,6 +77,13 @@ class _SeeAllCommState extends State<SeeAllComm> {
             children: [
               HotelSeeAll(),
               FoodSeeAll(),
+              FashionSeeAll(),
+              NightlifeSeeAll(),
+              ShoppingSeeall(),
+              WellnessSeeall(),
+              ActivitiesSeeall(),
+              GuesthouseSeeall(),
+              HospitalSeeall()
             ],
           ),
         ));

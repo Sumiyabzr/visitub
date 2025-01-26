@@ -13,20 +13,20 @@ class PuzzleMuseum extends StatefulWidget {
 
 class _PuzzleMuseumState extends State<PuzzleMuseum> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(1%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(2%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(3%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(4%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(5%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(6%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(7%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(8%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(9%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(10%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(11%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(12%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(13%20of%2013).jpg",
-    "http://192.168.1.111:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(1%20of%201).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(1%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(2%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(3%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(4%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(5%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(6%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(7%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(8%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(9%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(10%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(11%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(12%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(13%20of%2013).jpg",
+    "http://192.168.1.83:8000/asset/Ub/Museums/2/PuzzleMuseum/PuzzleMuseum%20(1%20of%201).jpg",
   ];
 
   List data = [

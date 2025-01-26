@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart' as launcher;
+import 'package:visitub/style/app_style.dart';
 
 class Intermed extends StatefulWidget {
   const Intermed({super.key});
@@ -21,7 +22,7 @@ class _IntermedState extends State<Intermed> {
               Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('assets/images/intermed.png'),
+                      image: NetworkImage(AppStyle.intermed),
                       fit: BoxFit.cover),
                   borderRadius: BorderRadius.circular(8),
                 ),

@@ -32,7 +32,7 @@ class _DesDetailState extends State<DesDetail> {
                     fit: StackFit.expand,
                     children: [
                       Image.network(
-                          "http://192.168.1.111:8000/asset/" +
+                          "http://192.168.1.83:8000/asset/" +
                               provider.getCategoryProducts(provider
                                       .categoryIndex)[provider.productIndex]
                                   ['thumb'],
@@ -174,7 +174,7 @@ class _DesDetailState extends State<DesDetail> {
                                 borderRadius: BorderRadius.circular(5),
                               ),
                               child: Image.network(
-                                "http://192.168.1.111:8000/asset/" +
+                                "http://192.168.1.83:8000/asset/" +
                                     provider.getCategoryProducts(
                                             provider.categoryIndex)[
                                         provider.productIndex]['images'][index],

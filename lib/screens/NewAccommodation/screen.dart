@@ -89,7 +89,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
                               borderRadius: BorderRadius.circular(15),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/Ub/City/Day 3 (1 of 1).jpg'),
+                                    'http://192.168.1.83:8000/asset/Ub/City/Day 3 (1 of 1).jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -101,7 +101,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
                               borderRadius: BorderRadius.circular(15),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/Destination/Central/Erdenezuu/Erdenezuu2Z.jpg'),
+                                    'http://192.168.1.83:8000/asset/Destination/Central/Erdenezuu/Erdenezuu2Z.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -113,7 +113,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
                               borderRadius: BorderRadius.circular(15),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/Destination/Southern/KhongorynEls/Photo (6 of 6).jpg'),
+                                    'http://192.168.1.83:8000/asset/Destination/Southern/KhongorynEls/Photo (6 of 6).jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -182,7 +182,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
                               borderRadius: BorderRadius.circular(15),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/Accommodition/Western/Altai/AltaiTavan/Acc-416.jpg'),
+                                    'http://192.168.1.83:8000/asset/Accommodition/Western/Altai/AltaiTavan/Acc-416.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -194,7 +194,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
                               borderRadius: BorderRadius.circular(15),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/Accommodition/Western/Khetsuu/Baruun/Acc-449.jpg'),
+                                    'http://192.168.1.83:8000/asset/Accommodition/Western/Khetsuu/Baruun/Acc-449.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -206,7 +206,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
                               borderRadius: BorderRadius.circular(15),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    'http://192.168.1.111:8000/asset/Accommodition/Northern/Khuvsgul/Agartha/Acc-378.jpg'),
+                                    'http://192.168.1.83:8000/asset/Accommodition/Northern/Khuvsgul/Agartha/Acc-378.jpg'),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -274,7 +274,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
                                 borderRadius: BorderRadius.circular(10),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                        'http://192.168.1.111:8000/asset/yy.png'),
+                                        'http://192.168.1.83:8000/asset/yy.png'),
                                     alignment: Alignment.centerRight,
                                     fit: BoxFit.contain),
                                 color: Colors.black),
@@ -325,7 +325,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
               //               decoration: BoxDecoration(
               //                 image: DecorationImage(
               //                   image: NetworkImage(
-              //                       'http://192.168.1.111:8000/asset/Other/maihan_tolgoi_acc.jpg'),
+              //                       'http://192.168.1.83:8000/asset/Other/maihan_tolgoi_acc.jpg'),
               //                   fit: BoxFit.cover,
               //                 ),
               //                 borderRadius: BorderRadius.circular(10),
@@ -353,7 +353,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
               //             decoration: BoxDecoration(
               //               image: DecorationImage(
               //                   image: NetworkImage(
-              //                       'http://192.168.1.111:8000/asset/Other/asaland_home.jpg'),
+              //                       'http://192.168.1.83:8000/asset/Other/asaland_home.jpg'),
               //                   fit: BoxFit.cover),
               //               borderRadius: BorderRadius.circular(10),
               //             ),
@@ -381,7 +381,7 @@ class _NewAccommodationState extends State<NewAccommodation> {
               //               decoration: BoxDecoration(
               //                 image: DecorationImage(
               //                     image: NetworkImage(
-              //                         'http://192.168.1.111:8000/asset/Other/homescreen_acc.jpg'),
+              //                         'http://192.168.1.83:8000/asset/Other/homescreen_acc.jpg'),
               //                     fit: BoxFit.cover),
               //                 borderRadius: BorderRadius.circular(10),
               //               ),
@@ -433,7 +433,7 @@ class CardImages extends StatelessWidget {
           onTap: () {},
           child: FadeInImage(
             placeholder: NetworkImage(
-                'http://192.168.1.111:8000/asset/Other/homescreen_acc.jpg'),
+                'http://192.168.1.83:8000/asset/Other/homescreen_acc.jpg'),
             image: NetworkImage(
               carruselImages.image,
             ),

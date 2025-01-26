@@ -25,7 +25,7 @@ class _ContemporaryPaintingState extends State<ContemporaryPainting> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.contemporary))),
+                      image: NetworkImage(AppStyle.contemporary))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,

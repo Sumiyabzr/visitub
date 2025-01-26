@@ -23,7 +23,7 @@ class _ClothingState extends State<Clothing> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.clothing1),
+                      image: NetworkImage(AppStyle.clothing1),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,

@@ -24,7 +24,7 @@ class _KhoomeiState extends State<Khoomei> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(''))),
+                      image: NetworkImage('http://192.168.1.83:8000/asset/images/ulaanbaatar history/khoomii.webp'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -86,16 +86,7 @@ class _KhoomeiState extends State<Khoomei> {
                 ],
               ),
             ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
-                ),
-                width: size.width,
-                height: size.width,
-              ),
-            ),
+          
             Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 0),
@@ -136,16 +127,7 @@ class _KhoomeiState extends State<Khoomei> {
                 ],
               ),
             ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
-                ),
-                width: size.width,
-                height: size.width,
-              ),
-            ),
+           
             Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 0),
@@ -166,16 +148,7 @@ class _KhoomeiState extends State<Khoomei> {
                 ],
               ),
             ),
-             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(''))
-                ),
-                width: size.width,
-                height: size.width,
-              ),
-            ),
+            
             Container(
               alignment: Alignment.topLeft,
               padding: EdgeInsets.symmetric(horizontal: 15, vertical: 0),

@@ -25,7 +25,7 @@ class _ShamanDrumState extends State<ShamanDrum> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: AssetImage(AppStyle.shamandrum))),
+                      image: NetworkImage(AppStyle.shamandrum))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -101,7 +101,7 @@ class _ShamanDrumState extends State<ShamanDrum> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.shamandrum2))),
+                        image: NetworkImage(AppStyle.shamandrum2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -157,7 +157,7 @@ class _ShamanDrumState extends State<ShamanDrum> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage(AppStyle.shamandrum3))),
+                        image: NetworkImage(AppStyle.shamandrum3))),
                 width: size.width,
                 height: size.width,
               ),

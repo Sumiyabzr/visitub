@@ -6,7 +6,7 @@ class ApiService {
   ApiService()
       : dio = Dio(
           BaseOptions(
-            baseUrl: 'http://192.168.1.111:8000/api',
+            baseUrl: 'http://192.168.1.83:8000/api',
             receiveTimeout: Duration(seconds: 30),
             sendTimeout: Duration(seconds: 30),
           ),

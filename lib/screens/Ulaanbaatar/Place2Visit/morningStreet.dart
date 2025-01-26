@@ -13,9 +13,9 @@ class MorningStreet extends StatefulWidget {
 
 class _MorningStreetState extends State<MorningStreet> {
   List<String> imageList = [
-    "http://192.168.1.111:8000/asset/Other/ugluu2.jpg",
-    "http://192.168.1.111:8000/asset/Other/ugluu1.jpg",
-    "http://192.168.1.111:8000/asset/Other/ugluu3.jpg",
+    "http://192.168.1.83:8000/asset/Other/ugluu2.jpg",
+    "http://192.168.1.83:8000/asset/Other/ugluu1.jpg",
+    "http://192.168.1.83:8000/asset/Other/ugluu3.jpg",
   ];
 
   @override
@@ -194,128 +194,7 @@ class _MorningStreetState extends State<MorningStreet> {
                 ),
               )
             ]),
-            Padding(
-              padding: EdgeInsets.symmetric(
-                horizontal: 15,
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Nearby',
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
-                  ),
-                  SizedBox(
-                    height: 5,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://s3-alpha-sig.figma.com/img/2c11/3526/9cebfe886b0f5b298391f5846434fd16?Expires=1704067200&Signature=fMO6JeXnAewx03kXLp~90bZmfWoFVsxMjbts7l1MWQMPE1ylKrMUzcJErqKQlUWB-igxAF~6hJ~ap5t~W59aml8X8zLwTwXdRIjirNCOdlbRvMxAoVUyJiUMjYtAO9i~maMf~bo906wP43yGJN1O6-8tEJ6GUZAPqlezVH-erNjV4UKBHNRaKwgh9TbulFKAbi0~hGpwGmQM45skeKGH~9DRvxayJcIHLqaQ7QoqgxtpfxzwU-dEsrdR1fNgfBw4KO~zKnY4iT5wxcvSkOeNygnRWZ2IsgiPpBmlZ-fmUXj7avr1dCMA2Ync-tL2hL1NeFKh0IfSLd0iBmBqXOBIjw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                                fit: BoxFit.cover)),
-                        width: size.width * 0.45,
-                        height: size.width * 0.45,
-                        child: Align(
-                          alignment: Alignment.bottomLeft,
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Gobi cashmere',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
-                                  fontSize: 14),
-                            ),
-                          ),
-                        ),
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://s3-alpha-sig.figma.com/img/d8ae/a037/0afb2f8de7011a6ea7ee0b9e5ea95e5a?Expires=1704067200&Signature=klTgxXmMlGRFl9fiJizDkj1M2Eah1iLRbOI29qCbZ8uBZkw1pRfN7zeaEnaehSHOTpXoyVhmnlvmYBRWKg-eD2ZTxbx849HMLO0bHr85SyWJ2ATujORwtHWGAEMHa2lcx6BH6ZIinCBn6coyO2Dh~M66BLjEsulqCQhobdLdROYueyAelz7fiVkkpsERGYB89fOlOxehFX8auYTnRWb~hVRPgzc0OZOwdMWudNPhFnblgQIZfoooInsrWDmdk51wusl4LIIc-QHx2coRCdLUbyYPYSQQwxf~9QnlfCT~dtf2GPJyWhQBmZPA1cQ9kzhoO2Ha59-Sl8B-JQjeLhUaKw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                                fit: BoxFit.cover)),
-                        width: size.width * 0.45,
-                        height: size.width * 0.45,
-                        child: Align(
-                          alignment: Alignment.bottomLeft,
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'KFC',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
-                                  fontSize: 14),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://s3-alpha-sig.figma.com/img/ae0a/c8cc/ec525101418414d83f780a53bb99e648?Expires=1704067200&Signature=FjKjc01kCExW63ToM330647M6RFkfJQ8KI8bjcRSoKXw0fxh1iLVwCL5~R3pIjtTd5Xg8U0LKB0cf1fHAfnBmR5aCrqetCfRuXbebbI79-Nkyuc7N9VhYVQHCqVg6oPxDEow2j4O5h275dEeiNCQxbeaIJitC7bxsxEgvppJOAGGL-2bvpldtS4lmfKPKX7Ai7VxsoWBGwGg-Dm8UWlxw8tok7slykOCwpEYb1QDdHPt~Vx3jxBu9KvqxnM1ZlKRfwx68U-ApSbIYxI2vcBEoVoBJ4aTmJV9LznUopX9Rc4QW8nhz8OfH44Ejw8JT91xlJ6XG8wTzdGXGwMoSqJkbA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                                fit: BoxFit.cover)),
-                        width: size.width * 0.45,
-                        height: size.width * 0.45,
-                        child: Align(
-                          alignment: Alignment.bottomLeft,
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Maikhan tolgoi',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
-                                  fontSize: 14),
-                            ),
-                          ),
-                        ),
-                      ),
-                      Container(
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://s3-alpha-sig.figma.com/img/b9d2/0bad/eb90fe91ae411c9ccdb56a48200fc9e4?Expires=1704067200&Signature=NoPVx4D1w3eD5OJ8PqOpSTmZGJie4E5Vm~iclU1LQx6MkcecLMKr6511tL0XRoD5J94KOM4kvpvjtO7stYlQkrV1zAlUJHCJ1HNFiPngFk6qPP9tFKCL6LwNL0jrwXygts9eJRAEJDS~~KZcipohsTWMHZMz4SFsbKkbBZhC4wU1p7m2T3nYfi5MuSP-qIwcfndaRIp5um5o9ssemBGgf5QWDt32faHZc4qEQHdD~FxSwn-bctua~gQ1BkZPZqfgRmo3~vcsqMUg2Oc~WJFa~ODAftiJBEoOt3y02FslMpLcSfBaH84JIhLOkPACX4LeJjSYcuPU31vwGvqGWTI~FA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
-                                fit: BoxFit.cover)),
-                        width: size.width * 0.45,
-                        height: size.width * 0.45,
-                        child: Align(
-                          alignment: Alignment.bottomLeft,
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Asa Land',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
-                                  fontSize: 14),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  )
-                ],
-              ),
-            ),
+            
             SizedBox(
               height: 10,
             )

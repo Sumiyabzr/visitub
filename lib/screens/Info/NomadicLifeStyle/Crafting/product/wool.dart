@@ -26,7 +26,7 @@ class _WoolState extends State<Wool> {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       image: NetworkImage(
-                          'http://192.168.1.111:8000/asset/Other/wool1.jpg'))),
+                          'http://192.168.1.83:8000/asset/Other/wool1.jpg'))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -101,7 +101,7 @@ class _WoolState extends State<Wool> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.wool))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.wool))),
                 width: size.width,
                 height: size.width,
               ),
@@ -147,7 +147,7 @@ class _WoolState extends State<Wool> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.wool2))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.wool2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -193,7 +193,7 @@ class _WoolState extends State<Wool> {
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Container(
                 decoration: BoxDecoration(
-                    image: DecorationImage(image: AssetImage(AppStyle.wool3))),
+                    image: DecorationImage(image: NetworkImage(AppStyle.wool3))),
                 width: size.width,
                 height: size.width,
               ),

@@ -24,7 +24,7 @@ class _HeadwearState extends State<Headwear> {
               height: size.height * 0.5,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(AppStyle.malgai))),
+                      fit: BoxFit.cover, image: NetworkImage(AppStyle.malgai))),
               child: Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -100,7 +100,7 @@ class _HeadwearState extends State<Headwear> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.malgai2))),
+                        DecorationImage(image: NetworkImage(AppStyle.malgai2))),
                 width: size.width,
                 height: size.width,
               ),
@@ -161,7 +161,7 @@ class _HeadwearState extends State<Headwear> {
               child: Container(
                 decoration: BoxDecoration(
                     image:
-                        DecorationImage(image: AssetImage(AppStyle.malgai3))),
+                        DecorationImage(image: NetworkImage(AppStyle.malgai3))),
                 width: size.width,
                 height: size.width,
               ),

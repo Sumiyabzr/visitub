@@ -23,7 +23,7 @@ class _FamilyFriendlyState extends State<FamilyFriendly> {
                       bottomLeft: Radius.circular(15),
                       bottomRight: Radius.circular(15)),
                   image: DecorationImage(
-                      image: AssetImage(AppStyle.familytips),
+                      image: NetworkImage(AppStyle.familytips),
                       fit: BoxFit.cover)),
               width: size.width,
               height: size.width * 0.8,

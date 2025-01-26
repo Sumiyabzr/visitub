@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:visitub/style/app_style.dart';
 
 class SafetyInMongolia extends StatelessWidget {
   const SafetyInMongolia({super.key});
@@ -35,7 +36,7 @@ class SafetyInMongolia extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8),
                   image: DecorationImage(
-                      image: AssetImage('assets/images/safe.png'),
+                      image: NetworkImage(AppStyle.safe),
                       fit: BoxFit.cover),
                 ),
                 width: size.width,
